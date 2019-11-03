@@ -7,7 +7,7 @@
         3. Taxonomic/Functional Profile Analysis <p>
         
  <h2> Quality Control </h2>
-
+![Test Image 1](/pictures/QC_pipeline.pdf)
 
 </b>
         
