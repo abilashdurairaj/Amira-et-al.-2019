@@ -6,8 +6,9 @@
         2. Taxonomic/Functional Profile <p>
         3. Taxonomic/Functional Profile Analysis <p>
         
- <h2> Quality Control </h2>
+ <h2> 1. Quality Control </h2>
 <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/tree/master/pictures/QC_pipelinev3.png">
-
+ <h2> 2. Taxonomic/Functional Profile </h2>
+  <h2> 3. Taxonomic/Functional Profile Analysis </h2>
 </b>
         
