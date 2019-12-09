@@ -7,7 +7,7 @@
         3. Taxonomic/Functional Profile Analysis <p>
         
  <h2> 1. Quality Control </h2>
-<img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/tree/master/pictures/QC_pipelinev3.png" width: "40%" height: "30%">
+<img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/tree/master/pictures/QC_pipelinev3.PNG" width: "40%" height: "30%">
  <h2> 2. Taxonomic/Functional Profile </h2>
  <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
   <h2> 3. Taxonomic/Functional Profile Analysis </h2>
