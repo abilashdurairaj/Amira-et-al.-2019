@@ -7,7 +7,6 @@
         3. Taxonomic/Functional Signatures <p>
         
 <h2> 1. Quality Control </h2>
-
 <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/pictures/QC_pipeline_fin.PNG" width: "40%" height: "30%">
 <h2> 2. Taxonomic/Functional Profile Analysis </h2>
 <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
