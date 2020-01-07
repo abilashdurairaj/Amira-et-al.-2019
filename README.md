@@ -7,10 +7,12 @@
         3. Taxonomic/Functional Signatures <p>
         
 <h2> 1. Quality Control </h2>
+
 <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/pictures/QC_pipeline_fin.PNG" width: "40%" height: "30%">
 <h2> 2. Taxonomic/Functional Profile Analysis </h2>
 <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
 <h2> 3. Taxonomic/Functional Signatures </h2>
- We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi
+
+We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. We obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
 </b>
         
