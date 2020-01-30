@@ -7,7 +7,7 @@ CAT_tax_annotation=function()
     
     # if(length(setdiff(packages,rownames(installed.packages())))>0)
     # { # setdiff(packages, rownames(installed.packages()))
-      install.packages(pkgs=packages,repos = "http://cran.us.r-project.org",lib="/home/hpc/pr74xe/di52yal/R/debian9/3.5/",destdir = "/home/hpc/pr74xe/di52yal/R/debian9/3.5/")  
+      install.packages(pkgs=packages,repos = "http://cran.us.r-project.org")  
       # library(setdiff(packages, rownames(installed.packages())))  
     # }
     
@@ -15,8 +15,6 @@ CAT_tax_annotation=function()
   }   
   install_packages()
   
-  cl <- makeCluster(60)
-  registerDoParallel(cl)
   CAT_path="/naslx/projects/pr74xe/di52yal/Amira/megaHIT_contigs/"
   CAT_tax_files=list.files(path = CAT_path,pattern = "out.CAT.contig2classification_names_tax.txt",recursive = T)
   
