@@ -1,3 +1,5 @@
+###### Script to restructure taxonomic annotation to the contigs:
+
 CAT_tax_annotation=function()
 {
   
@@ -15,7 +17,7 @@ CAT_tax_annotation=function()
   }   
   install_packages()
   
-  CAT_path="/naslx/projects/pr74xe/di52yal/Amira/megaHIT_contigs/"
+  CAT_path="/path/to/contig_annotation/"
   CAT_tax_files=list.files(path = CAT_path,pattern = "out.CAT.contig2classification_names_tax.txt",recursive = T)
   
   tax_hierarchy=c("superkingdom","phylum","class","order","family","genus","species")
