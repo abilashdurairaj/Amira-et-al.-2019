@@ -33,7 +33,7 @@ CAT_tax_count=function()
       cnt_data=cnt_data[-which(cnt_data$V2=="*"),]
       cnt_data=as.data.frame(cnt_data)
       colnames(cnt_data)=c("Count","Contig")
-      tax_mat_now=merge(x = cnt_data,y = ref_now_df,by="Contig") # %>%  group_by(Tax) %>% summarise_all(.funs = sum(Count))
+      tax_mat_now=merge(x = cnt_data,y = ref_now_df,by="Contig") 
       tax_mat_cnt=tax_mat_now[,c("Tax","Count")] %>% group_by(Tax) %>% summarise_all(.funs = sum)
       write.table(x=tax_mat_cnt,file=str_c(ref_path,cnt_dt[j],"_final.txt"),quote = F,row.names = F,sep="\t")
       
@@ -63,7 +63,7 @@ CAT_tax_count=function()
   }
   contig_count_mat[is.na(contig_count_mat)]=0
   
-  # contig_count_rel=apply(contig_count_mat[,2:ncol(contig_count_mat)],2,function(x){x/sum(x)})
+ 
   contig_count_mat_16T106=apply(contig_count_mat[,2:3],1,sum)
   contig_count_mat_16TM29=apply(contig_count_mat[,4:5],1,sum)
   contig_count_mat_28T0=apply(contig_count_mat[,8:9],1,sum)
