@@ -8,6 +8,7 @@
         
 <h2> 1. Quality Control </h2>
 <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/pictures/QC_pipeline_fin.PNG" width: "40%" height: "30%">
+The technical contaminants from the raw metagenomic samples were removed using Trimmomatic version 0.36. For this, first the adapter sequences were removed and retained only those reads with a minimum quality determined by the strictness parameter 0.4 (MAXINFO:30:0.4) and a minimum length of 90 bp. 
 <h2> 2. Taxonomic/Functional Profile Analysis </h2>
 <img src="https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
 <h2> 3. Taxonomic/Functional Signatures </h2>
