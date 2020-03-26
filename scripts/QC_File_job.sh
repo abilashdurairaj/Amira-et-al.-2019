@@ -12,7 +12,7 @@
 ##### export latest GCC version to the LD_LIBRARY_PATH variable and jave run environment to JAVA_HOME variable
 export JAVA_HOME=/path/to/java/jre1.8.0_191/bin/
 export LD_LIBRARY_PATH=/path/to/gcc_latest/gcc-xx.xx.xx/libstdc++-v3/:${LD_LIBRARY_PATH}
-export PATH=/path/to/Tools/gcc-8.2.0/:/path/to/Tools/jre1.8.0_191/bin/:/path/to/Tools/Python-3.7.0b5/:/path/to/Tools/trimmomatic-master/*:/path/to/Tools/tophat-2.1.1.Linux_x86_64/:/path/to/Tools/bowtie2-2.2.9:/path/to/Tools/hisat2-2.1.0/:$PATH
+export PATH=/path/to/Tools/gcc-8.2.0/:/path/to/Tools/jre1.8.0_191/bin/:/path/to/Tools/Python-3.7.0b5/:/path/to/Tools/trimmomatic-master/*:/path/to/Tools/sortmerna-2.1b/:/path/to/Tools/tophat-2.1.1.Linux_x86_64/:/path/to/Tools/bowtie2-2.2.9:/path/to/Tools/hisat2-2.1.0/:$PATH
 
 
 ####### I/P
@@ -78,12 +78,12 @@ bash /path/to/Tools/sortmerna-2.1b/scripts/unmerge-paired-reads.sh $loc/merged_n
 
 ## Align against Human genome and remove:
 cd /path/to/Tools/hisat2-2.1.0/Human_genome/
-/path/to/Tools/hisat2-2.1.0/hisat2  -p 40 -q -1 $loc/merged_R1_90_${unq_id}.fq -2 $loc/merged_R2_90_${unq_id}.fq --un-conc $loc/PE/human_nonrRNA_90/ -x Homo_sapiens -S $loc/PE/human_nonrRNA_90/reads_aligned.sam
+hisat2  -p 40 -q -1 $loc/merged_R1_90_${unq_id}.fq -2 $loc/merged_R2_90_${unq_id}.fq --un-conc $loc/PE/human_nonrRNA_90/ -x Homo_sapiens -S $loc/PE/human_nonrRNA_90/reads_aligned.sam
 
 
 ## Align against Mouse genome and remove:
 cd /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
-/path/to/Tools/hisat2-2.1.0/hisat2  -p 40 -1 $loc/PE/human_nonrRNA_90/un-conc-mate.1 -2 $loc/PE/human_nonrRNA_90/un-conc-mate.2 --un-conc $loc/PE/mouse_nonrRNA_90/ -x Mus_musculus -S $loc/PE/mouse_nonrRNA_90/reads_aligned.sam
+hisat2  -p 40 -1 $loc/PE/human_nonrRNA_90/un-conc-mate.1 -2 $loc/PE/human_nonrRNA_90/un-conc-mate.2 --un-conc $loc/PE/mouse_nonrRNA_90/ -x Mus_musculus -S $loc/PE/mouse_nonrRNA_90/reads_aligned.sam
 
 #########################################################################################################################
 ## Remove phiX contaminants
