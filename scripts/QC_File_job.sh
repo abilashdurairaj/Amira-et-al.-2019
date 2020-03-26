@@ -12,7 +12,7 @@
 ##### export latest GCC version to the LD_LIBRARY_PATH variable and jave run environment to JAVA_HOME variable
 export JAVA_HOME=/path/to/java/jre1.8.0_191/bin/
 export LD_LIBRARY_PATH=/path/to/gcc_latest/gcc-xx.xx.xx/libstdc++-v3/:${LD_LIBRARY_PATH}
-export PATH=/path/to/Tools/gcc-8.2.0/:/path/to/Tools/jre1.8.0_191/bin/:/path/to/Tools/Python-3.7.0b5/:/path/to/Tools/trimmomatic-master/*:/path/to/Tools/sortmerna-2.1b/:/path/to/Tools/tophat-2.1.1.Linux_x86_64/:/path/to/Tools/bowtie2-2.2.9:/path/to/Tools/hisat2-2.1.0/:$PATH
+export PATH=/path/to/Tools/gcc-8.2.0/:/path/to/Tools/jre1.8.0_191/bin/:/path/to/Tools/Python-3.7.0b5/:/path/to/Tools/trimmomatic-master/*:/path/to/Tools/sortmerna-2.1b/:/path/to/Tools/sortmerna-2.1b/scripts/:/path/to/Tools/tophat-2.1.1.Linux_x86_64/:/path/to/Tools/bowtie2-2.2.9:/path/to/Tools/hisat2-2.1.0/:$PATH
 
 
 ####### I/P
@@ -61,18 +61,18 @@ java -jar /path/to/Tools/trimmomatic-master/bin/trimmomatic.jar PE -threads 60 -
 ## Remove rRNAs: sortmeRNA
 #########################################################################################################################
 ## merge paired-end reads:
-bash /path/to/Tools/sortmerna-2.1b/scripts/merge-paired-reads.sh $loc/R1_paired_90_${unq_id}.fq $loc/R2_paired_90_${unq_id}.fq $loc/merged_90_${unq_id}.fq
+bash merge-paired-reads.sh $loc/R1_paired_90_${unq_id}.fq $loc/R2_paired_90_${unq_id}.fq $loc/merged_90_${unq_id}.fq
 
 echo "## Create reference for SILVA_132 databases just once. If done once, then this command can be ignored!"
 
-/path/to/Tools/sortmerna-2.1b/indexdb_rna --ref /path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc.fasta,/path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc_db:\
+indexdb_rna --ref /path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc.fasta,/path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc_db:\
  /path/to/DB/SILVA_132/SILVA_132_LSURef_tax_silva_trunc.fasta,/path/to/DB/SILVA_132/SILVA_132_LSURef_tax_silva_trunc_db 
 
 
-/path/to/Tools/sortmerna-2.1b/sortmerna --ref /path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc.fasta,/path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc_db:/path/to/DB/SILVA_132/SILVA_132_LSURef_tax_silva_trunc.fasta,/path/to/DB/SILVA_132/SILVA_132_LSURef_tax_silva_trunc_db:/path/to/DB/SILVA_132/UNITE_public_01.12.2017.fasta,/path/to/DB/SILVA_132/UNITE_public_01.12.2017-db --reads $loc/merged_90_${unq_id}.fq   --paired_out --best 1 --fastx --sam --SQ --log --aligned $loc/merged_rRNA_90_${unq_id} --other $loc/merged_nonrRNA_90_${unq_id} -a 40 -v
+sortmerna --ref /path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc.fasta,/path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc_db:/path/to/DB/SILVA_132/SILVA_132_LSURef_tax_silva_trunc.fasta,/path/to/DB/SILVA_132/SILVA_132_LSURef_tax_silva_trunc_db:/path/to/DB/SILVA_132/UNITE_public_01.12.2017.fasta,/path/to/DB/SILVA_132/UNITE_public_01.12.2017-db --reads $loc/merged_90_${unq_id}.fq   --paired_out --best 1 --fastx --sam --SQ --log --aligned $loc/merged_rRNA_90_${unq_id} --other $loc/merged_nonrRNA_90_${unq_id} -a 40 -v
 	
 ## unmerge paired end reads:	 
-bash /path/to/Tools/sortmerna-2.1b/scripts/unmerge-paired-reads.sh $loc/merged_nonrRNA_90_${unq_id}.fq $loc/merged_R1_90_${unq_id}.fq $loc/merged_R2_90_${unq_id}.fq
+bash unmerge-paired-reads.sh $loc/merged_nonrRNA_90_${unq_id}.fq $loc/merged_R1_90_${unq_id}.fq $loc/merged_R2_90_${unq_id}.fq
 	
 
 ## Building index for HiSAT2
@@ -80,7 +80,7 @@ cd /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
 hisat2-build /path/to/DB/Mus_musculus_genome/Mus_musculus/NCBI/GRCm38/Sequence/WholeGenomeFasta/genome.fa Mus_musculus
 
 cd /path/to/Tools/hisat2-2.1.0/Human_genome/Human_genome/
- hisat2-build /path/to/DB/Human_genome/Homo_sapiens_NCBI_GRCh38/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa Homo_sapiens
+hisat2-build /path/to/DB/Human_genome/Homo_sapiens_NCBI_GRCh38/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa Homo_sapiens
 
 ## Align against Human genome and remove:
 cd /path/to/Tools/hisat2-2.1.0/Human_genome/
