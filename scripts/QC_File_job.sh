@@ -73,13 +73,24 @@ sortmerna --ref /path/to/DB/SILVA_132/SILVA_132_SSURef_tax_silva_trunc.fasta,/pa
 	
 ## unmerge paired end reads:	 
 bash unmerge-paired-reads.sh $loc/merged_nonrRNA_90_${unq_id}.fq $loc/merged_R1_90_${unq_id}.fq $loc/merged_R2_90_${unq_id}.fq
-	
+
+#########################################################################################################################
+## Remove host reads: HISAT2
+#########################################################################################################################
+
+## Download Human and Mouse genomes from Illumina site
+
+cd /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
+wget http://igenomes.illumina.com.s3-website-us-east-1.amazonaws.com/Mus_musculus/NCBI/GRCm38/Mus_musculus_NCBI_GRCm38.tar.gz
+
+cd /path/to/Tools/hisat2-2.1.0/Human_genome/
+wget http://igenomes.illumina.com.s3-website-us-east-1.amazonaws.com/Homo_sapiens/NCBI/GRCh38/Homo_sapiens_NCBI_GRCh38.tar.gz
 
 ## Building index for HiSAT2
 cd /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
 hisat2-build /path/to/DB/Mus_musculus_genome/Mus_musculus/NCBI/GRCm38/Sequence/WholeGenomeFasta/genome.fa Mus_musculus
 
-cd /path/to/Tools/hisat2-2.1.0/Human_genome/Human_genome/
+cd /path/to/Tools/hisat2-2.1.0/Human_genome/
 hisat2-build /path/to/DB/Human_genome/Homo_sapiens_NCBI_GRCh38/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa Homo_sapiens
 
 ## Align against Human genome and remove:
@@ -92,7 +103,9 @@ cd /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
 hisat2  -p 40 -1 $loc/PE/human_nonrRNA_90/un-conc-mate.1 -2 $loc/PE/human_nonrRNA_90/un-conc-mate.2 --un-conc $loc/PE/mouse_nonrRNA_90/ -x Mus_musculus -S $loc/PE/mouse_nonrRNA_90/reads_aligned.sam
 
 #########################################################################################################################
-## Remove phiX contaminants
+## Remove phiX contaminants: bowtie2
+#########################################################################################################################
+
 mkdir -p $loc/PE/mouse_nonrRNA_90/phiX_removal_al/
 mkdir -p $loc/PE/mouse_nonrRNA_90/phiX_removal_un/
 
