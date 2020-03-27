@@ -78,14 +78,18 @@ bash unmerge-paired-reads.sh $loc/merged_nonrRNA_90_${unq_id}.fq $loc/merged_R1_
 ## Remove host reads: HISAT2
 #########################################################################################################################
 
-## Download Human and Mouse genomes from Illumina site
-
+## Download Human and Mouse genomes and PhiX contaminants from Illumina site
+mkdir -p /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
 cd /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
 wget http://igenomes.illumina.com.s3-website-us-east-1.amazonaws.com/Mus_musculus/NCBI/GRCm38/Mus_musculus_NCBI_GRCm38.tar.gz
 
+mkdir -p /path/to/Tools/hisat2-2.1.0/Human_genome/
 cd /path/to/Tools/hisat2-2.1.0/Human_genome/
 wget http://igenomes.illumina.com.s3-website-us-east-1.amazonaws.com/Homo_sapiens/NCBI/GRCh38/Homo_sapiens_NCBI_GRCh38.tar.gz
 
+mkdir -p /path/to/DB/
+cd /path/to/DB/
+wget http://igenomes.illumina.com.s3-website-us-east-1.amazonaws.com/PhiX/Illumina/RTA/PhiX_Illumina_RTA.tar.gz
 ## Building index for HiSAT2
 cd /path/to/Tools/hisat2-2.1.0/Mus_musculus_genome/
 hisat2-build /path/to/DB/Mus_musculus_genome/Mus_musculus/NCBI/GRCm38/Sequence/WholeGenomeFasta/genome.fa Mus_musculus
@@ -109,6 +113,6 @@ hisat2  -p 40 -1 $loc/PE/human_nonrRNA_90/un-conc-mate.1 -2 $loc/PE/human_nonrRN
 mkdir -p $loc/PE/mouse_nonrRNA_90/phiX_removal_al/
 mkdir -p $loc/PE/mouse_nonrRNA_90/phiX_removal_un/
 
-bowtie2  -x /path/to/DB/PhiX/PhiX/Illumina/RTA/Sequence/Bowtie2Index/genome -q -1  $loc/PE/mouse_nonrRNA_90/un-conc-mate.1 -2  $loc/PE/mouse_nonrRNA_90/un-conc-mate.2 --un-conc $loc/PE/mouse_nonrRNA_90/phiX_removal_un/ --al-conc $loc/PE/mouse_nonrRNA_90/phiX_removal_al/ -S  $loc/PE/mouse_nonrRNA_90/phiX_removal_al/PhiX_aligned.sam
+bowtie2  -x /path/to/DB/PhiX/Illumina/RTA/Sequence/Bowtie2Index/genome -q -1  $loc/PE/mouse_nonrRNA_90/un-conc-mate.1 -2  $loc/PE/mouse_nonrRNA_90/un-conc-mate.2 --un-conc $loc/PE/mouse_nonrRNA_90/phiX_removal_un/ --al-conc $loc/PE/mouse_nonrRNA_90/phiX_removal_al/ -S  $loc/PE/mouse_nonrRNA_90/phiX_removal_al/PhiX_aligned.sam
 
 
