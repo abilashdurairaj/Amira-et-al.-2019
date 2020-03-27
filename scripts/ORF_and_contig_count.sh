@@ -484,7 +484,7 @@ for file in ` ls /path/to/samples/*_files/megaHIT_res_fin/* | grep '_contig_seq.
 do
 
 sffx=$(echo $file | sed 's|.*/||g' | sed 's/_genes.*//g')
-### https://www.danielecook.com/generate-fasta-sequence-lengths/
 cat $file | awk '$0 ~ ">" {print c; c=0;printf substr($0,2,100) "\t"; } $0 !~ ">" {c+=length($0);} END { print c; }'  | sed 's/ .*\t/\t/g' > /path/to/samples/contigs_list/${sffx}_geneLen
+### code for calculating gene length taken from https://www.danielecook.com/generate-fasta-sequence-lengths/
 
 done
