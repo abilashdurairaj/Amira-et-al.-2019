@@ -13,7 +13,7 @@ export JAVA_HOME=/path/to/Tools/jre1.8.0_191/bin/
 export PATH=/path/to/Tools/megahit-1.1.3/:/path/to/Tools/prodigal-2.6.3-1/bin/:/path/to/Tools/Spades/SPAdes-3.13.0-Linux/bin/:/home/comi/abilash.durai/gcc-8.2.0/bin/:/path/to/Tools/subread-1.6.2/bin/:/path/to/Tools/bbmap/:/path/to/Tools/jre1.8.0_191/bin/:/path/to/Tools/seqtk-master/:/home/comi/abilash.durai/Python-3.7.0b5/:/path/to/Tools/kneaddata/:/path/to/Tools/trimmomatic-master/*:/path/to/Tools/tophat-2.1.1.Linux_x86_64/:/path/to/Tools/bowtie2-2.2.9:/path/to/Tools/hisat2-2.1.0/:/path/to/Tools/kraken2-2.0.7-new/:/naslx/projects/pr74xe/di52yal/Tools/bbmap/:$PATH
 
 ######################################################################################################################################################################################################################
-##### Mouse samples
+##### Mouse samples: Pool reads from biological replicates belonging to same condition and assemble them into contigs using megaHIT
 ######################################################################################################################################################################################################################
 ###### For M
 megahit -1 /path/to/samples/M2_S2/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/M1_S1/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/M3_S3/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 \
@@ -49,7 +49,7 @@ megahit -1 /path/to/samples/Z2_S16/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-m
  -t 60 -o /path/to/samples/Z_files/megaHIT_res_fin 
 
 ######################################################################################################################################################################################################################
-##### Human samples
+##### Human samples: Pool reads from technical replicates belonging to same condition and assemble them into contigs using megaHIT
 ######################################################################################################################################################################################################################
 ###### For 16T106
 megahit -1 /path/to/samples/16T106_S20/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/16T106_S1/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 -2 /path/to/samples/16T106_S20/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/16T106_S1/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -t 60 -o /path/to/samples/16T106_files/megaHIT_res_fin 
