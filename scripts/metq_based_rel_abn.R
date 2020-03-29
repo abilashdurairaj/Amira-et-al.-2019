@@ -34,31 +34,13 @@ metq_based_rel_abn=function()
     mm=fread(file = str_c(ghost_path,list_contig2ko_file[jj]),sep = "\t",header = F)
     ctg2ko_req=fread(file = str_c(ghost_path,list_contig2ko_file[jj]),sep = "\t",header = F)
     
-    ### new: include contig file suffix:
-    
-     # CAT_cntg_suffix=CAT_tax_suffix[jj]
-     # CAT_df_this=fread(file = str_c(CAT_path,CAT_cntg_suffix,"_tax_refined.txt"),sep = "\t",header = T)
-     # CAT_df_this=CAT_df_this[-grep(pattern = "Euka",x = as.character(CAT_df_this$superkingdom)),]
-     # CAT_df_this$Full_contig=CAT_df_this$Contig
-    ##### CAT_df_this : removed Eukaryotic  contig annotations.
-    
-    ###
-    
+  
     
     for(i in 1: length(ll))
     {
       cnt_file=fread(file = str_c("/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/",ll[i]),header = F,sep = "\t")
       colnames(cnt_file)=c("Count","Contig","None")
-      
-      ### new: find the contig ids 
-      # cnt_file$Full_contig=unlist(lapply(cnt_file$Contig,function(x){strtrim(x =  x,width = ((unlist(gregexpr(pattern = "_",x))[2]-1):length(x)))}))
-      # cnt_file=merge(x =cnt_file,y=CAT_df_this,by="Full_contig" )  
-      # colnames(cnt_file)[which(colnames(cnt_file)=="Contig.x")]="Contig"
-      
-      
-      
-      #### old: continue with old: removed those proteins from eukaryote and unknown
-      
+  
       colnames(ctg2ko_req)=c("Contig","KO","Gene","Score","SecondKO","SecondScore")
       ctg2ko_req=ctg2ko_req[which(ctg2ko_req$Score>=100),]
       
@@ -75,14 +57,12 @@ metq_based_rel_abn=function()
         summarise(KO_Count_Len_norm=sum(Count)/sum(Length))
       
       
-      # res1=res1[-c(which(res1[,1]==""),which(is.na(res1[,1]))),]
       
       
       if(k==1)
       {
         ko_raw_mat=res1[,c("KO","KO_Count")]
         colnames(ko_raw_mat)=c("KO",ll[i])
-        # ko_raw_mat=ko_raw_mat[-which(ko_raw_mat==""),]
         ko_norm_mat=res2[,c("KO","KO_Count_Len_norm")]
         colnames(ko_norm_mat)=c("KO",str_c(ll[i],"_Norm"))
        # ko_norm_mat[,str_c(ll[i],"_Norm")]=ko_norm_mat[,str_c(ll[i],"_Norm")]/sum(ko_norm_mat[,str_c(ll[i],"_Norm")])
@@ -115,10 +95,11 @@ metq_based_rel_abn=function()
   qq=query_output$METADATA
   colnames(qq)[1]="Module"
   
+  ### Remove Modules that are completely eukaryotic: 
   module_mat=merge(qq,module_mat_id,by="Module")
-   euk_modules=c("M00403","M00400","M00389","M00366","M00367","M00359","M00296","M00141","M00135","M00085","M00079","M00078","M00077","M00076","M00047")
-   prok_modules=setdiff(module_mat$Module,euk_modules)
-   module_mat=module_mat[match(prok_modules,module_mat$Module),]
+  euk_modules=c("M00403","M00400","M00389","M00366","M00367","M00359","M00296","M00141","M00135","M00085","M00079","M00078","M00077","M00076","M00047")
+  prok_modules=setdiff(module_mat$Module,euk_modules)
+  module_mat=module_mat[match(prok_modules,module_mat$Module),]
   
   module_mat$Classes=apply(module_mat[,c("CLASS_I","CLASS_II","CLASS_III","Module")],1,function(x){str_c(x,collapse="|")})
   module_mat$Classes=str_c(module_mat$Classes,"_",module_mat$NAME_SHORT)
