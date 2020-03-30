@@ -17,5 +17,8 @@
 <h2> 3. Taxonomic/Functional Signatures </h2>
 
 We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. We obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
+
+<h2>  PICRUST2 results -humanised mouse model samples
+<h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from humanised mouse model samples.         
 </b>
         
