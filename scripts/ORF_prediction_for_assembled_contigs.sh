@@ -16,24 +16,15 @@ export PATH=/path/to/Tools/prodigal-2.6.3-1/bin/:/home/comi/abilash.durai/gcc-8.
 
 
 ### For Mouse samples:
-prodigal -i /path/to/samples/M_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/M_files/megaHIT_res_fin/M_genes_contigs  -a /path/to/samples/M_files/megaHIT_res_fin/M_proteins_contigs.faa -p meta -s /path/to/samples/M_files/megaHIT_res_fin/M_potential_genes -f gff -d /path/to/samples/M_files/megaHIT_res_fin/M_genes_contig_seq.fasta
-prodigal -i /path/to/samples/N_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/N_files/megaHIT_res_fin/N_genes_contigs  -a /path/to/samples/N_files/megaHIT_res_fin/N_proteins_contigs.faa -p meta -s /path/to/samples/N_files/megaHIT_res_fin/N_potential_genes -f gff -d /path/to/samples/N_files/megaHIT_res_fin/N_genes_contig_seq.fasta
-prodigal -i /path/to/samples/O_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/O_files/megaHIT_res_fin/O_genes_contigs  -a /path/to/samples/O_files/megaHIT_res_fin/O_proteins_contigs.faa -p meta -s /path/to/samples/O_files/megaHIT_res_fin/O_potential_genes -f gff -d /path/to/samples/O_files/megaHIT_res_fin/O_genes_contig_seq.fasta
-prodigal -i /path/to/samples/V_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/V_files/megaHIT_res_fin/V_genes_contigs  -a /path/to/samples/V_files/megaHIT_res_fin/V_proteins_contigs.faa -p meta -s /path/to/samples/V_files/megaHIT_res_fin/V_potential_genes -f gff -d /path/to/samples/V_files/megaHIT_res_fin/V_genes_contig_seq.fasta
-prodigal -i /path/to/samples/X_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/X_files/megaHIT_res_fin/X_genes_contigs -a /path/to/samples/X_files/megaHIT_res_fin/X_proteins_contigs.faa -p meta -s /path/to/samples/X_files/megaHIT_res_fin/X_potential_genes -f gff -d /path/to/samples/X_files/megaHIT_res_fin/X_genes_contig_seq.fasta
-prodigal -i /path/to/samples/Z_files/megaHIT_res_fin/final.contigs.fa  -o /path/to/samples/Z_files/megaHIT_res_fin/Z_genes_contigs  -a /path/to/samples/Z_files/megaHIT_res_fin/Z_proteins_contigs.faa -p meta -s /path/to/samples/Z_files/megaHIT_res_fin/Z_potential_genes -f gff -d /path/to/samples/Z_files/megaHIT_res_fin/Z_genes_contig_seq.fasta
+prodigal -i /path/to/megaHIT_contigs/M_final.contigs.fa -o /path/to/megaHIT_contigs/M_genes_contigs  -a /path/to/megaHIT_contigs/M_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/M_potential_genes -f gff -d /path/to/megaHIT_contigs/M_genes_contig_seq.fasta
+prodigal -i /path/to/megaHIT_contigs/N_final.contigs.fa -o /path/to/megaHIT_contigs/N_genes_contigs  -a /path/to/megaHIT_contigs/N_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/N_potential_genes -f gff -d /path/to/megaHIT_contigs/N_genes_contig_seq.fasta
+prodigal -i /path/to/megaHIT_contigs/O_final.contigs.fa -o /path/to/megaHIT_contigs/O_genes_contigs  -a /path/to/megaHIT_contigs/O_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/O_potential_genes -f gff -d /path/to/megaHIT_contigs/O_genes_contig_seq.fasta
+prodigal -i /path/to/megaHIT_contigs/V_final.contigs.fa -o /path/to/megaHIT_contigs/V_genes_contigs  -a /path/to/megaHIT_contigs/V_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/V_potential_genes -f gff -d /path/to/megaHIT_contigs/V_genes_contig_seq.fasta
+prodigal -i /path/to/megaHIT_contigs/X_final.contigs.fa -o /path/to/megaHIT_contigs/X_genes_contigs -a /path/to/megaHIT_contigs/X_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/X_potential_genes -f gff -d /path/to/megaHIT_contigs/X_genes_contig_seq.fasta
+prodigal -i /path/to/megaHIT_contigs/Z_final.contigs.fa  -o /path/to/megaHIT_contigs/Z_genes_contigs  -a /path/to/megaHIT_contigs/Z_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/Z_potential_genes -f gff -d /path/to/megaHIT_contigs/Z_genes_contig_seq.fasta
 
 
 
 
-
-
-### For Mouse samples:
-prodigal -i /path/to/samples/16T106_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/16T106_files/megaHIT_res_fin/16T106_genes_contigs -a /path/to/samples/16T106_files/megaHIT_res_fin/16T106_proteins_contigs.faa -p meta -s /path/to/samples/16T106_files/megaHIT_res_fin/16T106_potential_genes -f gff -d /path/to/samples/16T106_files/megaHIT_res_fin/16T106_genes_contig_seq.fasta
-prodigal -i /path/to/samples/16TM29_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/16TM29_files/megaHIT_res_fin/16TM29_genes_contigs  -a /path/to/samples/16TM29_files/megaHIT_res_fin/16TM29_proteins_contigs.faa -p meta -s /path/to/samples/16TM29_files/megaHIT_res_fin/16TM29_potential_genes -f gff -d /path/to/samples/16TM29_files/megaHIT_res_fin/16TM29_genes_contig_seq.fasta
-prodigal -i /path/to/samples/27T0_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/27T0_files/megaHIT_res_fin/27T0_genes_contigs -a /path/to/samples/27T0_files/megaHIT_res_fin/27T0_proteins_contigs.faa -p meta -s /path/to/samples/27T0_files/megaHIT_res_fin/27T0_potential_genes -f gff -d /path/to/samples/27T0_files/megaHIT_res_fin/27T0_genes_contig_seq.fasta
-prodigal -i /path/to/samples/27T39_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/27T39_files/megaHIT_res_fin/27T39_genes_contigs -a /path/to/samples/27T39_files/megaHIT_res_fin/27T39_proteins_contigs.faa -p meta -s /path/to/samples/27T39_files/megaHIT_res_fin/27T39_potential_genes -f gff -d /path/to/samples/27T39_files/megaHIT_res_fin/27T39_genes_contig_seq.fasta
-prodigal -i /path/to/samples/28T0_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/28T0_files/megaHIT_res_fin/28T0_genes_contigs -a /path/to/samples/28T0_files/megaHIT_res_fin/28T0_proteins_contigs.faa -p meta -s /path/to/samples/28T0_files/megaHIT_res_fin/28T0_potential_genes -f gff -d /path/to/samples/28T0_files/megaHIT_res_fin/28T0_genes_contig_seq.fasta
-prodigal -i /path/to/samples/28T52_files/megaHIT_res_fin/final.contigs.fa -o /path/to/samples/28T52_files/megaHIT_res_fin/28T52_genes_contigs -a /path/to/samples/28T52_files/megaHIT_res_fin/28T52_proteins_contigs.faa -p meta -s /path/to/samples/28T52_files/megaHIT_res_fin/28T52_potential_genes -f gff -d /path/to/samples/28T52_files/megaHIT_res_fin/28T52_genes_contig_seq.fasta
 
 
