@@ -41,7 +41,6 @@ CAT_tax_count=function()
     }
   
  
-  rr_fin=list.files(path = ref_path,pattern = str_c(cnt_dt[j],"_final.txt"))
   cnt_dt=list.files(path = ref_path,pattern = "_final_final.txt")
   for(i in 1:length(cnt_dt))
   {
