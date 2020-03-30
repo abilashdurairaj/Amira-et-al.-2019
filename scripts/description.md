@@ -14,4 +14,5 @@
 <h3>  Taxonomy and Functional signatures
 <h5>    Upload the taxonomic and functional profiles to the following analysis platforms for identifying potential signatures   
 <h4>    [LefSe]             (https://huttenhower.sph.harvard.edu/galaxy/)
-
+<h5>    The KEGG Orthology to KEGG Module mapping file (https://github.com/abilashdurairaj/Amira-et-al.-2019/blob/master/Data/module) is taken from Uniprot ftp as of 27-10-2018.
+  
