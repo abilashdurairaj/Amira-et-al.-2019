@@ -1,4 +1,12 @@
-
+#!/bin/bash -e
+#$ -l arch=linux-x64
+#$ -b n
+#$ -q all.q
+#$ -i /dev/null
+#$ -e /path/to/my_directory/log_output/
+#$ -o /path/to/my_directory/log_output/
+#$ -cwd
+#$ -l vf=3G
 
 
 conda activate picrust2
