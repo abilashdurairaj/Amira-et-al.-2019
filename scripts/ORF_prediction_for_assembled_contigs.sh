@@ -23,6 +23,14 @@ prodigal -i /path/to/megaHIT_contigs/V_final.contigs.fa -o /path/to/megaHIT_cont
 prodigal -i /path/to/megaHIT_contigs/X_final.contigs.fa -o /path/to/megaHIT_contigs/X_genes_contigs -a /path/to/megaHIT_contigs/X_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/X_potential_genes -f gff -d /path/to/megaHIT_contigs/X_genes_contig_seq.fasta
 prodigal -i /path/to/megaHIT_contigs/Z_final.contigs.fa  -o /path/to/megaHIT_contigs/Z_genes_contigs  -a /path/to/megaHIT_contigs/Z_proteins_contigs.faa -p meta -s /path/to/megaHIT_contigs/Z_potential_genes -f gff -d /path/to/megaHIT_contigs/Z_genes_contig_seq.fasta
 
+for file in ` ls /path/to/megaHIT_contigs/* | grep '_contig_seq.fasta'`
+do
+
+sffx=$(echo $file | sed 's|.*/||g' | sed 's/_genes.*//g')
+cat $file | awk '$0 ~ ">" {print c; c=0;printf substr($0,2,100) "\t"; } $0 !~ ">" {c+=length($0);} END { print c; }'  | sed 's/ .*\t/\t/g' > /path/to/megaHIT_contigs/${sffx}_geneLen
+### code for calculating gene length taken from https://www.danielecook.com/generate-fasta-sequence-lengths/
+
+done
 
 
 
