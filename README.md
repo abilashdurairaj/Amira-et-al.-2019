@@ -11,6 +11,8 @@
 
 <h4> The technical contaminants from the raw metagenomic samples were removed using Trimmomatic version 0.36. For this, first the adapter sequences were removed and retained only those reads with a minimum quality determined by the strictness parameter 0.4 (MAXINFO:30:0.4) and a minimum length of 90 bp. 
      The rRNA reads and host-associated reads were considered the biological contaminants in this current study. </h4>
+ # Scripts to run:
+ 
  **The scripts can be run as follows:**
  
  qsub ~/Amira-et-al.-2019/scripts/QC_wrap.sh
