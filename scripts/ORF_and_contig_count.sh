@@ -88,6 +88,7 @@ rm -f /path/to/megaHIT_contig_count_final/Z4_S18_mapped.sam
 rm -f /path/to/megaHIT_contig_count_final/Z4_S18_mapped.bam
 
 
+#### V files:
 
 bowtie2-build /path/to/megaHIT_contigs/V_final.contigs.fa /path/to/megaHIT_contig_count_final/V_ref --threads 40
 bowtie2 -x /path/to/megaHIT_contig_count_final/V_ref -1 /path/to/V1_S10/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 -2 /path/to/V1_S10/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -S /path/to/megaHIT_contig_count_final/V1_S10_mapped.sam --threads 40

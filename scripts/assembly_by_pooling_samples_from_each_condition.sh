@@ -12,6 +12,7 @@
 export JAVA_HOME=/path/to/Tools/jre1.8.0_191/bin/
 export PATH=/path/to/Tools/megahit-1.1.3/:/path/to/Tools/prodigal-2.6.3-1/bin/:/path/to/Tools/Spades/SPAdes-3.13.0-Linux/bin/:/path/to/gcc-8.2.0/bin/:/path/to/Tools/subread-1.6.2/bin/:/path/to/Tools/bbmap/:/path/to/Tools/jre1.8.0_191/bin/:/path/to/Tools/seqtk-master/:/path/to/Python-3.7.0b5/:/path/to/Tools/kneaddata/:/path/to/Tools/trimmomatic-master/*:/path/to/Tools/tophat-2.1.1.Linux_x86_64/:/path/to/Tools/bowtie2-2.2.9:/path/to/Tools/hisat2-2.1.0/:/path/to/Tools/bbmap/:$PATH
 
+mkdir -p mkdir -p /path/to/megaHIT_contigs/
 ######################################################################################################################################################################################################################
 ##### Mouse samples: Pool reads from biological replicates belonging to same condition and assemble them into contigs using megaHIT
 ######################################################################################################################################################################################################################
@@ -20,33 +21,42 @@ megahit -1 /path/to/samples/M2_S2/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-ma
  -2 /path/to/samples/M2_S2/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/M1_S1/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/M3_S3/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 \
  -t 60 -o /path/to/samples/M_files/megaHIT_res_fin 
 
+cp /path/to/samples/M_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/M_final.contigs.fa
+
 ###### For N
 megahit -1 /path/to/samples/N4_S4/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/N5_S5/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/N6_S6/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 \
  -2 /path/to/samples/N4_S4/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/N5_S5/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/N6_S6/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 \
  -t 60 -o /path/to/samples/N_files/megaHIT_res_fin 
+
+cp /path/to/samples/N_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/N_final.contigs.fa
 
 ###### For O
 megahit -1 /path/to/samples/O1_S7/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/O2_S8/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/O3_S9/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 \
  -2 /path/to/samples/O1_S7/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/O2_S8/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/O3_S9/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 \
  -t 60 -o /path/to/samples/O_files/megaHIT_res_fin 
 
+cp /path/to/samples/O_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/O_final.contigs.fa
 
 ###### For V
 megahit -1 /path/to/samples/V1_S10/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/V4_S12/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/V6_S11/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 \
  -2 /path/to/samples/V1_S10/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/V4_S12/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/V6_S11/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 \
  -t 60 -o /path/to/samples/V_files/megaHIT_res_fin 
 
+cp /path/to/samples/V_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/V_final.contigs.fa
 
 ###### For X
 megahit -1 /path/to/samples/X1_S13/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/X2_S14/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/X4_S15/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 \
  -2 /path/to/samples/X1_S13/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/X2_S14/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/X4_S15/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 \
  -t 60 -o /path/to/samples/X_files/megaHIT_res_fin 
 
+cp /path/to/samples/X_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/X_final.contigs.fa
 
 ###### For Z
 megahit -1 /path/to/samples/Z2_S16/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/Z3_S17/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/Z4_S18/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 \
  -2 /path/to/samples/Z2_S16/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/Z3_S17/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/Z4_S18/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 \
  -t 60 -o /path/to/samples/Z_files/megaHIT_res_fin 
+
+cp /path/to/samples/Z_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/Z_final.contigs.fa
 
 ######################################################################################################################################################################################################################
 ##### Human samples: Pool reads from technical replicates belonging to same condition and assemble them into contigs using megaHIT
@@ -54,26 +64,36 @@ megahit -1 /path/to/samples/Z2_S16/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-m
 ###### For 16T106
 megahit -1 /path/to/samples/16T106_S20/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/16T106_S1/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 -2 /path/to/samples/16T106_S20/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/16T106_S1/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -t 60 -o /path/to/samples/16T106_files/megaHIT_res_fin 
 
+cp /path/to/samples/16T106_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/16T106_final.contigs.fa
 
 ###### For 16TM29
 megahit -1 /path/to/samples/16TM29_S2/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/16TM29_S21/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 -2 /path/to/samples/16TM29_S2/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/16TM29_S21/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -t 60 -o /path/to/samples/16TM29_files/megaHIT_res_fin 
 
+cp /path/to/samples/16TM29_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/16TM29_final.contigs.fa
 
 
 ###### For 27T0
 megahit -1 /path/to/samples/27T0_S19/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 -2 /path/to/samples/27T0_S19/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -t 60 -o /path/to/samples/27T0_files/megaHIT_res_fin 
 
+cp /path/to/samples/27T0_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/27T0_final.contigs.fa
+
 
 ###### For 27T39
 megahit -1 /path/to/samples/27T39_S23/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 -2 /path/to/samples/27T39_S23/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -t 60 -o /path/to/samples/27T39_files/megaHIT_res_fin 
 
+cp /path/to/samples/27T39_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/27T39_final.contigs.fa
 
 ###### For 28T0
 megahit -1 /path/to/samples/28T0_S3/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/28T0_S22/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 -2 /path/to/samples/28T0_S3/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/28T0_S22/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -t 60 -o /path/to/samples/28T0_files/megaHIT_res_fin 
 
 
+cp /path/to/samples/28T0_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/28T0_final.contigs.fa
+
 ###### For 28T52
 megahit -1 /path/to/samples/28T52_S4/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1,/path/to/samples/28T52_S24/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.1 \
  -2 /path/to/samples/28T52_S4/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2,/path/to/samples/28T52_S24/PE/mouse_nonrRNA_90/phiX_removal_un/un-conc-mate.2 -t 60 -o /path/to/samples/28T52_files/megaHIT_res_fin 
+
+
+cp /path/to/samples/28T52_files/megaHIT_res_fin/final.contigs.fa /path/to/megaHIT_contigs/28T52_final.contigs.fa
 
 ######################################################################################################################################################################################################################

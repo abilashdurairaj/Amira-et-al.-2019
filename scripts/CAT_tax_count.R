@@ -1,11 +1,11 @@
 CAT_tax_count=function()
 {
-  cnt_path="/naslx/projects/pr74xe/di52yal/Amira/megaHIT_contigs/contig_count/"
+  cnt_path="/path/to/megaHIT_contig_count_final/"
   cntg_cnt=list.files(path = cnt_path,pattern = "_bbmap_final")
   
   
 
-  ref_path="/naslx/projects/pr74xe/di52yal/Amira/megaHIT_contigs/"
+  ref_path="/path/to/megaHIT_contigs/"
   
   ref_ann=list.files(path = ref_path,pattern = "_CAT_tax_refined.txt")
   
@@ -78,16 +78,16 @@ CAT_tax_count=function()
   cc=contig_count_mat_fin[,-grep(pattern = "^27|contig",x=colnames(contig_count_mat_fin))]
   cc=cc[-which(apply(cc,1,function(x){all(x<10)})==T),]
   cc=cc[-grep(pattern = "Eukaryo",x=rownames(cc)),]
-  # cc=cc[-grep(pattern = "Unknown\\|Unknown\\|Unknown\\|Unknown\\|Unknown\\|Unknown",x=rownames(cc)),]
   contig_count_mat_fin=apply(cc,2,function(x){x/(sum(x))})
   
-  # colnames(contig_count_mat_fin)[1]="ID"
+  
   
     contig_count_mat_fin1=rbind(trim_melt$Donor_Disease_status[match(colnames(contig_count_mat_fin),as.character(trim_melt$Samples))],contig_count_mat_fin)
   
   write.table(contig_count_mat_fin1,file=str_c(ref_path,"tax_count_overall_rel_donor_disease_euk_removed.txt"),quote=F,row.names=T,sep="\t")
   
   
-#  write.table(contig_count_rel,file=str_c(ref_path,"_tax_count_overall_rel.txt"),quote=F,row.names=F,sep="\t")
    
   }
+
+CAT_tax_count()

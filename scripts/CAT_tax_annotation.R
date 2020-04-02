@@ -7,17 +7,18 @@ CAT_tax_annotation=function()
   {
     packages=c("doParallel","foreach","reshape2","dplyr","base","RcppArmadillo","Rcpp","RCurl","plyr","zoo","grid","gridExtra","data.table","reshape2","stringr","checkmate","base64enc","colorspace","scales","doSNOW","digest","stringi","tictoc")
     
-    # if(length(setdiff(packages,rownames(installed.packages())))>0)
-    # { # setdiff(packages, rownames(installed.packages()))
-      install.packages(pkgs=packages,repos = "http://cran.us.r-project.org")  
-      # library(setdiff(packages, rownames(installed.packages())))  
-    # }
+     if(length(setdiff(packages,rownames(installed.packages())))>0)
+     { 
+	 
+      install.packages(pkgs=setdiff(packages, rownames(installed.packages())),repos = "http://cran.us.r-project.org")  
+       library(setdiff(packages, rownames(installed.packages())))  
+     }
     
     lapply(packages,require,character.only=T)
   }   
   install_packages()
   
-  CAT_path="/path/to/contig_annotation/"
+  CAT_path="/path/to/megaHIT_contigs/"
   CAT_tax_files=list.files(path = CAT_path,pattern = "out.CAT.contig2classification_names_tax.txt",recursive = T)
   
   tax_hierarchy=c("superkingdom","phylum","class","order","family","genus","species")

@@ -141,8 +141,6 @@ metq_based_rel_abn=function()
   mod_lefse1_mouse=mod_lefse1[,-grep(pattern = "^16|^27|^28",x=colnames(mod_lefse1))]
   mod_lefse1_mouse[is.na(mod_lefse1_mouse)]="Class"
   # mod_lefse1_mouse=mod_lefse1_mouse[-c(grep(pattern = "ukary",x=rownames(mod_lefse1_mouse)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(mod_lefse1_mouse))),]
-  ### new: 
-  # write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_mouse_finalv2_100_eukaryote_and_unknown_heparan_keratan_dermatan_chondroint_creatin_removed_norm_later.csv",quote=F,sep = "\t",row.names = F,col.names = T)
   
   ### old: 
   write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_mouse_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_laterv3.csv",quote=F,sep = "\t",row.names = F,col.names = T)
