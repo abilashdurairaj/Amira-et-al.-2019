@@ -14,9 +14,9 @@
  
  
  **The scripts can be run as follows:**
- 
+ ```shellscript
    qsub /path/to/scripts/QC_wrap.sh
- 
+  ```
 <h2> 2. Taxonomic/Functional Profile Analysis </h2>
 <img src="https://github.com/abilashdurairaj/Metwaly-et-al.-2020/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
 <h5>For taxonomic and functional profile analysis, we pooled the samples belonging to the same condition and performed assembly using megaHIT and annotated the contigs using CAT :
