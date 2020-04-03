@@ -128,7 +128,7 @@ metq_based_rel_abn=function()
   mod_hm_rel_df$Module=str_replace_all(string = mod_hm_rel_df$Module,pattern = ",",replacement = "_")
   mod_hm_rel_df$Module=str_replace_all(string = mod_hm_rel_df$Module,pattern = " ",replacement = "_")
   # write.table(mod_hm_rel_df,"/naslx/projects/pr74xe/di52yal/mod_Lefse_human_relative_abundance_remove_euk_and_unknown.csv",sep = "\t",row.names = F,quote = F)
-  write.table(mod_hm_rel_df,"/naslx/projects/pr74xe/di52yal/mod_Lefse_human_relative_abundance.csv",sep = "\t",row.names = F,quote = F)
+  # write.table(mod_hm_rel_df,"/path/to/Data/mod_Lefse_human_relative_abundance.csv",sep = "\t",row.names = F,quote = F)
   
   mod_lefse=module_rel_abn
   colnames(mod_lefse)=str_replace_all(string = colnames(mod_lefse),pattern = "_map.*",replacement = "")
@@ -138,89 +138,9 @@ metq_based_rel_abn=function()
  
   mod_lefse1_mouse=mod_lefse1[,-grep(pattern = "^16|^27|^28",x=colnames(mod_lefse1))]
   mod_lefse1_mouse[is.na(mod_lefse1_mouse)]="Class"
-  write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_mouse_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_laterv3.csv",quote=F,sep = "\t",row.names = F,col.names = T)
+  write.table(mod_lefse1_mouse,"/path/to/Data/humanised_KEGG_modules_profile.csv",quote=F,sep = "\t",row.names = F,col.names = T)
       
-  ###################
-  ### Data Preparation for Inflammed vs Non-inflammed:
-  ###################
-  
-  ko_raw_mat[is.na(ko_raw_mat)]=0
-  colnames(modules_ko)=c("Module","KO")
-  ko_raw_mat_mod=merge(modules_ko,ko_raw_mat,by="KO")
-  module_mat=ko_raw_mat_mod[,c(which(colnames(ko_raw_mat_mod)=="Module"),grep(pattern = "_bbmap_fin",x=colnames(ko_raw_mat_mod)))] %>% group_by(Module) %>% summarise_all(.funs = sum)
-  
-  module_mat_id=module_mat
-  qq=query_output$METADATA
-  colnames(qq)[1]="Module"
-  
-  module_mat=merge(qq,module_mat,by="Module")
-  module_mat$Classes=apply(module_mat[,c("CLASS_I","CLASS_II","CLASS_III","Module")],1,function(x){str_c(x,collapse="|")})
-  module_mat$Classes=str_c(module_mat$Classes,"_",module_mat$NAME_SHORT)
-  module_matrix=as.matrix(module_mat[,grep(pattern = "_bbmap_fin",x=colnames(module_mat))])
-  rownames(module_matrix)=as.character(module_mat$Classes)
-  module_matrix=module_matrix[-c(grep(pattern = "ukary",x=rownames(module_matrix)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(module_matrix))),]
-  module_rel_abn=apply(module_matrix,2,function(x){x/sum(x)})
-  
-  grp_samples=c("Remission-Responder","Remission-Responder","Relapse-non-responder","Relapse-non-responder","Baseline-Active","Relapse-non-responder","Baseline-Active","Baseline-Active","Remission-Responder","Remission-Responder",rep("Remission-Responder",3),rep("Relapse-non-responder",3),rep("Baseline-Active",3),rep("Baseline-Active",3),rep("Relapse-non-responder",3),rep("Remission-Responder",3))
 
-  module_matrix=module_matrix[-c(grep(pattern = "ukary",x=rownames(module_matrix)),grep(pattern = "eratan|eparan|ermatan|hondroitin",x=rownames(module_matrix))),]
-  # |Cell signaling|Genetic information processing
-  module_16T106=apply(module_matrix[,1:2],1,sum)
-  module_16TM29=apply(module_matrix[,3:4],1,sum)
-  
-  module_28T0=apply(module_matrix[,7:8],1,sum)
-  module_28T52=apply(module_matrix[,9:10],1,sum)
-  
-  module_human=cbind(module_16T106,module_16TM29,module_matrix[,5:6],module_28T0,module_28T52)
-  colnames(module_human)=c("16T106","16TM29","27T0","27T39","28T0","28T52")
- 
-  module_human_rel=apply(as.matrix(module_human),2,function(x){x/sum(x)})
-  mod_hm_rel_df=as.data.frame(module_human_rel)
-  mod_hm_rel_df$Module=rownames(mod_hm_rel_df)
-  mod_hm_rel_df$Module=str_replace_all(string = mod_hm_rel_df$Module,pattern = ",",replacement = "_")
-  mod_hm_rel_df$Module=str_replace_all(string = mod_hm_rel_df$Module,pattern = " ",replacement = "_")
-    # write.table(mod_hm_rel_df,"/naslx/projects/pr74xe/di52yal/mod_Lefse_human_relative_abundance_remove_euk_and_unknown.csv",sep = "\t",row.names = F,quote = F)
-  write.table(mod_hm_rel_df,"/naslx/projects/pr74xe/di52yal/mod_Lefse_human_relative_abundance.csv",sep = "\t",row.names = F,quote = F)
-  #######
-  
-mod_lefse=module_rel_abn
-colnames(mod_lefse)=str_replace_all(string = colnames(mod_lefse),pattern = "_map.*",replacement = "")
-mod_lefse1=cbind(rownames(mod_lefse),mod_lefse)
-colnames(mod_lefse1)[1]="ID"
-mod_lefse1=rbind(trim_melt$Donor_Disease_status[match(colnames(mod_lefse1),as.character(trim_melt$Samples))],mod_lefse1)
-mod_lefse1[is.na(mod_lefse1)]="Class"
-mod_lefse1_mouse=mod_lefse1[,-grep(pattern = "^16|^27|^28",x=colnames(mod_lefse1))]
-# mod_lefse1_mouse=mod_lefse1_mouse[-c(grep(pattern = "ukary",x=rownames(mod_lefse1_mouse)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(mod_lefse1_mouse))),]
-### old: 
-write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_mouse_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_later_fin.csv",quote=F,sep = "\t",row.names = F,col.names = T)
-
-# module_mouse_rel=as.matrix(module_mat_id[,12:29])
-module_mouse_rel=as.matrix(module_matrix[,11:28])
-# rownames(module_mouse_rel)=as.character(module_mat_id$Module)
-colnames(module_mouse_rel)=str_replace_all(string = colnames(module_mouse_rel),pattern = "_map.*",replacement = "")  
-rownames(module_mouse_rel)=str_replace_all(string = str_replace_all(string = rownames(module_mouse_rel),pattern = ".*\\|",replacement = ""),pattern = "_.*",replacement = "")
-module_mouse_rel=apply(module_mouse_rel,2,function(x){x/sum(x)})  
-module_mouse_rel=cbind(rownames(module_mouse_rel),module_mouse_rel)
-colnames(module_mouse_rel)[1]="ID"
-
-xdd=trim_melt$Mouse_inflammatory_grade[match(colnames(module_mouse_rel),as.character(trim_melt$Samples))]
-xdd[which(xdd=="Intermediate-inflamed")]="Inflamed"
-module_mouse_rel=rbind(xdd,module_mouse_rel)
-module_mouse_rel[is.na(module_mouse_rel)]="Class"
-# module_mouse_rel_inf_noninf=module_mouse_rel[,-grep(pattern = "^O|^V",x=colnames(module_mouse_rel))]
-
-write.table(module_mouse_rel,"/naslx/projects/pr74xe/di52yal/Amira/module_mouse_rel_inf_vs_noninf_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_laterv2.csv",quote=F,sep = "\t",row.names = F,col.names = T)
-
-
-xdd=trim_melt$Donor_Disease_status[match(colnames(module_mouse_rel),as.character(trim_melt$Samples))]
-module_mouse_rel=rbind(xdd,module_mouse_rel)
-module_mouse_rel[is.na(module_mouse_rel)]="Class"
-# module_mouse_rel_inf_noninf=module_mouse_rel[,-grep(pattern = "^O|^V",x=colnames(module_mouse_rel))]
-
-write.table(module_mouse_rel,"/naslx/projects/pr74xe/di52yal/Amira/module_mouse_rel_bseln_vs_rem_vs_relpse_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_later.csv",quote=F,sep = "\t",row.names = F,col.names = T)
-
-######
-humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requested files/PICRUSt_humanized_mice_edited.txt",header = T,sep = "\t")
 
 
 ##### Supplementary figure 5:
