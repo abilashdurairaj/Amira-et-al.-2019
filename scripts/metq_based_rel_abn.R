@@ -4,7 +4,7 @@ metq_based_rel_abn=function()
   # geneLenPath="/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/"
   # list_genLen=list.files(path = geneLenPath,pattern = "geneLen")
   
-  list_count_files=list.files(path = "/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/",pattern = "_bbmap_fin")
+  list_count_files=list.files(path = "/path/to/samples/contigs_list/",pattern = "_bbmap_fin")
   ghost_path="/path/to/Data/Functional Profile/GhostKOALA_results/"
   
   list_contig2ko_file=list.files(path = ghost_path,pattern = "user_ko_definition.txt",recursive = T)
