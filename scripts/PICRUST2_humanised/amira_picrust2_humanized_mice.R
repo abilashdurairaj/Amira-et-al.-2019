@@ -1,10 +1,10 @@
 library("stringr")
-ko_abn=read.csv(file = "E:/humanized_PICRUST2/picrust2_res/picrust2_out_pipeline_edited/KO_metagenome_out/pred_metagenome_unstrat.tsv/pred_metagenome_unstrat.tsv",header = T,sep = "\t")
-amira_metadata=read.csv(file = "E:/humanized_PICRUST2/mapping-file picrust.txt",header = T,sep = "\t")
+ko_abn=read.csv(file = "/path/to/Data/PICRUST2_humanised/pred_metagenome_unstrat.tsv",header = T,sep = "\t")
+amira_metadata=read.csv(file = "/path/to/Data/PICRUST2_humanised/mapping-file picrust.txt",header = T,sep = "\t")
 colnames(ko_abn)=str_replace_all(str_replace_all(string = colnames(ko_abn),pattern = "^X",replacement = ""),pattern = "\\.",replacement = "-")
 
 library("MetQy")
-modules_ko=read.csv(file = "E:/module",header = F,sep = "\t")
+modules_ko=read.csv(file = "/path/to/Data/PICRUST2_humanised/Functional Profile/module",header = F,sep = "\t")
 modules_ko[,1]=str_replace_all(string = modules_ko[,1],pattern = "md:",replacement = "")
 modules_ko[,2]=str_replace_all(string = modules_ko[,2],pattern = "ko:",replacement = "")
 all_modules=unique(modules_ko[,1])
@@ -66,10 +66,10 @@ all_mod_df2[1,grep(pattern = "Baseline",x=all_mod_df2[1,])]="Active post-HSCT"
 all_mod_df2[1,grep(pattern = "Active post-HSCT",x=all_mod_df2[1,])]="Active"
 all_mod_df2[1,grep(pattern = "Inactive post-HSCT",x=all_mod_df2[1,])]="Inactive"
 
-write.table(all_mod_df2,"E:/humanized_PICRUST2/LefSe_analysis/picrust2_16S_norm_norel_abnv2_humanized_active_vs_inactive.csv",quote = F,sep = "\t",row.names = F)
+write.table(all_mod_df2,"/path/to/Data/PICRUST2_humanised/picrust2_16S_norm_norel_abnv2_humanized_active_vs_inactive.csv",quote = F,sep = "\t",row.names = F)
 ## replace NA with Condition. Load this to LefSe online..
 
-rr=read.csv(file = "E:/humanized_PICRUST2/LefSe_analysis/LDA_Effect_Size_active_plus_baseline_vs_inactive.lefse_internal_res",header = F,sep = "\t")
+rr=read.csv(file = "/path/to/Data/PICRUST2_humanised/LDA_Effect_Size_active_plus_baseline_vs_inactive.lefse_internal_res",header = F,sep = "\t")
 colnames(rr)=c("Modules","Orig_log2FC","Condition","Norm_Log2FC","pval")
 library("ggplot2")
 
@@ -89,7 +89,7 @@ rr$Modules[grep(pattern = "M00849",x=rr$Modules)]="M00849_C5_isoprenoid_biosynth
 rr$Norm_Log2FC[which(rr$Condition=="Inactive")]=(-1)*rr$Norm_Log2FC[which(rr$Condition=="Inactive")]
 rr$abs_Norm_log2FC=abs(rr$Norm_Log2FC)
 rr1=rr[sort(rr$abs_Norm_log2FC,decreasing = T,index.return=T)$ix[1:102],]
-ggplot(rr1)+geom_bar(aes(y=Norm_Log2FC,x=reorder(Modules,Norm_Log2FC),fill=Condition),stat="identity")+ theme_bw()+coord_flip()+ggsave("E:/humanized_PICRUST2/LefSe_analysis/amira_picrust2_results_all102_humanized.svg",width = 8,height = 15,limitsize = F)
+ggplot(rr1)+geom_bar(aes(y=Norm_Log2FC,x=reorder(Modules,Norm_Log2FC),fill=Condition),stat="identity")+ theme_bw()+coord_flip()+ggsave("picrust2_results_all102_humanized.svg",width = 8,height = 15,limitsize = F)
 
 rr1=rr[sort(rr$abs_Norm_log2FC,decreasing = T,index.return=T)$ix[1:70],]
-ggplot(rr1)+geom_bar(aes(y=Norm_Log2FC,x=reorder(Modules,Norm_Log2FC),fill=Condition),stat="identity")+ theme_bw()+coord_flip()+ggsave("E:/humanized_PICRUST2/LefSe_analysis/amira_picrust2_results_top10percent_humanized.svg",width = 8,height = 15,limitsize = F)
+ggplot(rr1)+geom_bar(aes(y=Norm_Log2FC,x=reorder(Modules,Norm_Log2FC),fill=Condition),stat="identity")+ theme_bw()+coord_flip()+ggsave("picrust2_results_top10percent_humanized.svg",width = 8,height = 15,limitsize = F)
