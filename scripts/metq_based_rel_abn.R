@@ -8,7 +8,7 @@ metq_based_rel_abn=function()
   ghost_path="/path/to/Data/Functional Profile/GhostKOALA_results/"
   
   list_contig2ko_file=list.files(path = ghost_path,pattern = "user_ko_definition.txt",recursive = T)
-  modules_ko=read.csv(file = "/naslx/projects/pr74xe/di52yal/DB/Uniprot/module",header = F,sep = "\t")
+  modules_ko=read.csv(file = "/path/to/Data/Functional Profile/module",header = F,sep = "\t")
   modules_ko[,1]=str_replace_all(string = modules_ko[,1],pattern = "md:",replacement = "")
   modules_ko[,2]=str_replace_all(string = modules_ko[,2],pattern = "ko:",replacement = "")
   module2ko=modules_ko
@@ -33,7 +33,7 @@ metq_based_rel_abn=function()
     
     for(i in 1: length(ll))
     {
-      cnt_file=fread(file = str_c("/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/",ll[i]),header = F,sep = "\t")
+      cnt_file=fread(file = str_c("/path/to/samples/contigs_list/",ll[i]),header = F,sep = "\t")
       colnames(cnt_file)=c("Count","Contig","None")
   
       colnames(ctg2ko_req)=c("Contig","KO","Gene","Score","SecondKO","SecondScore")
@@ -79,6 +79,9 @@ metq_based_rel_abn=function()
     
   }
   
+  ###################
+  ###################
+  ### Data Preparation for Active vs Remission-responder vs Remission-nonresponder:
   ###################
   
   ko_raw_mat[is.na(ko_raw_mat)]=0
@@ -135,18 +138,11 @@ metq_based_rel_abn=function()
  
   mod_lefse1_mouse=mod_lefse1[,-grep(pattern = "^16|^27|^28",x=colnames(mod_lefse1))]
   mod_lefse1_mouse[is.na(mod_lefse1_mouse)]="Class"
-  # mod_lefse1_mouse=mod_lefse1_mouse[-c(grep(pattern = "ukary",x=rownames(mod_lefse1_mouse)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(mod_lefse1_mouse))),]
-  
-  ### old: 
   write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_mouse_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_laterv3.csv",quote=F,sep = "\t",row.names = F,col.names = T)
-  
-  
-  
-    query_output$METADATA$DEFINITION[query_output$METADATA$MODULE_ID=="M00082"]
-
-  
+      
   ###################
-  
+  ### Data Preparation for Inflammed vs Non-inflammed:
+  ###################
   
   ko_raw_mat[is.na(ko_raw_mat)]=0
   colnames(modules_ko)=c("Module","KO")
@@ -164,7 +160,6 @@ metq_based_rel_abn=function()
   rownames(module_matrix)=as.character(module_mat$Classes)
   module_matrix=module_matrix[-c(grep(pattern = "ukary",x=rownames(module_matrix)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(module_matrix))),]
   module_rel_abn=apply(module_matrix,2,function(x){x/sum(x)})
-  # module_rel_abn=module_rel_abn[-c(grep(pattern = "ukary",x=rownames(module_rel_abn)),grep(pattern = "Keratan|Heparan|Dermatan|Chondroitin",x=rownames(module_rel_abn))),]
   
   grp_samples=c("Remission-Responder","Remission-Responder","Relapse-non-responder","Relapse-non-responder","Baseline-Active","Relapse-non-responder","Baseline-Active","Baseline-Active","Remission-Responder","Remission-Responder",rep("Remission-Responder",3),rep("Relapse-non-responder",3),rep("Baseline-Active",3),rep("Baseline-Active",3),rep("Relapse-non-responder",3),rep("Remission-Responder",3))
 
@@ -196,10 +191,6 @@ mod_lefse1=rbind(trim_melt$Donor_Disease_status[match(colnames(mod_lefse1),as.ch
 mod_lefse1[is.na(mod_lefse1)]="Class"
 mod_lefse1_mouse=mod_lefse1[,-grep(pattern = "^16|^27|^28",x=colnames(mod_lefse1))]
 # mod_lefse1_mouse=mod_lefse1_mouse[-c(grep(pattern = "ukary",x=rownames(mod_lefse1_mouse)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(mod_lefse1_mouse))),]
-### new: 
-# write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_mouse_finalv2_100_eukaryote_and_unknown_heparan_keratan_dermatan_chondroint_creatin_removed_norm_later.csv",quote=F,sep = "\t",row.names = F,col.names = T)
-
-
 ### old: 
 write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_mouse_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_later_fin.csv",quote=F,sep = "\t",row.names = F,col.names = T)
 
@@ -207,15 +198,7 @@ write.table(mod_lefse1_mouse,"/naslx/projects/pr74xe/di52yal/Amira/mod_df_only_m
 module_mouse_rel=as.matrix(module_matrix[,11:28])
 # rownames(module_mouse_rel)=as.character(module_mat_id$Module)
 colnames(module_mouse_rel)=str_replace_all(string = colnames(module_mouse_rel),pattern = "_map.*",replacement = "")  
-# sel_module=rownames(mod_lefse1)[-c(grep(pattern = "ukary",x=rownames(mod_lefse1)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(mod_lefse1)))]
-# sel_module=str_replace_all(string = str_replace_all(string = sel_module,pattern = ".*\\|",replacement = ""),pattern = "_.*",replacement = "")
-# module_mouse_rel=module_mouse_rel[-c(grep(pattern = "ukary",x=rownames(module_mouse_rel)),grep(pattern = "eratan|eparan|ermatan|hondroitin|reatine",x=rownames(module_mouse_rel))),]
-
-
-# sel_module=str_replace_all(string = str_replace_all(string = rownames(module_mouse_rel),pattern = ".*\\|",replacement = ""),pattern = "_.*",replacement = "")
-# module_mouse_rel=module_mouse_rel[intersect(sel_module,rownames(module_mouse_rel)),]
 rownames(module_mouse_rel)=str_replace_all(string = str_replace_all(string = rownames(module_mouse_rel),pattern = ".*\\|",replacement = ""),pattern = "_.*",replacement = "")
-
 module_mouse_rel=apply(module_mouse_rel,2,function(x){x/sum(x)})  
 module_mouse_rel=cbind(rownames(module_mouse_rel),module_mouse_rel)
 colnames(module_mouse_rel)[1]="ID"
@@ -236,46 +219,13 @@ module_mouse_rel[is.na(module_mouse_rel)]="Class"
 
 write.table(module_mouse_rel,"/naslx/projects/pr74xe/di52yal/Amira/module_mouse_rel_bseln_vs_rem_vs_relpse_finalv2_100_eukaryote_heparan_keratan_dermatan_chondroint_creatin_removed_norm_later.csv",quote=F,sep = "\t",row.names = F,col.names = T)
 
-##### PiCRUST vs metagenomics:
-picrust_res=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/LDA_Effect_Size_(LEfSe)_infl_vs_nonin",header = F,sep = "\t")
-metagenome_res=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/LDA_Effect_Size_(LEfSe)_infl_vs_noninfl_metagenomics",header = F,sep = "\t")
-
-picrust_res$V6="Picrust"
-metagenome_res$V6="metagenome"
-
-
-picrust_res$V4[grep(pattern = "on-inflamed",x=as.character(picrust_res$V3))]=(-1)*picrust_res$V4[grep(pattern = "on-inflamed",x=as.character(picrust_res$V3))]
-metagenome_res$V4[grep(pattern = "on-inflamed",x=as.character(metagenome_res$V3))]=(-1)*metagenome_res$V4[grep(pattern = "on-inflamed",x=as.character(metagenome_res$V3))]
-
-
-picrust_res$V4[which(as.numeric(as.character(picrust_res$V5))>0.05)]=0
-metagenome_res$V4[which(as.numeric(as.character(metagenome_res$V5))>0.05)]=0
-
-
-overall_lefse_res=data.frame(Module=unique(c(as.character(picrust_res$V1),as.character(metagenome_res$V1))))
-overall_lefse_res$Picrust=0
-overall_lefse_res$metagenome=0
-
-overall_lefse_res$Picrust[match(as.character(picrust_res$V1),overall_lefse_res$Module)]=picrust_res$V4
-overall_lefse_res$metagenome[match(as.character(metagenome_res$V1),overall_lefse_res$Module)]=metagenome_res$V4
-overall_lefse_res[is.na(overall_lefse_res)]=0
-
-ggplot(overall_lefse_res)+geom_point(aes(x=Picrust,y=metagenome),size=3)
-
 ######
 humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requested files/PICRUSt_humanized_mice_edited.txt",header = T,sep = "\t")
 
 
-#######
-  beta_disp_func=betadisper(d = vegdist(x = t(module_rel_abn),method = "bray"),group = factor(grp_samples))
-  pcoa_df=data.frame(PCoA1=beta_disp_func$vectors[,1],PCoA2=beta_disp_func$vectors[,2],Samples=rownames(beta_disp_func$vectors))
-  pcoa_df$Samples=str_replace_all(string = pcoa_df$Samples,pattern = "_map.*",replacement = "")
-  pcoa_df$Groups=grp_samples
-  
-  ggplot(data=pcoa_df)+geom_point(aes(x=PCoA1,y=PCoA2,color=Groups),size=2)
-  
-  
-  ##### 
+##### Supplementary figure 5:
+## KEGG ortholog- level comparison of expression profile for KEGG Module signatures obtained from LefSe analysis  
+#####
   sulfonateTS_M00436=c("K15553","K15554","K15555")
   cysteineBS_M00021=c("K00640","K01738","K12339","K13034","K17069")
   glutathionBS_M00118=c("K11204","K11205","K01919")
@@ -318,7 +268,7 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
   
   p+ stat_compare_means(label.y = 0) +
  #   stat_compare_means(comparisons = my_comparisons, label.y = c(0.1, 0.3, 0.5)) + #  +
-    ggsave("/naslx/projects/pr74xe/di52yal/Amira_func_sulfonate.svg",width = 10,height = 6,limitsize = F)
+    ggsave("Amira_func_sulfonate.svg",width = 10,height = 6,limitsize = F)
   
   ##### assimilatory sulfate:
   p <- ggboxplot(sul_req_melt[(sul_req_melt$KO %in% assm_sulfate_M00176),], x = "KO", y = "logVal",
@@ -327,7 +277,7 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
   
   p+ stat_compare_means(label.y = 0) +
     #    stat_compare_means(comparisons = my_comparisons, label.y = c(0.1, 0.3, 0.5)) + #  +
-    ggsave("/naslx/projects/pr74xe/di52yal/Amira_func_ass_sulf.svg",width = 10,height = 6,limitsize = F)
+    ggsave("Amira_func_ass_sulf.svg",width = 10,height = 6,limitsize = F)
   
   ##### dissimilatory sulfate:
   p <- ggboxplot(sul_req_melt[(sul_req_melt$KO %in% dissm_sulfate_M00596),], x = "KO", y = "logVal",
@@ -336,7 +286,7 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
   
   p+ stat_compare_means(label.y = 0) +
     #    stat_compare_means(comparisons = my_comparisons, label.y = c(0.1, 0.3, 0.5)) + #  +
-    ggsave("/naslx/projects/pr74xe/di52yal/Amira_func_diss_sulf.svg",width = 10,height = 6,limitsize = F)
+    ggsave("Amira_func_diss_sulf.svg",width = 10,height = 6,limitsize = F)
   
   ##### taurine:
   p <- ggboxplot(sul_req_melt[(sul_req_melt$KO %in% taurineTS_M00435),], x = "KO", y = "logVal",
@@ -345,7 +295,7 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
   
   p+ stat_compare_means(label.y = 0) +
     #    stat_compare_means(comparisons = my_comparisons, label.y = c(0.1, 0.3, 0.5)) + #  +
-    ggsave("/naslx/projects/pr74xe/di52yal/Amira_func_taurine.svg",width = 10,height = 6,limitsize = F)
+    ggsave("Amira_func_taurine.svg",width = 10,height = 6,limitsize = F)
   
   
   ##### methionine:
@@ -355,7 +305,7 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
   
   p+ stat_compare_means(label.y = 0) +
     #    stat_compare_means(comparisons = my_comparisons, label.y = c(0.1, 0.3, 0.5)) + #  +
-    ggsave("/naslx/projects/pr74xe/di52yal/Amira_func_methionine.svg",width = 10,height = 6,limitsize = F)
+    ggsave("Amira_func_methionine.svg",width = 10,height = 6,limitsize = F)
   
   
   compare_means(value ~ Donor,group.by = "KO",data = sul_req_melt[which(sul_req_melt$KO=="K15554"),],ref.group = "Baseline-Active")
@@ -369,106 +319,12 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
   
   p+ stat_compare_means(label.y = 0) +
     #    stat_compare_means(comparisons = my_comparisons, label.y = c(0.1, 0.3, 0.5)) + #  +
-    ggsave("/naslx/projects/pr74xe/di52yal/Amira_func_cysteine.svg",width = 10,height = 6,limitsize = F)
+    ggsave("Amira_func_cysteine.svg",width = 10,height = 6,limitsize = F)
   
   
   compare_means(value ~ Donor,group.by = "KO",data = sul_req_melt[which(sul_req_melt$KO=="K15554"),],ref.group = "Baseline-Active")
   all_cmp_val=compare_means(value ~ Donor,group.by = "KO",data = sul_req_melt[c(which(sul_req_melt$KO=="K15553"),which(sul_req_melt$KO=="K15554"),which(sul_req_melt$KO=="K15555")),])
   
-  install.packages("pgirmess")
-  library("pgirmess")
-  
- ## sulfonate TS:
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K15555")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K15555")], method="bh", kw=TRUE, label=TRUE,
-                wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
- 
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K15554")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K15554")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K15553")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K15553")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-  ## Taurine TS:
-  
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K10831")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K10831")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K15551")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K15551")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K15552")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K15552")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   ## Methionine TS:
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K02071")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K02071")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K02072")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K02072")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K02073")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K02073")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-  
-   
-   ## Cysteine:
-   
-   cc=conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00640")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00640")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K01738")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K01738")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K12339")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K12339")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-    
-   ## Diss sulf:
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00956")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00956")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00957")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00957")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00958")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00958")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00394")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00394")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00395")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00395")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K11180")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K11180")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K11181")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K11181")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   
-   
-   ## Ass sulf:
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00380")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00380")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00381")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00381")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00390")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00390")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00860")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00860")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00955")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00955")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00956")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00956")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00957")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00957")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   cc=conover.test::conover.test (sul_req_melt$value[which(sul_req_melt$KO=="K00958")], g=sul_req_melt$Donor[which(sul_req_melt$KO=="K00958")], method="bh", kw=TRUE, label=TRUE,
-                    wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
-   
-   
    
    
    
@@ -627,8 +483,7 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
    tukey.test
    
    #### Dissimilatory sulf:
-   
-   
+     
    plant.lm <- lm(value ~ Donor, data = sul_req_melt[which(sul_req_melt$KO=="K00956"),])
    plant.av <- aov(plant.lm)
    summary(plant.av)
@@ -681,40 +536,7 @@ humanise_mice_picrust=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/requ
    
    
    
-   
-   install.packages("WRS2")
-   
-   med1way(value ~ Donor, data = sul_req_melt[which(sul_req_melt$KO=="K15551"),], iter = 1000)
-   
- ## k-means clustering:
-   mm1=module_mat [,9:36]
-   rownames(mm1)=as.character(module_mat$Module)
-   mm1=apply(mm1,2,function(x){x/sum(x)})
-   sigf_infl_vs_noninfl=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira/lefse_infl_vs_noninfl/Galaxy8-[B)_LDA_Effect_Size_(LEfSe)_on_data_7].lefse_internal_res",header = F,sep = "\t")
-   sigf_infl_vs_noninfl$V5=as.numeric(as.character(sigf_infl_vs_noninfl$V5))
-   sigf_infl_vs_noninfl$V5[is.na(sigf_infl_vs_noninfl$V5)]=1
-   mm1_sigf=mm1[as.character(sigf_infl_vs_noninfl$V1)[which(sigf_infl_vs_noninfl$V5<=0.05)],]
-   
-   
-   library(class)
-   dat_train=t(mm1[,11:28])
-   dat_test=t(mm1[,1:10])
-   rownames(dat_train)=str_replace_all(string = rownames(dat_train),pattern = "_map.*",replacement = "")
-   rownames(dat_test)=str_replace_all(string = rownames(dat_test),pattern = "_map.*",replacement = "")
-   
-   target_cat=trim_melt$Mouse_inflammatory_grade[match(rownames(dat_train),trim_melt$Samples)]
-   knn(train = dat_train,test = dat_test,cl = target_cat,k = 3)
-   pr <- knn(iris_train,iris_test,cl=iris_target_category,k=13)
-   
-   library(cluster)
-   test_cl=trim_melt$Mouse_inflammatory_grade[match(rownames(dat_train),trim_melt$Samples)]
-   test_cl[which(test_cl=="Non-inflamed")]=1
-   test_cl[which(test_cl=="Intermediate-inflamed")]=2
-   test_cl[which(test_cl=="Inflamed")]=3
-   test_cl=as.numeric(test_cl)
-   silhouette(x = test_cl,dist = dist((dat_train)))
-   
-   
+   ##### Supplementary figure 
    ### Ternary plot:
    
    sigf_infl_vs_noninfl=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira_results/final/Galaxy41-[B)_LDA_Effect_Size_(LEfSe)_on_data_40].lefse_internal_res",header = F,sep = "\t")
