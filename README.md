@@ -12,18 +12,29 @@
 <h4> The technical contaminants from the raw metagenomic samples were removed using Trimmomatic version 0.36. For this, first the adapter sequences were removed and retained only those reads with a minimum quality determined by the strictness parameter 0.4 (MAXINFO:30:0.4) and a minimum length of 90 bp. 
      The rRNA reads and host-associated reads were considered the biological contaminants in this current study. </h4>
  
- 
- **The scripts can be run as follows:**
- ```shellscript
+   ```shellscript
    qsub /path/to/scripts/QC_wrap.sh
   ```
 <h2> 2. Taxonomic/Functional Profile Analysis </h2>
 <img src="https://github.com/abilashdurairaj/Metwaly-et-al.-2020/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
-<h5>For taxonomic and functional profile analysis, we pooled the samples belonging to the same condition and performed assembly using megaHIT and annotated the contigs using CAT :
-        
+<h5>For taxonomic and functional profile analysis, we pooled the samples belonging to the same condition and performed assembly using megaHIT and annotated the contigs using CAT. The ORFs for each contig was done using prodigal :
+
+```shellscript
+   qsub /path/to/scripts/assembly_by_pooling_from_each_condition.sh # for assembly
+   qsub /path/to/scripts/contig_taxonomy_annotation.sh # for contig annotation
+   qsub /path/to/scripts/ORF_prediction_for_contig_annotation.sh # for ORF prediction
+   
+  ```
+  
+<h5> The proteins sequences predicted using prodigal for each condition, were uploaded to GHOSTKOALA portal (mentioned in /master/scripts/description.md). The results were downloaded and used the KEGG Orthology prediction for each ORF.
+<h5> For taxonomic profile, we mapped the individual samples from each condition against the contigs assembled for the same condition. Similarly, for we mapped the individual samples from each condition against the ORFs predicted for the same condition.
+```shellscript
+   qsub /path/to/scripts/ORF_and_contig_count.sh # for assembly
+ ```
 <h2> 3. Taxonomic/Functional Signatures </h2>
 
-<h5>We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. We obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
+<h5>We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. 
+<h5> For taxonomic signatures, we obtained the relative abundance of the taxa and for functional signatures, we obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
 
 <h2>  PICRUST2 results -humanised mouse model samples </h2>
 <h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from humanised mouse model samples.   </h2>
