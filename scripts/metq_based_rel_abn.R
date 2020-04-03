@@ -1,11 +1,11 @@
 metq_based_rel_abn=function()
 {
   library("dplyr")
-  geneLenPath="/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/"
-  list_genLen=list.files(path = geneLenPath,pattern = "geneLen")
+  # geneLenPath="/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/"
+  # list_genLen=list.files(path = geneLenPath,pattern = "geneLen")
   
   list_count_files=list.files(path = "/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/",pattern = "_bbmap_fin")
-  ghost_path="/naslx/projects/pr74xe/di52yal/Amira_results/GhostKOALA_new/"
+  ghost_path="/path/to/Data/Functional Profile/GhostKOALA_results/"
   
   list_contig2ko_file=list.files(path = ghost_path,pattern = "user_ko_definition.txt",recursive = T)
   modules_ko=read.csv(file = "/naslx/projects/pr74xe/di52yal/DB/Uniprot/module",header = F,sep = "\t")
@@ -16,11 +16,6 @@ metq_based_rel_abn=function()
   ###### condition ID to map samples IDs to conditions:
   contig2ko_short=str_replace_all(string = list_contig2ko_file,pattern = "_file/.*",replacement = "")
   countFile_short=str_replace_all(string = list_count_files,pattern = "_.*",replacement = "")
-  
-  ##### CAT files:
-  # CAT_path="/naslx/projects/pr74xe/di52yal/Amira/megaHIT_contigs/"
-  # CAT_tax_files=list.files(path = CAT_path,pattern = "out.CAT.contig2classification_names_tax.txt",recursive = T)
-  # CAT_tax_suffix=str_replace_all(string = CAT_tax_files,pattern = "_out.*",replacement = "")  
   
   unq_ko=unique(modules_ko[,2])
   
