@@ -459,7 +459,7 @@ metq_based_rel_abn=function()
    ##### Supplementary figure 
    ### Ternary plot:
    
-   sigf_infl_vs_noninfl=read.csv(file = "/naslx/projects/pr74xe/di52yal/Amira_results/final/Galaxy41-[B)_LDA_Effect_Size_(LEfSe)_on_data_40].lefse_internal_res",header = F,sep = "\t")
+   sigf_infl_vs_noninfl=read.csv(file = "/path/to/Data/Functional Profile/LDA_Effect_Size_(LEfSe)_on_humanised_KEGG_Module_profile",header = F,sep = "\t")
    sigf_infl_vs_noninfl$V5=as.numeric(as.character(sigf_infl_vs_noninfl$V5))
    sigf_infl_vs_noninfl$V5[is.na(sigf_infl_vs_noninfl$V5)]=1
    
@@ -544,7 +544,7 @@ metq_based_rel_abn=function()
    p
    
    p+ ggsave( 
-          file = "/naslx/projects/pr74xe/di52yal/Amira/ternary_mouse.svg", 
+          file = "ternary_mouse.svg", 
 #           useDingbats=FALSE, 
           width=25, 
           height=14, 
