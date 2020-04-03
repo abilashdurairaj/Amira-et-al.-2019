@@ -234,6 +234,14 @@ rm -f /path/to/megaHIT_contig_count_final/O2_S8_mapped.bam
 rm -f /path/to/megaHIT_contig_count_final/O3_S9_mapped.sam
 rm -f /path/to/megaHIT_contig_count_final/O3_S9_mapped.bam
 
+for file in `ls /path/to/megaHIT_contig_count_final/ | grep '_bbmap$'`
+do
+
+cat /path/to/megaHIT_contig_count_final/${file} | awk '$1=$1' | sed 's/ /\t/g' | sort -k1 -n > /path/to/megaHIT_contig_count_final/${file}_final
+done
+
+
+
 ######## ORF count:
 
 ######################################################################################################################################################################################################################
