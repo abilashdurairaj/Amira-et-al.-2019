@@ -1,0 +1,710 @@
+M00619_XylobioseTS	0.0			0.0180428983659
+M00506_Chemotaxis2_CRS	3.18647977609	Inactive	2.50686442743	0.000344980928312
+M00117_Ubiquinonebiosynthesis_fromchorismate	3.1802033788			-
+M00151_Cytochromebc1complexrespiratoryunit	2.24390333456			2.54587155612e-06
+M00272_PTSsystem_beta_glucoside_specificIIcomponent_A_	2.59587685914			-
+M00454_Potassiumtransport2_CRS	3.30529730304			-
+M00048_Inosinemonophosphatebiosynthesis	4.05419106066			-
+M00282_PTSsystem_D_glucosamine_specificIIcomponent	2.84481579253	Active	2.12508629392	0.0154756364638
+M00020_Serinebiosynthesis	3.50013866167			-
+M00714_MultidrugR_effluxpumpQacA	0.760653770068			-
+M00350_Capsaicinbiosynthesis	1.89258440515			0.00878528239804
+M00656_VanBtypevancomycinR2_CRS	2.76470916461			-
+M00371_Castasteronebiosynthesis	0.0			-
+M00795_dTDP_beta_L_noviosebiosynthesis	0.0			-
+M00774_Erythromycinbiosynthesis	0.0			-
+M00540_Benzoatedegradationtopimeloyl_CoA	1.84326864526			-
+M00204_Trehalose_maltoseTS	2.26001554363			2.06951692989e-07
+M00543_Biphenyldegradation	0.0			-
+M00314_BacitracinTS_A_	0.0			-
+M00219_AI_2TS	1.81138603276			-
+M00178_Ribosome_bacteria	4.74487746025	Active	3.37632240467	8.50078624081e-05
+M00842_	3.15342070402			-
+M00210_PhospholipidTS	3.24654332757			-
+M00806_PTSsystem_maltose_specificIIcomponent	2.56994729888			-
+M00427_Nuclearporecomplex	0.0			-
+M00518_Glutamineutilization2_CRS	2.08706257874			-
+M00253_SodiumTS	2.32501458421			1.46868476738e-05
+M00424_Shelterincomplex	0.0			-
+M00537_Xylenedegradation	0.716620302746			-
+M00567_Methanogenesis_fromCO2	2.80367621257	Inactive	2.35454169176	2.81041036459e-06
+M00284_Originrecognitioncomplex	0.0			-
+M00146_NADHdehydrogenase_ubiquinone_1alphasubcomplex	1.37719765026			0.00116081132132
+M00495_Exoproteinsynthesis2_CRS	2.74594985892			-
+M00304_PTSsystem_fructose_specificIIcomponent_B_	0.516833230903			-
+M00754_NisinR	2.37766254803			1.40311686677e-06
+M00301_MannopineTS	0.0			-
+M00716_Virulenceregulation2_CRS_Arl_	0.568837580863			-
+M00346_Formaldehydeassimilation_serinepathway	3.66547820914			-
+M00827_	0.0			-
+M00050_GuanineribonucleotidebiosynthesisIMP__GDP	3.75374743999	Active	2.191454547	0.0109635126863
+M00531_Assimilatorynitratereduction	2.75169934063			-
+M00121_Hemebiosynthesis	3.87447896172	Inactive	2.67810824233	0.00168745592839
+M00723_CAMPR_phosphoethanolaminetransferaseEptB	1.86052043593			2.36659631877e-06
+M00840_	3.37747019727			-
+M00148_Succinatedehydrogenase_ubiquinone_	0.0			-
+M00021_Cysteinebiosynthesis_fromserine	3.45617270488			-
+M00183_RNApolymerase_bacteria	3.61269491887			-
+M00610_PTSsystem_D_glucosaminate_specificIIcomponent	2.24405936315			0.0215478139071
+M00143_NADHdehydrogenase_ubiquinone_Fe_Sprotein_flavoproteincomplex	0.0			-
+M00374_Dicarboxylate_hydroxybutyratecycle	3.7779738763	Inactive	2.42822116212	0.0474282115943
+M00480_Cell_wallpeptidoglycansynthesis2_CRS	0.0			-
+M00705_MultidrugR_effluxpumpMepA	0.0			-
+M00043_Thyroidhormonebiosynthesis	0.0			-
+M00538_Toluenedegradationtobenzoate	0.716620302746			-
+M00724_CAMPR_palmitoyltransferasePagP	1.86773152279			2.81041036459e-06
+M00126_Tetrahydrofolatebiosynthesis	3.77982719518			-
+M00685_Apoptoticmachinery	0.0			-
+M00088_Ketonebodybiosynthesis	3.00955573113			-
+M00432_Leucinebiosynthesis	3.64979774488			-
+M00633_Semi_phosphorylativeEDpathway_fromgluconate_galactonate	1.8271119052			2.84429553571e-08
+M00193_Putativespermidine_putrescineTS	3.24532478459	Inactive	2.68147699104	2.74225890226e-07
+M00534_Naphthalenedegradation	0.0			-
+M00856_	0.0			-
+M00710_MultidrugR_effluxpumpEbrAB	0.0			-
+M00110_C19_C18_Steroidhormonebiosynthesis	0.0			-
+M00580_Pentosephosphatepathway_archaea	2.81481032463			0.00894798466617
+M00527_Lysinebiosynthesis_DAPaminotransferasepathway	3.99069234365			-
+M00438_Nitrate_nitriteTS	0.872126023438			-
+M00194_Maltose_maltodextrinTS	3.19533283083			-
+M00722_CAMPR_phosphoethanolaminetransferasePmrC	1.93644354542			-
+M00505_Alginateproduction2_CRS_Kin_	1.14887574505			-
+M00839_	3.14377929482			-
+M00535_Isoleucinebiosynthesis_frompyruvate	3.55675581042			-
+M00575_Pertussispathogenicitysignature2	2.8834613033			-
+M00794_dTDP_6_deoxy_D_allosebiosynthesis	0.0			-
+M00660_Xanthomonasspp_pathogenicitysignature	2.14876687018			6.15773171967e-08
+M00277_PTSsystem_N_acetylgalactosamine_specificIIcomponent	3.06859793389	Active	2.37210808856	0.000394315094875
+M00268_PTSsystem_alpha_glucoside_specificIIcomponent	2.71540378192			-
+M00647_MultidrugR_effluxpumpAcrAB_TolC_SmeDEF	3.54819361706			-
+M00791_Manganese_zincTS_A_	0.0			-
+M00094_Ceramidebiosynthesis	0.0			-
+M00108_C21_Steroidhormonebiosynthesis_corticosterone_aldosterone_	0.0			-
+M00528_Nitrification	0.0			-
+M00836_	0.0			-
+M00224_FluoroquinoloneTS	2.98264119547	Inactive	2.45652703332	0.000131005093874
+M00849_	3.12876417668	Active	2.23376181358	0.0401083224494
+M00199_L_Arabinose_lactoseTS	2.96134116175	Inactive	2.52489463535	6.27822240086e-07
+M00422_Acetyl_CoApathway	2.28283169225			-
+M00824_	0.0			-
+M00496_Competence2_CRS_ComD_E_	0.0			-
+M00668_TetracyclineR_TetAtransporter	1.64681465095			-
+M00574_Pertussispathogenicitysignature1	0.0			-
+M00821_MultidrugR_effluxpumpTriABC_TolC	2.88331813534			-
+M00764_PTSsystem_fructoselysine_glucoselysine_specificIIcomponent	2.77313322155			-
+M00584_AcetoinutilizationTS	0.0			-
+M00275_PTSsystem_cellobiose_specificIIcomponent	3.56128117874	Active	2.98730115402	9.83053974485e-05
+M00426_Survivalmotorneuron_SMN_complex	0.0			-
+M00658_ActinomycetetypevancomycinR2_CRS	0.0			-
+M00726_CAMPR_lysyl_phosphatidylglycerol_L_PG_synthaseMprF	2.0080143629			0.0236259577284
+M00788_Terpentecinbiosynthesis	0.0			-
+M00816_Lantibioticbiosynthesis2_CRS	0.0			-
+M00463_TrcS_TrcR2_CRS	0.0			-
+M00198_Putativesn_glycerol_phosphateTS	3.41764296003	Inactive	2.81506294109	0.00024573277993
+M00589_PutativelysineTS	2.94843816196			-
+M00192_PutativethiamineTS	1.83610867731			2.36659631877e-06
+M00475_Centralcarbonmetabolism2_CRS	1.79946300299			-
+M00330_AdhesinproteinTS	2.44459066342	Inactive	2.0306798833	5.86368082293e-05
+M00010_Citratecycle_firstcarbonoxidation	3.50043166559			-
+M00573_Biotinbiosynthesis_fromlong_chain_acyl_ACP	3.55739445			-
+M00188_NitT_TauTfamilyTS	3.72977145523	Inactive	2.67639035085	0.00424109967807
+M00229_ArginineTS	2.08154278481			2.36659631877e-06
+M00712_MultidrugR_effluxpumpYkkCD	2.05303357505			-
+M00131_Inositolphosphatemetabolism_fromIns_1_3_4_5_P4	3.04548075266	Inactive	2.10986121309	0.00379476516759
+M00461_Osmoticstressresponse2_CRS_Mtr_	1.48649769314			-
+M00376_3_Hydroxypropionatebi_cycle	3.77229020961			-
+M00377_Reductiveacetyl_CoApathway_Wood_Ljungdahlpathway_	3.58835258477			-
+M00521_CiaH_CiaR2_CRS	2.35472240815			4.66978879948e-05
+M00721_CAMPR_arnBCADTEFoperon	2.60812527318	Active	2.02612685925	0.000199777048464
+M00457_Tricarboxylicacidtransport2_CRS	1.98710666858			3.82418615594e-07
+M00810_Nicotinedegradation_pyridinepathway	0.0			-
+M00525_Lysinebiosynthesis_acetyl_DAPpathway	3.94354956671			-
+M00730_CAMPR_VraFGtransporter	0.0			0.0158804146368
+M00820_Swarmingactivityandbiofilmformation2_CRS	0.0			-
+M00002_Glycolysis_core	3.98583277682	Active	2.57162886173	6.52039565672e-06
+M00698_MultidrugR_effluxpumpBpeEF_OprC	1.96360466937			5.61611529422e-07
+M00264_DNApolymeraseIIcomplex	0.0			-
+M00786_Fumitremorginalkaloidbiosynthesis	0.0			-
+M00541_Benzoyl_CoAdegradation	0.0			-
+M00267_PTSsystem_N_acetylglucosamine_specificIIcomponent	2.68732551285			-
+M00761_Undecaprenylphosphatealpha_L_Ara4Nbiosynthesis	2.37509382242			0.0178641925121
+M00157_F_typeATPase_prokaryotesandchloroplasts	3.94494142741	Inactive	2.3369771291	0.0121151678381
+M00451_AntimicrobialpeptideR2_CRS	1.67619010271			2.81041036459e-06
+M00242_ZincTS	3.53604630787			-
+M00661_Paspalinebiosynthesis	0.0			-
+M00266_PTSsystem_maltose_glucose_specificIIcomponent	2.9880815936			-
+M00007_Pentosephosphatepathway_non_oxidativephase	3.89565664766	Active	2.5394567227	0.0025483216165
+M00566_DipeptideTS_Firmicutes	0.853154653367			-
+M00472_Nitraterespiration2_CRS_NarQ_P_	1.64079899982			1.6721932516e-06
+M00018_Threoninebiosynthesis	3.75518841251	Active	2.49199349975	0.000368877672839
+M00763_Ornithinebiosynthesis_LysW_mediated	0.0			-
+M00428_eIF4Fcomplex	0.0			-
+M00471_Nitraterespiration2_CRS_NarX_L_	2.36043671453			0.00190109802493
+M00695_cAMPsignaling	2.16558041389			0.00149610181261
+M00743_AminoglycosideR_proteaseHtpX	2.84972936737			0.0494243911037
+M00548_Benzenedegradationtocatechol	0.0			-
+M00833_	0.0			-
+M00338_Cysteinebiosynthesis_fromhomocysteine_serine	2.47421957612			9.14285512302e-05
+M00737_BacitracinR_VraDEtransporter	0.0			-
+M00227_GlutamineTS	2.00153189176			-
+M00793_dTDP_L_rhamnosebiosynthesis	3.73268742209			-
+M00812_Virulenceregulation2_CRS_AgrC2_	0.0			-
+M00809_PTSsystem_glucose_specificIIcomponent_B_	0.0			-
+M00185_SulfateTS	2.53316467526			-
+M00257_HeminTS	0.0			-
+M00016_Lysinebiosynthesis_fromaspartate	4.02923444606			-
+M00182_RNApolymeraseI	0.0			-
+M00746_MultidrugR_repressionofporinOmpF	1.68736401014			2.57935654852e-06
+M00762_Copper_processingsystem	1.44300994069			0.000190699377168
+M00780_Tetracycline_oxytetracyclinebiosynthesis	0.0			-
+M00829_	0.0			-
+M00044_Tyrosinedegradation	0.395004768718			-
+M00369_Cyanogenicglycosidebiosynthesis	0.0			-
+M00662_Glyceroluptakeandutilization2_CRS	0.0			-
+M00459_Cellwallmetabolism2_CRS	2.48122743715	Active	2.01712257743	3.06125347306e-06
+M00172_C4_dicarboxylicacidcycle_NADP_malicenzymetype	3.21281407434			-
+M00579_Phosphateacetyltransferase_acetatekinasepathway	3.39133619209	Active	2.05747399503	0.00620320586543
+M00034_Methioninesalvagepathway	3.55309338659			-
+M00252_LipooligosaccharideTS	0.0			-
+M00096_C5isoprenoidbiosynthesis_non_mevalonatepathway	3.90992846806			-
+M00012_Glyoxylatecycle	3.4806794477			-
+M00664_Nodulation	0.0			-
+M00091_PCbiosynthesis_fromphosphatidylethanolamine	0.0			-
+M00456_Anoxicredoxcontrol2_CRS	1.6771007093			2.36659631877e-06
+M00682_Notchsignaling	0.0			-
+M00667_TetracyclineR_effluxpump	0.0			-
+M00544_Carbazoledegradation	0.0			-
+M00777_Avermectinbiosynthesis	0.0			-
+M00103_Cholecalciferolbiosynthesis	0.0			-
+M00517_Cell_to_cellsignaling2_CRS	0.0			-
+M00704_TetracyclineR_effluxpumpTet38	1.29376687684			-
+M00802_dTDP_D_forosaminebiosynthesis	1.59172327338			-
+M00686_Toll_likereceptorsignaling	0.0			-
+M00053_Pyrimidinedeoxyribonuleotidebiosynthesis	3.83224614396			-
+M00124_Pyridoxalbiosynthesis	3.48120696842			-
+M00625_MethicillinR	0.0			-
+M00484_YdfH_YdfI2_CRS	1.75200357939			-
+M00013_Malonatesemialdehydepathway	1.99271119007			3.46347345377e-05
+M00770_Enterobactin_dependentFeacquisition2_CRS	0.0			-
+M00448_Secretionstressresponse2_CRS	1.74960559305			-
+M00362_Nucleotidesugarbiosynthesis_prokaryotes	3.88216768355			-
+M00442_PutativehydroxymethylpyrimidineTS	2.18766298428			-
+M00733_Cationicantimicrobialpeptidetransport2_CRS	0.0			-
+M00549_Nucleotidesugarbiosynthesis_fromglucose	3.62326753881			-
+M00233_GlutamateTS	1.38652953878			-
+M00022_Shikimatepathway	3.91550320719	Active	2.5498978633	0.000858120666394
+M00358_CoenzymeMbiosynthesis	2.30176387991			0.000709284519935
+M00081_Pectindegradation	2.96731336721			-
+M00529_Denitrification	2.55290518187			-
+M00853_	0.0			-
+M00843_	3.15342070402			-
+M00550_Ascorbatedegradation	3.28045372616			-
+M00023_Tryptophanbiosynthesis	3.84996096339	Active	2.37418050734	0.0337700265574
+M00263_DNApolymeraseepsiloncomplex	0.0			-
+M00697_MultidrugR_effluxpumpMdtEF_TolC	2.91882000179			-
+M00003_Gluconeogenesis	4.12145602848			-
+M00029_Ureacycle	3.48725507573			-
+M00797_dTDP_D_desosaminebiosynthesis	0.0			-
+M00240_IroncomplexTS	4.01028701058			-
+M00024_Phenylalaninebiosynthesis	3.3482301205			-
+M00844_	3.44777713439			-
+M00717_MultidrugR_effluxpumpNorA	2.13613826074			-
+M00467_Circadiantimingmediating2_CRS	1.19615194232			7.33668791676e-09
+M00684_JAK_STATsignaling	0.0			-
+M00045_Histidinedegradation	3.27594101995			-
+M00503_Phosphoglyceratetransport2_CRS	1.09569487812			-
+M00439_OligopeptideTS	3.75764972465			-
+M00511_Cellfatecontrol2_CRS	2.15253480107			0.000182403483533
+M00212_RiboseTS	3.78351580403			-
+M00112_Tocopherol_tocotorienolbiosynthesis	0.0			-
+M00207_PutativemultiplesugarTS	3.9764988719			-
+M00848_	3.40369531169	Active	2.27248635614	9.05473894339e-06
+M00709_MacrolideR	2.97246465711	Active	2.04352075215	0.0187292141538
+M00497_Nitrogenregulation2_CRS_Gln_	2.45980217271	Inactive	2.0219318054	6.27822240086e-07
+M00817_LantibioticTS_B_	0.0			-
+M00453_Quorumsensing2_CRS_Qse_	1.77511666525			-
+M00813_LantibioticTS_A_	0.0			-
+M00477_Acidanddrugtolerance2_CRS	1.64100784736			0.0015891292821
+M00837_	0.0			-
+M00218_FructoseTS	0.179991915401			-
+M00137_Flavanonebiosynthesis	0.0			-
+M00120_CoenzymeAbiosynthesis	3.6522220899			-
+M00280_PTSsystem_glucitol_sorbitol_specificIIcomponent	2.69719953786	Active	2.1350998355	0.0065420591123
+M00031_Lysinebiosynthesis_from2_aminoadipate	0.0			-
+M00585_L_CystineTS	2.44373462417			-
+M00160_V_typeATPase	0.0			-
+M00142_NADH_ubiquinoneoxidoreductase	0.0			-
+M00595_ThiosulfateoxidationbySOXcomplex	1.59638832915			0.0029942322256
+M00539_Cumatedegradation	0.0			-
+M00598_AnoxygenicPSI	0.0			-
+M00056_O_glycanbiosynthesis	0.0			-
+M00331_TypeIIgeneralsecretionpathway	3.15451650801			0.041842047449
+M00691_DNAdamage_inducedcellcyclecheckpoints	0.0			-
+M00607_GlycerolTS	1.69870458314			5.41931132039e-07
+M00063_CMP_KDObiosynthesis	3.36704323101	Inactive	2.41405614939	0.0494243911037
+M00213_L_ArabinoseTS	2.40446393309			0.0133727842913
+M00468_Staphylococcalvirulenceregulation2_CRS	0.223122379544			-
+M00740_Methylaspartatecycle	3.63170266984			-
+M00452_Coppertolerance2_CRS	1.7192050998			3.94925709372e-06
+M00466_PS2_CRS	0.0			0.00303553212749
+M00225_Lysine_arginine_ornithineTS	1.96873747306			2.36659631877e-06
+M00216_MultiplesugarTS	2.80212390136			-
+M00488_C4_dicarboxylatemetabolism2_CRS	1.66001741825			2.36659631877e-06
+M00850_	0.0			0.0309374033411
+M00261_DNApolymerasealpha_primasecomplex	0.0			-
+M00490_Malatetransport2_CRS	2.27294187505			0.0337700265574
+M00315_UncharacterizedABCTS	2.20137730113			-
+M00243_Manganese_ironTS_A_	2.00466826503			-
+M00627_beta_LactamR_Blasystem	3.20603962447	Inactive	2.17850933355	0.00766076113518
+M00032_Lysinedegradation	3.0041623844			-
+M00119_Pantothenatebiosynthesis	3.61697621521	Active	2.52580945555	6.00208704627e-06
+M00487_Magnesium_citratetransport2_CRS	0.0			-
+M00027_GABA_gamma_Aminobutyrate_shunt	2.88317373979	Active	2.10742658662	0.000547969918955
+M00298_Multidrug_hemolysinTS	2.35490697835	Active	2.05163799633	0.000962014381768
+M00504_C4_dicarboxylatetransport2_CRS_DctB_D_	2.09239900273			-
+M00334_TypeVIsecretionsystem	2.74153815719	Active	2.28306006666	0.00302769247574
+M00092_PEbiosynthesis_fromethanolamine	0.0			-
+M00305_PTSsystem_2_O_A_mannosyl_D_glycerate_specificIIcomponent	2.01031420202			2.04496223955e-06
+M00425_H_ACAribonucleoproteincomplex	0.0			-
+M00736_NocardicinAbiosynthesis	0.0			-
+M00688_MAPK_JNK_signaling	0.0			-
+M00170_C4_dicarboxylicacidcycle_PEPcarboxykinasetype	2.99105406819	Active	2.11758846624	6.87321287417e-07
+M00483_Dissimilatorynitrate_nitritereduction2_CRS	1.75200357939			-
+M00769_MultidrugR_effluxpumpMexPQ_OpmE	0.0			-
+M00847_	0.0			-
+M00150_Fumaratereductase	3.10599863144	Inactive	2.58257693452	7.522351884e-07
+M00333_TypeIVsecretionsystem	3.45006847216	Inactive	2.694996746	0.000972909913091
+M00231_Octopine_nopalineTS	0.0			-
+M00604_TrehaloseTS	0.0			-
+M00325_alpha_Hemolysin_cyclolysinTS	2.8834613033			-
+M00118_Glutathionebiosynthesis	2.48416011401			0.00588023776075
+M00803_dTDP_D_angolosaminebiosynthesis	1.59172327338			-
+M00328_Hemophore_metalloproteaseTS	1.03571725503			-
+M00713_FluoroquinoloneR_effluxpumpLfrA	0.760653770068			-
+M00356_Methanogenesis_frommethanol	2.69529441243	Inactive	2.291634775	2.17074157779e-06
+M00637_Anthranilatedegradation	0.0			-
+M00707_MultidrugR_MdlAB_SmdABtransporter	1.80678416063			2.81041036459e-06
+M00309_Non_phosphorylativeEntner_Doudoroffpathway	1.78399577369			0.000594773347622
+M00678_Hedgehogsignaling	0.0			-
+M00782_Mithramycinbiosynthesis	0.0			-
+M00186_TungstateTS	1.69498135266			-
+M00302_2_AminoethylphosphonateTS	0.997064760046			-
+M00038_Tryptophanmetabolism	2.35044174692			3.21193955522e-05
+M00520_Aciditysensing2_CRS	1.89741832481			0.0029942322256
+M00808_Violaceinbiosynthesis	0.0			-
+M00857_	0.0			-
+M00093_PEbiosynthesis	3.42613448128			-
+M00581_BiotinTS	3.01126505465	Active	2.07933215544	0.00240465737307
+M00729_FluoroquinoloneR_gyrase_protectingproteinQnr	3.28673779066			-
+M00631_D_Galacturonatedegradation_bacteria_	3.69464775983			-
+M00035_Methioninedegradation	3.51364780094			-
+M00308_Semi_phosphorylativeEDpathway_fromgluconate	3.64508520015	Active	2.19347630996	0.00358800042657
+M00542_EHEC_EPECpathogenicitysignature	2.18835141803			6.15773171967e-08
+M00125_Riboflavinbiosynthesis	3.66089744736			-
+M00652_VancomycinR_D_Ala_D_Sertype	3.07670440815	Inactive	2.34337645468	0.000547969918955
+M00630_D_Galacturonatedegradation_fungi_	0.0			-
+M00011_Citratecycle_secondcarbonoxidation	4.01394535698			-
+M00128_Ubiquinonebiosynthesis_from4_hydroxybenzoate	1.59638832915			0.0029942322256
+M00057_Glycosaminoglycanbiosynthesis_linkagetetrasaccharide	0.0			-
+M00636_Phthalatedegradationtoprotocatechuate_B_	0.0			-
+M00211_PutativeABCTS_A_	2.90361525107	Active	2.15250758687	0.000281692454384
+M00792_Manganese_zincTS_B_	0.0			-
+M00278_PTSsystem_sorbose_specificIIcomponent	1.99524460321			0.0455002638964
+M00113_Jasmonicacidbiosynthesis	1.8610736932			-
+M00286_GINScomplex	0.0			-
+M00508_Positivephototaxis2_CRS	0.0			-
+M00708_MultidrugR_PatABtransporter	2.05266297124			0.00737790762789
+M00701_MultidrugR_effluxpumpEmrAB	2.72166750637			0.00240465737307
+M00702_MultidrugR_effluxpumpNorB	0.69433490813			-
+M00015_Prolinebiosynthesis	3.48894404759			0.0084989118692
+M00741_Propanoyl_CoAmetabolism	3.30309963128			-
+M00251_TeichoicacidTS	2.87199507179			-
+M00095_C5isoprenoidbiosynthesis_mevalonatepathway	3.16017239858	Active	2.32232268813	0.0225661012892
+M00342_Bacterialproteasome	1.2117472545			-
+M00209_OsmoprotectantTS	3.08045164495			-
+M00609_Cysteinebiosynthesis_frommethionine	3.48588667305	Active	2.30146043219	0.000665262771882
+M00796_dTDP_D_mycaminosebiosynthesis	0.0			-
+M00582_Energy_couplingfactorTS	3.82799339976			-
+M00732_CationicantimicrobialpeptideTS	0.0			0.0158804146368
+M00444_Magnesiumtransport2_CRS	1.6880475525			2.57935654852e-06
+M00008_Entner_Doudoroffpathway	3.41823485449			-
+M00601_PutativechitobioseTS	2.26663311849			3.42926900758e-07
+M00772_Hydrogenasesynthesisregulation2_CRS	0.0			-
+M00132_Inositolphosphatemetabolism_fromIns_1_3_4_P3	0.0			-
+M00149_Succinatedehydrogenase	3.16100715848			-
+M00482_Redoxresponse2_CRS_Dev_	0.0			-
+M00197_PutativefructooligosaccharideTS	3.27067550469			-
+M00416_Cytochromeaa3_600menaquinoloxidase	0.0			-
+M00760_ErythromycinR	0.0			-
+M00555_Betainebiosynthesis	1.64016058074			1.7215533381e-05
+M00206_CellobioseTS	3.31171965306	Inactive	2.42278282894	0.00500025183872
+M00635_TetracyclineR_TetAB_46_transporter	0.0			-
+M00800_dTDP_L_megosaminebiosynthesis	1.59172327338			-
+M00854_	3.67738402234			-
+M00799_dTDP_L_oleandrosebiosynthesis	1.59172327338			-
+M00086_beta_Oxidation_acyl_CoAsynthesis	3.3239156999			-
+M00592_InositolTS_A_	1.08491629035			-
+M00279_PTSsystem_galactitol_specificIIcomponent	3.19295749812			-
+M00033_Ectoinebiosynthesis	3.44106730393	Active	2.06179360976	2.17074157779e-06
+M00343_Archaealproteasome	0.0			-
+M00509_Chemosensory2_CRS	0.0			-
+M00025_Tyrosinebiosynthesis_fromchorismate	3.42818300921			-
+M00196_Raffinose_stachyose_melibioseTS	3.87323945004			-
+M00226_HistidineTS	1.96700346862			2.36659631877e-06
+M00646_MultidrugR_effluxpumpAcrAD_TolC	3.426732921			-
+M00271_PTSsystem_beta_glucoside_specificIIcomponent_B_	3.39073262952	Active	2.70843645984	0.00991018846033
+M00798_dTDP_L_mycarosebiosynthesis	1.59172327338			-
+M00492_LytS_LytR2_CRS	2.68012395399			0.0215478139071
+M00474_Capsulesynthesis2_CRS	1.85319196836			2.36659631877e-06
+M00624_Terephthalatedegradation	0.0			-
+M00570_Isoleucinebiosynthesis_fromthreonine	3.8737994666			-
+M00455_TMAOrespiration2_CRS	1.63617719051			6.52039565672e-06
+M00144_NADH_quinoneoxidoreductase	3.76222033309			-
+M00787_Bacilysinbiosynthesis	1.12520981648			6.84722210369e-09
+M00654_Polymyxin_adaptiveR2_CRS	0.0			-
+M00606_N	3.20007278164			-
+M00042_Catecholaminebiosynthesis	0.0			-
+M00089_Triacylglycerolbiosynthesis	3.50170774187			-
+M00645_MultidrugR_effluxpumpSmeABC	1.67716966928			2.36659631877e-06
+M00006_Pentosephosphatepathway_glucose__ribulose	3.34416814121			-
+M00644_VanadiumR	0.0			0.0309374033411
+M00700_MultidrugR_effluxpumpAbcA	1.77809314422			-
+M00818_Virulenceregulation2_CRS_Fus_	0.0			-
+M00615_	1.86492704697			0.00179135162967
+M00785_Cycloserinebiosynthesis	0.0			-
+M00345_Formaldehydeassimilation_ribulosemonophosphatepathway	3.77257957267	Inactive	2.59839864156	0.0068974694052
+M00591_PutativexylitolTS	2.47379767205			0.000913846430417
+M00276_PTSsystem_mannose_specificIIcomponent	3.52627854253	Active	2.72654463058	0.00179135162967
+M00663_SsrA_SsrB2_CRS	0.0			-
+M00055_N_glycanprecursorbiosynthesis	0.0			-
+M00765_MultidrugR_effluxpumpBmr	0.0			-
+M00830_	0.0			-
+M00230_Glutamate_aspartateTS	2.30668954443			-
+M00801_dTDP_L_olivosebiosynthesis	1.59172327338			-
+M00478_Multicellularbehaviorcontrol2_CRS	1.3177816822			-
+M00489_C4_dicarboxylatetransport2_CRS_DctS_R_	1.79128500692			-
+M00643_MultidrugR_effluxpumpMexXY_OprM	2.71412586122			-
+M00623_Phthalatedegradationtoprotocatechuate_A_	0.0			-
+M00189_MolybdateTS	3.35969230808			-
+M00500_cPHBbiosynthesis2_CRS	1.69618196008			0.00117197615371
+M00049_Adenineribonucleotidebiosynthesis	3.69528004387	Active	2.38353185486	0.00124628396401
+M00060_Lipopolysaccharidebiosynthesis_KDO2_lipidA	3.66540660487			-
+M00727_CAMPR_N_acetylmuramoyl_L_alanineamidase	3.5153955569			-
+M00632_Galactosedegradation	3.7059958576	Active	2.19202120848	0.00339153424811
+M00418_Toluenedegradationtobenzoyl_CoA_anaerobic_	0.0			-
+M00316_ManganeseTS	0.0			-
+M00715_LincosamideR	1.79699906096			-
+M00628_beta_LactamR_AmpCsystem	3.39226809062			-
+M00673_CephamycinCbiosynthesis	0.412772776361			-
+M00145_NAD_P_H_quinoneoxidoreductase	0.0			-
+M00571_AlgE_typeMannuronanC_5_EpimeraseTS	2.88331813534			-
+M00169_CAM_light	3.20881612374	Inactive	2.2182022852	0.000173766932137
+M00430_Exonjunctioncomplex_EJC_	0.0			-
+M00363_EHECpathogenicitysignature	0.0			-
+M00481_Cellwallstressresponse2_CRS	2.37766254803			1.40311686677e-06
+M00545_Trans_cinnamatedegradation	2.24893545613			-
+M00699_MultidrugR_effluxpumpAmeABC	3.36245472389			-
+M00337_Immunoproteasome	0.0			-
+M00690_MAPK_ERK5_signaling	0.0			-
+M00554_Nucleotidesugarbiosynthesis_fromgalactose	3.22225747717	Active	2.18030681595	0.000131005093874
+M00696_MultidrugR_effluxpumpAcrEF_TolC	2.92062492975			0.0494243911037
+M00502_Aminosugarmetabolism2_CRS	1.6771007093			2.36659631877e-06
+M00815_ValidamycinAbiosynthesis	0.0			-
+M00569_Catecholmeta_cleavage	2.62586787217			0.0162385774211
+M00262_DNApolymerasedeltacomplex	0.0			-
+M00587_Arginine_lysine_histidine_glutamineTS	0.712581274369			-
+M00634_OleandomycinTS	0.0			-
+M00804_Completenitrification	2.03361014561			-
+M00620_Incompletereductivecitratecycle	3.8210741877			-
+M00603_PutativealdouronateTS	3.54623542047			-
+M00593_InositolTS_B_	2.86356592453			-
+M00154_Cytochromecoxidase	1.89741832481			0.0029942322256
+M00789_Rebeccamycinbiosynthesis	0.0			-
+M00747_BacitracinTS_C_	2.34831809666			0.0270686562256
+M00790_Pyrrolnitrinbiosynthesis	0.0			-
+M00674_Clavaminatebiosynthesis	0.0			-
+M00122_Cobalaminbiosynthesis	3.81819881508			-
+M00447_Envelopestressresponse2_CRS_CpxA_R_	1.90506874912			0.00941813104683
+M00693_Cellcycle_G2_Mtransition	0.0			-
+M00846_	3.67641840038	Inactive	2.35761290649	0.00240465737307
+M00651_VancomycinR_D_Ala_D_Lactype	3.19885884045			-
+M00805_Staurosporinebiosynthesis	0.0			-
+M00460_Maintenanceofpersistentinfection2_CRS	0.521814366773			0.00224509570118
+M00599_Inositol_phosphateTS	2.30361687247			4.08586350326e-07
+M00017_Methioninebiosynthesis	3.82284769658	Active	2.40831221905	0.00339153424811
+M00323_UreaTS	2.65082543631	Inactive	2.23422114972	0.00267442307102
+M00174_Methaneoxidation	0.0			-
+M00208_Glycinebetaine_prolineTS	2.97965059636			-
+M00831_	0.0			-
+M00514_Tetrathionaterespiration2_CRS	2.73533585331	Inactive	2.31623522526	0.000383553139278
+M00638_Salicylatedegradation	0.0			-
+M00622_Nicotinatedegradation	0.797441562465			-
+M00344_Formaldehydeassimilation_xylulosemonophosphatepathway	3.46488369783	Inactive	2.56616710488	0.000140652771036
+M00858_	0.0			-
+M00184_RNApolymerase_archaea	0.0			-
+M00153_Cytochromedubiquinoloxidase	3.02451485352			-
+M00450_Envelopestressresponse2_CRS_BaeS_R_	1.67716966928			2.36659631877e-06
+M00322_NeutralaminoacidTS	0.0			-
+M00258_PutativeABCTS_C_	4.12215435745	Active	3.04738068534	0.000199777048464
+M00324_DipeptideTS	2.10215979073			-
+M00166_Reductivepentosephosphatecycletoglyceraldehyde_3P	3.33721887821			0.0162385774211
+M00728_CAMPR_envelopeproteinfoldinganddegradingfactors	3.13716888808			-
+M00433_Lysinebiosynthesis_2_oxoglutarate__2_oxoadipate	0.0			-
+M00679_BMPsignaling	0.0			-
+M00784_Elloramycinbiosynthesis	0.0			-
+M00179_Ribosome_archaea	4.50789103618	Active	3.0944974503	7.34229425128e-05
+M00238_D_MethionineTS	3.44222535107			-
+M00822_MultidrugR_effluxpumpMexMN_OprM	2.61979864658			-
+M00281_PTSsystem_lactose_specificIIcomponent	2.38676948687			2.36659631877e-06
+M00834_	0.0			-
+M00486_Citratefermentation2_CRS	1.6858134817			3.06125347306e-06
+M00028_Ornithinebiosynthesis	3.61107389346			-
+M00596_Dissimilatorysulfatereduction	2.95799701575			-
+M00826_	0.0			-
+M00370_Glucosinolatebiosynthesis	0.0			-
+M00191_ThiamineTS	2.24517367266			-
+M00256_CelldivisionTS	3.32451120348	Active	2.02819027475	9.05473894339e-06
+M00491_arabinogalactanoligomer_maltooligosaccharideTS	3.44635294276			-
+M00768_MultidrugR_effluxpumpGesABC	2.61979864658			-
+M00670_MceTS	3.21780342563			-
+M00437_PhthalateTS	0.0			-
+M00572_Pimeloyl_ACPbiosynthesis	3.80747342403			-
+M00731_BacitracinTS_B_	0.0			-
+M00327_S_LayerproteinTS	0.0			-
+M00828_	0.0			-
+M00123_Biotinbiosynthesis_frompimeloyl_ACP_CoA	3.55739445			-
+M00138_Flavonoidbiosynthesis	0.0			-
+M00176_Assimilatorysulfatereduction	3.22436312466			-
+M00473_Hexosephosphatesuptake2_CRS	1.77300526356			3.94925709372e-06
+M00510_Llightresponse2_CRS	0.0			-
+M00104_Bileacidbiosynthesis	0.0			-
+M00357_Methanogenesis_fromacetate	3.45953138457			-
+M00546_Purinedegradation	3.21488750321	Inactive	2.33135543177	0.00320491112776
+M00680_TGF_betasignaling	0.0			-
+M00445_Osmoticstressresponse2_CRS_Env_	2.36678003094			7.68832631051e-06
+M00526_Lysinebiosynthesis_DAPdehydrogenasepathway	3.91866264401			-
+M00499_Metaltolerance2_CRS	3.05280243477			-
+M00583_PutativepeptideTS	0.0			-
+M00175_Nitrogenfixation	2.35470827386			0.00302769247574
+M00771_Insecticidaltoxinregulation2_CRS	0.0			-
+M00435_TaurineTS	2.53574083156			5.52334409102e-06
+M00683_Hipposignaling	0.0			-
+M00434_Phosphatestarvationresponse2_CRS_Pho_	3.38636295486			-
+M00222_PhosphateTS	3.7089433595	Active	2.54233635626	7.90149177756e-05
+M00220_RhamnoseTS	2.75921610035			-
+M00851_	0.0			-
+M00040_Tyrosinebiosynthesis_fromprephanate	2.35484776725			0.0127302373346
+M00087_beta_Oxidation	2.37305543157			-
+M00522_SalK_SalR2_CRS	1.71406414633			2.89351396468e-06
+M00269_PTSsystem_sucrose_specificIIcomponent	3.18349106203			-
+M00348_GlutathioneTS	2.94800922718	Inactive	2.45693086372	1.25148040347e-05
+M00648_MultidrugR_effluxpumpMdtABC	2.13552575802			2.74225890226e-07
+M00485_Sporulationcontrol2_CRS	2.92497445664			0.0401083224494
+M00446_RstB_RstA2_CRS	1.66001741825			2.36659631877e-06
+M00552_D_galactonatedegradation	3.37263534369	Active	2.10410211213	7.34229425128e-05
+M00201_alpha_GlucosideTS	3.18739788343			-
+M00675_Carbapenem_3_carboxylatebiosynthesis	0.0			-
+M00237_Branched_chainaminoacidTS	3.66580947007			-
+M00565_Trehalosebiosynthesis	3.60052835224			-
+M00711_MultidrugR_effluxpumpMdtIJ	2.26487191114			0.000450180765695
+M00332_TypeIIIsecretionsystem	2.35185061595	Inactive	2.01540309327	5.04656322644e-08
+M00080_Lipopolysaccharidebiosynthesis_frominnercore	3.08784736601	Inactive	2.16691991536	0.0309360168023
+M00739_CationicpeptideTS	2.07504071797			2.36659631877e-06
+M00608_2_Oxocarboxylicacidchainextension	0.0			-
+M00819_Pentalenolactonebiosynthesis	0.0			-
+M00306_PTSsystem_fructose_specificII_likecomponent	2.54580342286			-
+M00775_Oleandomycinbiosynthesis	0.0			-
+M00823_	0.0			-
+M00030_Lysinebiosynthesis_from2_oxoglutarate	2.75313598215			-
+M00479_Membranelipidfluidityregulation2_CRS	1.74745377977			0.000860880461736
+M00168_CAM_dark	3.00285437946	Active	2.15822006842	0.000301468236826
+M00349_MicrocinCTS	2.71094548288	Inactive	2.25103071689	0.000301468236826
+M00236_PutativepolaraminoacidTS	3.82865184082			-
+M00319_Manganese_zinc_ironTS	1.70678094681			-
+M00152_Cytochromebc1complex	2.24390333456			2.54587155612e-06
+M00720_MultidrugR_effluxpumpVexEF_TolC	2.88386062941			-
+M00303_PTSsystem_N_acetylmuramicacid_specificIIcomponent	2.59211767236			-
+M00465_Manganesehomeostasis2_CRS	0.0			-
+M00464_Nickeltolerance2_CRS	0.0			-
+M00249_CapsularpolysaccharideTS	1.74147876701			-
+M00165_Reductivepentosephosphatecycle_Calvincycle_	4.03930226738			-
+M00019_Valine_isoleucinebiosynthesis	3.81840283899			-
+M00653_Acidicaminoacidsutilization2_CRS	0.0			-
+M00129_Ascorbatebiosynthesis_fromglucose_1P	3.40132686024			-
+M00130_Inositolphosphatemetabolism_fromPI	0.0			-
+M00498_Nitrogenregulation2_CRS_Ntr_	2.11653237421			0.000418037666775
+M00026_Histidinebiosynthesis	4.01495337383	Active	2.71174214161	0.00240465737307
+M00590_ErythritolTS	1.78795669753			2.89130040025e-07
+M00065_GPI_anchorbiosynthesis	0.0			-
+M00232_GeneralL_aminoacidTS	2.53863646464	Inactive	2.02956988252	0.0215478139071
+M00533_Homoprotocatechuatedegradation	1.09397477305			-
+M00825_	0.0			-
+M00159_V_A_typeATPase	3.8690561392	Active	2.88480489297	0.000584738106484
+M00320_Lipopolysaccharideexportsystem	3.22525900278	Inactive	2.30286539874	0.0215478139071
+M00127_Thiaminebiosynthesis	3.6185439783			-
+M00436_SulfonateTS	3.21874671119	Inactive	2.59090418764	4.35634807361e-05
+M00202_OligogalacturonideTS	3.33329795289	Inactive	2.85974679768	5.88078921673e-05
+M00180_RNApolymeraseII	0.0			-
+M00114_Ascorbatebiosynthesis_fromglucose_6P	3.60011951685			-
+M00061_D_Glucuronatedegradation	3.70617969036			-
+M00221_PutativesimplesugarTS	3.72827435601			-
+M00778_TypeIIpolyketidebackbonebiosynthesis	0.0			-
+M00136_GABAbiosynthesis_prokaryotes	1.83402514761			0.000113065771827
+M00681_Activinsignaling	0.0			-
+M00115_NADbiosynthesis	3.67058891167	Active	2.11864849738	0.0084989118692
+M00672_Penicillinbiosynthesis	0.0			-
+M00181_RNApolymeraseIII	0.0			-
+M00677_Wntsignaling	0.0			-
+M00214_Methyl_galactosideTS	3.42385094774	Inactive	2.81242188362	8.50078624081e-05
+M00779_Dihydrokalafunginbiosynthesis	0.0			-
+M00576_	0.0			-
+M00725_CAMPR_dltABCDoperon	2.61038430049	Active	2.1571420715	0.000480805629025
+M00156_Cytochromecoxidase_cbb3_type	2.19844832048			0.0029942322256
+M00597_AnoxygenicPSII	0.0			-
+M00513_Quorumsensing2_CRS_Lux_	0.0			-
+M00838_	0.0			-
+M00163_PSI	0.0			-
+M00742_AminoglycosideR_proteaseFtsH	3.41550146938	Inactive	2.28684312337	0.000368877672839
+M00706_MultidrugR_EfrABtransporter	2.80352879228			-
+M00476_Competence2_CRS_ComP_A_	0.0			-
+M00719_Virulenceregulation2_CRS_Ihk_Irr_	2.08751991796			-
+M00783_TetracenomycinCbiosynthesis	0.0			-
+M00507_Chemosensory2_CRS_Chp_	0.396389675496			-
+M00046_Pyrimidinedegradation	3.0402343689			-
+M00244_Putativezinc_manganeseTS	1.87114843079			-
+M00274_PTSsystem_mannitol_specificIIcomponent	2.67870623131	Active	2.21142642119	1.7215533381e-05
+M00807_PTSsystem_galactose_specificIIcomponent	0.0			-
+M00811_Nicotinedegradation_pyrrolidinepathway	0.0			-
+M00372_Abscisicacidbiosynthesis	0.0			-
+M00781_Nogalavinone_aklavinonebiosynthesis	0.0			-
+M00657_VanEtypevancomycinR2_CRS	3.03053270785	Inactive	2.35271888397	0.000263137296513
+M00577_Biotinbiosynthesis_frompimelate	3.56223091923			-
+M00419_Cymenedegradation	0.0			-
+M00205_N_AcetylglucosamineTS	2.9273037648			-
+M00563_Methanogenesis_frommethylamine	2.89337181611	Inactive	2.49244203962	7.48975180803e-07
+M00602_ArabinosaccharideTS	3.37235615311	Inactive	2.34745863118	0.0162385774211
+M00586_Putativeamino_acidTS	2.46106200594			-
+M00773_Tylosinbiosynthesis	0.0			-
+M00494_Sodiumextrusion2_CRS	0.0			-
+M00190_Iron_III_TS	3.63841610567	Inactive	2.99530967913	0.000140652771036
+M00449_Phosphateregulation2_CRS	1.65648701141			2.36659631877e-06
+M00600_alpha_1_4_DigalacturonateTS	2.7693540179	Inactive	2.3900895253	8.87750337927e-06
+M00228_PutativeglutamineTS	2.66376522101	Active	2.17035779894	0.000450180765695
+M00133_Polyaminebiosynthesis_spermidine	3.1508914491			-
+M00273_PTSsystem_fructose_specificIIcomponent_A_	3.3271448597			-
+M00470_Antimicrobialpeptideresponse2_CRS	0.0			-
+M00283_PTSsystem_ascorbate_specificIIcomponent	3.07436619682			-
+M00098_Acylglyceroldegradation	1.91170041114			-
+M00767_MultidrugR_effluxpumpOqxAB	1.71336449436			1.82469084944e-06
+M00501_Type4fimbriaesynthesis2_CRS	0.0			-
+M00246_NickelTS_A_	3.20606912685			-
+M00530_Dissimilatorynitratereduction	2.85172904037			-
+M00299_Spermidine_putrescineTS	3.61701005532	Active	2.27356858502	0.041842047449
+M00744_CAMPR_proteasePgtE	1.6880475525			2.57935654852e-06
+M00669_gamma_HexachlorocyclohexaneTS	3.21780342563			-
+M00766_StreptomycinR	0.60779503563			-
+M00855_	3.72542892679			-
+M00519_YesM_YesN2_CRS	3.69637017874			-
+M00841_	3.53981585955	Active	2.16563908419	0.0323264212101
+M00036_Leucinedegradation	3.4522914729			-
+M00140_C1_unitinterconversion_prokaryotes	3.52512414467			-
+M00167_Reductivepentosephosphatecycletoribulose_5P	3.94991835017			-
+M00639_MultidrugR_effluxpumpMexCD_OprJ	1.44788833414			0.00353766316713
+M00005_PRPPbiosynthesis	3.18170884717	Active	2.00218015055	0.000229412574931
+M00318_Iron_zinc_manganese_copperTS	2.28538902005			-
+M00368_Ethylenebiosynthesis	3.10938743256			-
+M00260_DNApolymeraseIIIcomplex	3.8963027463			-
+M00738_BacitracinR_BceABtransporter	1.85072381923			0.00109081178366
+M00083_Fattyacidbiosynthesis_elongation	3.92568013441	Active	2.43975889323	0.0270686562256
+M00235_Arginine_ornithineTS	1.72282039225			7.74313737408e-09
+M00200_Putativesorbitol_mannitolTS	3.18991724713			-
+M00458_Aerobicandanaerobicrespiration2_CRS	1.86363332486			-
+M00336_Twin_argininetranslocation_Tat_system	3.09232715214			-
+M00106_Conjugatedbileacidbiosynthesis	0.0			-
+M00307_Pyruvateoxidation	3.57085165035	Inactive	2.33309527009	0.0025483216165
+M00239_Peptides_nickelTS	4.11832216646	Inactive	3.34807371406	1.46868476738e-05
+M00326_RTXtoxinTS	2.88376399848			-
+M00523_Redoxresponse2_CRS	0.0			-
+M00285_MCMcomplex	0.0			-
+M00107_Steroidhormonebiosynthesis	0.0			-
+M00234_CystineTS	2.68364853826			-
+M00155_Cytochromecoxidase_prokaryotes	2.07364585863			0.0121533070183
+M00171_C4_dicarboxylicacidcycle_NAD_malicenzymetype	3.03838904192			-
+M00835_	1.19837454358			9.65268569966e-08
+M00692_Cellcycle_G1_Stransition	0.0			-
+M00014_Glucuronatepathway	3.65833797562			-
+M00551_Benzoatedegradationtomethylcatechol	0.997064760046			-
+M00203_Glucose_arabinoseTS	0.0			-
+M00694_cGMPsignaling	0.0			-
+M00009_Citratecycle	4.12892769591			-
+M00082_Fattyacidbiosynthesis_initiation	3.72661157302			-
+M00814_Acarbosebiosynthesis	0.0			-
+M00417_Cytochromeoubiquinoloxidase	1.97897500197			2.36659631877e-06
+M00365_C10_C20isoprenoidbiosynthesis_archaea	2.44244758989			0.0283086431244
+M00223_PhosphonateTS	2.75589281614	Inactive	2.30378484555	8.23034940754e-07
+M00655_AdeS_AdeR2_CRS	0.0			-
+M00217_D_AlloseTS	2.1831084157			-
+M00515_Polarflagellarsynthesis2_CRS	0.374080235791			1.28131914571e-09
+M00524_Nitrogenfixation2_CRS	2.1535451549			-
+M00443_Phosphatestarvationresponse2_CRS_Sen_RegX3_	1.03565599544			-
+M00512_Cellcyclecontrol2_CRS	1.89741832481			0.0029942322256
+M00090_PCbiosynthesis_fromcholine	2.18040628417			3.94925709372e-06
+M00287_PTSsystem_galactosamine_specificIIcomponent	2.79717920716	Active	2.23475623533	2.5477644269e-05
+M00039_Monolignolbiosynthesis	1.89258440515			0.00878528239804
+M00052_Pyrimidineribonucleotidebiosynthesis	3.45893649282			-
+M00161_PSII	0.0			-
+M00641_MultidrugR_effluxpumpMexEF_OprN	0.0			-
+M00254_ABC_2typeTS	4.14616710785	Active	3.11190561608	0.000322538454912
+M00101_Cholesterolbiosynthesis	0.0			-
+M00270_PTSsystem_trehalose_specificIIcomponent	2.90630720933			-
+M00051_Uridinemonophosphatebiosynthesis	4.00432594893			-
+M00462_Intracellularmultiplication2_CRS	0.0			-
+M00375_Hydroxypropionate_hydroxybutylatecycle	3.18676714111			-
+M00037_Melatoninbiosynthesis	0.0			-
+M00317_Manganese_ironTS_B_	2.05378207548			1.99050453207e-06
+M00852_	0.0			-
+M00364_C10_C20isoprenoidbiosynthesis_bacteria	3.12217940319			0.0196306572573
+M00547_Benzene_toluenedegradation	0.0			-
+M00687_MAPK_ERK1_2_signaling	0.0			-
+M00241_VitaminB12TS	1.85319196836			2.36659631877e-06
+M00564_Helicobacterpyloripathogenicitysignature	1.449136558			-
+M00300_PutrescineTS	2.26442037775			-
+M00004_Pentosephosphatepathway	4.04961340498			-
+M00321_BicarbonateTS	0.0			-
+M00247_PutativeABCTS_B_	3.48392085519	Inactive	2.45657127027	0.00339153424811
+M00215_D_XyloseTS	2.37357574986			-
+M00360_Aminoacyl_tRNAbiosynthesis_prokaryotes	4.37282532973			-
+M00676_PI3K_Aktsignaling	0.0			-
+M00689_MAPK_p38_signaling	0.0			-
+M00605_Glucose_mannoseTS	3.17990568499			-
+M00718_MultidrugR_effluxpumpMexAB_OprM	3.43465334946			-
+M00734_Bacitracintransport2_CRS_Bra_	0.0			-
+M00423_Molybdate_tungstateTS	0.0			-
+M00259_HemeTS	2.48425680356			0.0104250195852
+M00335_Sec_secretion_system	3.99755295237			-
+M00329_MultipleproteinTS	0.0			-
+M00064_ADP_L_glycero_D_manno_heptosebiosynthesis	3.20311507946	Inactive	2.68400916788	3.61345708798e-08
+M00245_Cobalt_nickelTS	3.19915446124			-
+M00339_RaxAB_RaxCtypeIsecretionsystem	2.88656773731			-
+M00568_Catecholortho_cleavage	0.997064760046			-
+M00649_MultidrugR_effluxpumpAdeABC	0.0			-
+M00250_LipopolysaccharideTS	2.69698122538			-
+M00162_Cytochromeb6fcomplex	0.0			-
+M00116_Menaquinonebiosynthesis	3.48294574646			-
+M00429_Competence_relatedDNAtransformationtransporter	3.6140748378	Active	2.70179703344	0.00302769247574
+M00745_ImipenemR	1.7192050998			3.94925709372e-06
+M00147_NADHdehydrogenase_ubiquinone_1betasubcomplex	0.0			-
+M00255_Lipoprotein_releasingsystem	3.1363468046			-
+M00642_MultidrugR_effluxpumpMexJK_OprM	2.61984646041			-
+M00776_Pikromycin_methymycin_neomethymycinbiosynthesis	0.0			-
+M00265_PTSsystem_glucose_specificIIcomponent_A_	2.87103669096	Active	2.24473938304	0.00766076113518
+M00516_Osmosensing2_CRS	0.0			-
+M00134_Polyaminebiosynthesis_putrescine	2.69413155401			-
+M00440_NickelTS_B_	2.77644444332			0.0323264212101
+M00001_Glycolysis_EMpathway	4.28168112981			-
+M00373_Ethylmalonylpathway	3.4912216526			-
+M00832_	0.0			-
+M00845_	3.60934900444			-
+M00469_Bacitracintransport2_CRS_Bce_	1.85072381923			0.00109081178366
+M00493_Alginateproduction2_CRS_Alg_	0.0			-
+M00173_Reductivecitratecycle_Arnon_Buchanancycle_	4.17093164171	Inactive	2.89924070886	0.0015891292821
