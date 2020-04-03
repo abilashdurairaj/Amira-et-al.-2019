@@ -5,7 +5,7 @@
         1. Quality Control <p>
         2. Taxonomic/Functional Profile Analysis <p>
         3. Taxonomic/Functional Signatures <p>
-        
+<h5>Before performing analysis, install the tools reuired as mentioned in /master/scripts/description.md        
 <h2> 1. Quality Control </h2>
 <img src="https://github.com/abilashdurairaj/Metwaly-et-al.-2020/blob/master/pictures/QC_pipeline_fin.PNG" width: "40%" height: "30%">
 
@@ -15,13 +15,15 @@
  
  **The scripts can be run as follows:**
  
-   qsub ~/Amira-et-al.-2019/scripts/QC_wrap.sh
+   qsub /path/to/scripts/QC_wrap.sh
  
 <h2> 2. Taxonomic/Functional Profile Analysis </h2>
 <img src="https://github.com/abilashdurairaj/Metwaly-et-al.-2020/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
+<h5>For taxonomic and functional profile analysis, we pooled the samples belonging to the same condition and performed assembly using megaHIT and annotated the contigs using CAT :
+        
 <h2> 3. Taxonomic/Functional Signatures </h2>
 
-We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. We obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
+<h5>We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. We obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
 
 <h2>  PICRUST2 results -humanised mouse model samples </h2>
 <h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from humanised mouse model samples.   </h2>
