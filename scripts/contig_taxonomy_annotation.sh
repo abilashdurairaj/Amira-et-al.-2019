@@ -14,79 +14,79 @@ export PATH=/path/to/Tools/FragGeneScan1.31/:/path/to/Tools/hmmer-3.2.1/src/:/pa
 #### CAT database preparation:
 # CAT prepare --existing -d /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
 
-
+hm_dr=$1
 ######################################################################################################################################################################################################################
 ##### Mouse samples
 ######################################################################################################################################################################################################################
 
 ############ N_CAT/:
-mkdir -p /path/to/megaHIT_contigs/N_CAT/
-cd /path/to/megaHIT_contigs/N_CAT/
-CAT contigs -c /path/to/megaHIT_contigs/N_final.contigs.fa -d /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/N_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/N_CAT/contig_CAT_output -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/N_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/N_CAT/contig_CAT_output_official -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
-CAT add_names -i /path/to/megaHIT_contigs/N_CAT/out.CAT.contig2classification.txt -o /path/to/megaHIT_contigs/N_CAT/out.CAT.contig2classification_names.txt -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+mkdir -p ${hm_dr}megaHIT_contigs/N_CAT/
+cd ${hm_dr}megaHIT_contigs/N_CAT/
+CAT contigs -c ${hm_dr}megaHIT_contigs/N_final.contigs.fa -d /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/N_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/N_CAT/contig_CAT_output -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/N_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/N_CAT/contig_CAT_output_official -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
+CAT add_names -i ${hm_dr}megaHIT_contigs/N_CAT/out.CAT.contig2classification.txt -o ${hm_dr}megaHIT_contigs/N_CAT/out.CAT.contig2classification_names.txt -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
 
 
 ############ M_CAT/:
-mkdir -p /path/to/megaHIT_contigs/M_CAT/
-cd /path/to/megaHIT_contigs/M_CAT/
+mkdir -p ${hm_dr}megaHIT_contigs/M_CAT/
+cd ${hm_dr}megaHIT_contigs/M_CAT/
 
-CAT contigs -c /path/to/megaHIT_contigs/M_final.contigs.fa -d /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/M_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/M_CAT/contig_CAT_output -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/M_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/M_CAT/contig_CAT_output_official -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
-CAT add_names -i /path/to/megaHIT_contigs/M_CAT/out.CAT.contig2classification.txt -o /path/to/megaHIT_contigs/M_CAT/out.CAT.contig2classification_names.txt -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT contigs -c ${hm_dr}megaHIT_contigs/M_final.contigs.fa -d /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/M_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/M_CAT/contig_CAT_output -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/M_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/M_CAT/contig_CAT_output_official -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
+CAT add_names -i ${hm_dr}megaHIT_contigs/M_CAT/out.CAT.contig2classification.txt -o ${hm_dr}megaHIT_contigs/M_CAT/out.CAT.contig2classification_names.txt -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
 
 ############ O_CAT/:
-mkdir -p /path/to/megaHIT_contigs/O_CAT/
-cd /path/to/megaHIT_contigs/O_CAT/
+mkdir -p ${hm_dr}megaHIT_contigs/O_CAT/
+cd ${hm_dr}megaHIT_contigs/O_CAT/
 
-CAT contigs -c /path/to/megaHIT_contigs/O_final.contigs.fa -d /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/O_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/O_CAT/contig_CAT_output -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/O_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/O_CAT/contig_CAT_output_official -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
-CAT add_names -i /path/to/megaHIT_contigs/O_CAT/out.CAT.contig2classification.txt -o /path/to/megaHIT_contigs/O_CAT/out.CAT.contig2classification_names.txt -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT contigs -c ${hm_dr}megaHIT_contigs/O_final.contigs.fa -d /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/O_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/O_CAT/contig_CAT_output -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/O_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/O_CAT/contig_CAT_output_official -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
+CAT add_names -i ${hm_dr}megaHIT_contigs/O_CAT/out.CAT.contig2classification.txt -o ${hm_dr}megaHIT_contigs/O_CAT/out.CAT.contig2classification_names.txt -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
 
 
 ############ V_CAT/:
-mkdir -p /path/to/megaHIT_contigs/V_CAT/
-cd /path/to/megaHIT_contigs/V_CAT/
-CAT contigs -c /path/to/megaHIT_contigs/V_final.contigs.fa -d /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/V_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/V_CAT/contig_CAT_output -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/V_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/V_CAT/contig_CAT_output_official -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
-CAT add_names -i /path/to/megaHIT_contigs/V_CAT/out.CAT.contig2classification.txt -o /path/to/megaHIT_contigs/V_CAT/out.CAT.contig2classification_names.txt -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+mkdir -p ${hm_dr}megaHIT_contigs/V_CAT/
+cd ${hm_dr}megaHIT_contigs/V_CAT/
+CAT contigs -c ${hm_dr}megaHIT_contigs/V_final.contigs.fa -d /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/V_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/V_CAT/contig_CAT_output -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/V_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/V_CAT/contig_CAT_output_official -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
+CAT add_names -i ${hm_dr}megaHIT_contigs/V_CAT/out.CAT.contig2classification.txt -o ${hm_dr}megaHIT_contigs/V_CAT/out.CAT.contig2classification_names.txt -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
 
 
 ############ X_CAT/:
-mkdir -p /path/to/megaHIT_contigs/X_CAT/
-cd /path/to/megaHIT_contigs/X_CAT/
+mkdir -p ${hm_dr}megaHIT_contigs/X_CAT/
+cd ${hm_dr}megaHIT_contigs/X_CAT/
 
-CAT contigs -c /path/to/megaHIT_contigs/X_final.contigs.fa -d /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/X_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/X_CAT/contig_CAT_output -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/X_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/X_CAT/contig_CAT_output_official -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
-CAT add_names -i /path/to/megaHIT_contigs/X_CAT/out.CAT.contig2classification.txt -o /path/to/megaHIT_contigs/X_CAT/out.CAT.contig2classification_names.txt -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT contigs -c ${hm_dr}megaHIT_contigs/X_final.contigs.fa -d /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/X_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/X_CAT/contig_CAT_output -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/X_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/X_CAT/contig_CAT_output_official -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
+CAT add_names -i ${hm_dr}megaHIT_contigs/X_CAT/out.CAT.contig2classification.txt -o ${hm_dr}megaHIT_contigs/X_CAT/out.CAT.contig2classification_names.txt -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
 
 ############ Z_CAT/:
-mkdir -p /path/to/megaHIT_contigs/Z_CAT/
-cd /path/to/megaHIT_contigs/Z_CAT/
+mkdir -p ${hm_dr}megaHIT_contigs/Z_CAT/
+cd ${hm_dr}megaHIT_contigs/Z_CAT/
 
-CAT contigs -c /path/to/megaHIT_contigs/Z_final.contigs.fa -d /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/Z_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/Z_CAT/contig_CAT_output -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
-CAT add_names -i /path/to/megaHIT_contigs/Z_CAT/out.CAT.ORF2LCA.txt -o /path/to/megaHIT_contigs/Z_CAT/contig_CAT_output_official -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
-CAT add_names -i /path/to/megaHIT_contigs/Z_CAT/out.CAT.contig2classification.txt -o /path/to/megaHIT_contigs/Z_CAT/out.CAT.contig2classification_names.txt -t /naslx/projects/pr74xe/di52yal/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT contigs -c ${hm_dr}megaHIT_contigs/Z_final.contigs.fa -d /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_CAT_database/ -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/Z_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/Z_CAT/contig_CAT_output -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
+CAT add_names -i ${hm_dr}megaHIT_contigs/Z_CAT/out.CAT.ORF2LCA.txt -o ${hm_dr}megaHIT_contigs/Z_CAT/contig_CAT_output_official -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/ --only_official
+CAT add_names -i ${hm_dr}megaHIT_contigs/Z_CAT/out.CAT.contig2classification.txt -o ${hm_dr}megaHIT_contigs/Z_CAT/out.CAT.contig2classification_names.txt -t /path/to/Tools/CAT-master/CAT_prepare_20181212/2018-12-12_taxonomy/
 
 
-cat /path/to/megaHIT_contigs/N_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/N_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/O_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/O_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/M_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/M_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/V_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/V_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/X_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/X_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/Z_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/Z_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/N_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/N_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/O_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/O_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/M_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/M_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/V_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/V_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/X_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/X_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/Z_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/Z_CAT_out.CAT.contig2classification_names_tax.txt 
 
-cat /path/to/megaHIT_contigs/16T106_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/16T106_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/16TM29_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/16TM29_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/27T0_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/27T0_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/27T39_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/27T39_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/28T0_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/28T0_CAT_out.CAT.contig2classification_names_tax.txt 
-cat /path/to/megaHIT_contigs/28T52_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  /path/to/megaHIT_contigs/28T52_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/16T106_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/16T106_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/16TM29_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/16TM29_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/27T0_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/27T0_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/27T39_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/27T39_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/28T0_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/28T0_CAT_out.CAT.contig2classification_names_tax.txt 
+cat ${hm_dr}megaHIT_contigs/28T52_CAT_out.CAT.contig2classification.txt | cut --complement -f2-6 >  ${hm_dr}megaHIT_contigs/28T52_CAT_out.CAT.contig2classification_names_tax.txt 
 
 

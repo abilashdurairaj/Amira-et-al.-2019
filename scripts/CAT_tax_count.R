@@ -1,6 +1,6 @@
-CAT_tax_count=function()
+CAT_tax_count=function(cnt_path,ref_path)
 {
-  cnt_path="/path/to/megaHIT_contig_count_final/"
+  # cnt_path="/path/to/megaHIT_contig_count_final/"
   cntg_cnt=list.files(path = cnt_path,pattern = "_bbmap_final")
   
   

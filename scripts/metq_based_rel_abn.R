@@ -1,14 +1,16 @@
-metq_based_rel_abn=function()
+metq_based_rel_abn=function(list_count_files,ghost_path,cnt_file,path_to_home)
 {
   library("dplyr")
+  library("stringr")
   # geneLenPath="/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/"
   # list_genLen=list.files(path = geneLenPath,pattern = "geneLen")
   
-  list_count_files=list.files(path = "/path/to/samples/contigs_list/",pattern = "_bbmap_fin")
+  # list_count_files=list.files(path = "/path/to/samples/contigs_list/",pattern = "_bbmap_fin")
   ghost_path="/path/to/Data/Functional Profile/GhostKOALA_results/"
   
   list_contig2ko_file=list.files(path = ghost_path,pattern = "user_ko_definition.txt",recursive = T)
-  modules_ko=read.csv(file = "/path/to/Data/Functional Profile/module",header = F,sep = "\t")
+  mod_location=str_c(path_to_home,"/Data/Functional Profile/module")
+  modules_ko=read.csv(file = mod_location,header = F,sep = "\t")
   modules_ko[,1]=str_replace_all(string = modules_ko[,1],pattern = "md:",replacement = "")
   modules_ko[,2]=str_replace_all(string = modules_ko[,2],pattern = "ko:",replacement = "")
   module2ko=modules_ko
@@ -33,7 +35,7 @@ metq_based_rel_abn=function()
     
     for(i in 1: length(ll))
     {
-      cnt_file=fread(file = str_c("/path/to/samples/contigs_list/",ll[i]),header = F,sep = "\t")
+      # cnt_file=fread(file = str_c("/path/to/samples/contigs_list/",ll[i]),header = F,sep = "\t")
       colnames(cnt_file)=c("Count","Contig","None")
   
       colnames(ctg2ko_req)=c("Contig","KO","Gene","Score","SecondKO","SecondScore")
@@ -127,8 +129,6 @@ metq_based_rel_abn=function()
   mod_hm_rel_df$Module=rownames(mod_hm_rel_df)
   mod_hm_rel_df$Module=str_replace_all(string = mod_hm_rel_df$Module,pattern = ",",replacement = "_")
   mod_hm_rel_df$Module=str_replace_all(string = mod_hm_rel_df$Module,pattern = " ",replacement = "_")
-  # write.table(mod_hm_rel_df,"/naslx/projects/pr74xe/di52yal/mod_Lefse_human_relative_abundance_remove_euk_and_unknown.csv",sep = "\t",row.names = F,quote = F)
-  # write.table(mod_hm_rel_df,"/path/to/Data/mod_Lefse_human_relative_abundance.csv",sep = "\t",row.names = F,quote = F)
   
   mod_lefse=module_rel_abn
   colnames(mod_lefse)=str_replace_all(string = colnames(mod_lefse),pattern = "_map.*",replacement = "")
@@ -138,7 +138,8 @@ metq_based_rel_abn=function()
  
   mod_lefse1_mouse=mod_lefse1[,-grep(pattern = "^16|^27|^28",x=colnames(mod_lefse1))]
   mod_lefse1_mouse[is.na(mod_lefse1_mouse)]="Class"
-  write.table(mod_lefse1_mouse,"/path/to/Data/humanised_KEGG_modules_profile.csv",quote=F,sep = "\t",row.names = F,col.names = T)
+  dat_location=str_c(path_to_home,"/Data/humanised_KEGG_modules_profile.csv")
+  write.table(mod_lefse1_mouse,dat_location,quote=F,sep = "\t",row.names = F,col.names = T)
       
 
 
