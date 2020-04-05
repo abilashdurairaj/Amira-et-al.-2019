@@ -42,9 +42,10 @@
 <h5> For taxonomic signatures, we obtained the relative abundance of the taxa and for functional signatures, we obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
 
 ```shellscript
-   Rscript /path/to/scripts/CAT_tax_annotation.R # for taxonomic annotation formatting
-   Rscript /path/to/scripts/CAT_tax_count.R # for taxonomic count and data preparation for LefSe analysis
-   Rscript /path/to/scripts/metq_based_rel_abn.R # for functional count and data preparation for LefSe analysis, for supplementary figure-5 and for ternary plots.
+   #### path_to_home: location where the github folder is located.
+   Rscript /path/to/scripts/CAT_tax_annotation.R ${hm_dr}megaHIT_contigs/ # for taxonomic annotation formatting
+   Rscript /path/to/scripts/CAT_tax_count.R ${hm_dr}megaHIT_contig_count/ ${hm_dr}megaHIT_contigs/  # for taxonomic count and data preparation for LefSe analysis
+   Rscript /path/to/scripts/metq_based_rel_abn.R ${hm_dr}orf_count/  # for functional count and data preparation for LefSe analysis, for supplementary figure-5 and for ternary plots.
    
   ```
 
