@@ -47,40 +47,7 @@ all_mod_df=data.frame(Modules=rownames(all_mod_rel_abn))
 all_mod_df=cbind(as.character(all_mod_df$Modules),all_mod_rel_abn)
 colnames(all_mod_df)[1]="Modules"
 all_mod_df=rbind(as.character(amira_metadata$Status[match(colnames(all_mod_df),amira_metadata$NAME)]),all_mod_df)
-write.table(all_mod_df,"F:/Amira_final/picrust2_16S_norm_norel_abn.csv",quote = F,sep = "\t",row.names = F)
 
-rr=read.csv(file = "F:/Amira_final/picrust2_16S_norm_norel_abn.lefse_internal_res",header = F,sep = "\t")
-colnames(rr)=c("Modules","Orig_log2FC","Condition","Norm_Log2FC","pval")
-library("ggplot2")
-rr$Norm_Log2FC[is.na(rr$Norm_Log2FC)]=0
-rr$Condition=as.character(rr$Condition)
-rr$Condition[which(rr$Condition=="")]="None"
-rr$Module_short=query_output$METADATA$NAME_SHORT[match(rr$Modules,query_output$METADATA$MODULE_ID)]
-rr$Module_short[is.na(rr$Module_short)]=""
-rr$Module_short=str_c(rr$Modules,rr$Module_short,sep="_")
-ggplot(rr[rr$Norm_Log2FC>=3,])+geom_bar(aes(y=Norm_Log2FC,x=Module_short,fill=Condition),stat="identity")+ theme_bw()+coord_flip()
-ggplot(rr[rr$Norm_Log2FC>=2,])+geom_bar(aes(y=Norm_Log2FC,x=Module_short,fill=Condition),stat="identity")+ theme_bw()+coord_flip()+ggsave("G:/amira_picrust2_results.svg",width = 8,height = 12,limitsize = F)
-
-
-
-rr=read.csv(file = "F:/Amira_final/Galaxy86-[B)_LDA_Effect_Size_(LEfSe)_on_data_85].lefse_internal_res",header = F,sep = "\t")
-colnames(rr)=c("Modules","Orig_log2FC","Condition","Norm_Log2FC","pval")
-library("ggplot2")
-
-rr$Norm_Log2FC[is.na(rr$Norm_Log2FC)]=0
-rr$Condition=as.character(rr$Condition)
-rr$Condition[which(rr$Condition=="")]="None"
-rr$Module_short=query_output$METADATA$NAME_SHORT[match(rr$Modules,query_output$METADATA$MODULE_ID)]
-rr$Module_short[is.na(rr$Module_short)]=""
-rr$Module_short=str_c(rr$Modules,rr$Module_short,sep="_")
-rr$Norm_Log2FC[which(rr$Condition=="Active post-HSCT")]=(-1)*rr$Norm_Log2FC[which(rr$Condition=="Active post-HSCT")]
-
-
-ggplot(rr[rr$Norm_Log2FC>=3,])+geom_bar(aes(y=Norm_Log2FC,x=Module_short,fill=Condition),stat="identity")+ theme_bw()+coord_flip()
-
-ggplot(rr)+geom_bar(aes(y=Norm_Log2FC,x=reorder(Module_short,Norm_Log2FC),fill=Condition),stat="identity")+ theme_bw()+coord_flip()+ggsave("G:/amira_picrust2_results.svg",width = 8,height = 12,limitsize = F)
-
-####################
 
 all_mod_df2=(all_mod_df[,-grep(pattern = "Baseline|CONTROL1",x=all_mod_df[1,])])
 
@@ -96,12 +63,11 @@ rm_modules=c("Spliceosome","Proteasome","zeta_complex","GPI-anchor_biosynthesis"
 
 all_mod_df2=all_mod_df2[-grep(pattern = str_c(c(euk_modules,rm_modules,str_c("M00",378:415),str_c("M00",288:297),str_c("M000",66:75)),collapse = "|"),x=all_mod_df2[,"Modules"]),]
 
-write.table(all_mod_df2[,-c(82,97)],"F:/Amira_final/picrust2_16S_norm_rel_abnv2.csv",quote = F,sep = "\t",row.names = F)
+write.table(all_mod_df2[,-c(82,97)],"/path/to/Data/PICRUST2_human/picrust2_16S_norm_rel_abnv2.csv",quote = F,sep = "\t",row.names = F)
 
 
 
-rr=read.csv(file = "F:/Amira_final/human_log10fc2_pval1_LDA_Effect_Size_(LEfSe)_on_data_53].lefse_internal_res",header = F,sep = "\t")
-# rr=read.csv(file = "F:/Amira_final/human_LDA_Effect_Size_(LEfSe)_on_data_53].lefse_internal_res",header = F,sep = "\t")
+rr=read.csv(file = "/path/to/Data/PICRUST2_human/LDA_Effect_Size_active_plus_baseline_vs_inactive_human.lefse_internal_res",header = F,sep = "\t")
 colnames(rr)=c("Modules","Orig_log2FC","Condition","Norm_Log2FC","pval")
 library("ggplot2")
 
