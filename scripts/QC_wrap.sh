@@ -16,8 +16,11 @@ export LD_LIBRARY_PATH=/path/to/gcc_latest/gcc-xx.xx.xx/libstdc++-v3/:${LD_LIBRA
 
 ### hh    : path where the fastq.gz files are located
 ### hm_dr : path where to store output files 
-hh=/path/to/fastq_files/
-hm_dr=/path/to/store/data/
+# hh=/path/to/fastq_files/
+# hm_dr=/path/to/store/data/
+
+hh=$1
+hm_dr=$2
 
 ### STRING2: variable storing the sampleIDs
 mapfile -t STRING2 < <(ls ${hh}*.fastq.gz ' | sed 's|.*/||g' | sed 's/_.*//g') 
