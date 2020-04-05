@@ -1,0 +1,995 @@
+Samples	M1_S1	M2_S2	M3_S3	N4_S4	N5_S5	N6_S6	O1_S7	O2_S8	O3_S9	V1_S10	V4_S12	V6_S11	X1_S13	X2_S14	X4_S15	Z2_S16	Z3_S17	Z4_S18
+Condition	Remission-Responder	Remission-Responder	Remission-Responder	Relapse-non-responder	Relapse-non-responder	Relapse-non-responder	Baseline-Active	Baseline-Active	Baseline-Active	Baseline-Active	Baseline-Active	Baseline-Active	Relapse-non-responder	Relapse-non-responder	Relapse-non-responder	Remission-Responder	Remission-Responder	Remission-Responder
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium breve 	1.14E-06	1.42E-06	5.88E-07	6.85E-07	0	0	8.95E-07	1.90E-07	3.13E-07	0	0	0	0	1.03E-06	0	5.44E-07	1.50E-07	3.21E-06
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium longum 	2.76E-06	6.87E-06	2.35E-06	1.03E-05	1.65E-06	0	0.000313664	0.000122412	0.000153371	0	0	0	2.40E-06	0	0	1.23E-05	6.45E-06	0.000112534
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Unknown	0.000142736	0.000181317	0.000109099	0.00017387	4.52E-05	0	0.002275033	0.001231145	0.001959119	0	0	2.48E-07	1.68E-05	0	1.67E-07	0.000195027	8.68E-05	0.001400473
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Unknown|Unknown	3.09E-06	4.27E-06	2.35E-06	6.16E-06	1.65E-06	0	2.60E-05	1.40E-05	2.89E-05	0	0	0	0	0	0	7.61E-07	4.50E-07	5.21E-06
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Unknown|Unknown|Unknown	4.22E-06	2.84E-06	1.37E-06	5.82E-06	1.10E-06	0	0.000161159	0.000110456	0.000239516	0	0	0	4.23E-07	0	0	2.28E-06	1.95E-06	2.65E-05
+Bacteria |Actinobacteria |Actinobacteria |Corynebacteriales |Mycobacteriaceae |Mycobacterium |Mycobacterium tuberculosis complex  group	0	0	0	0	0	0	1.19E-06	7.59E-07	2.50E-06	2.23E-07	0	1.24E-07	0	0	0	0	3.00E-07	0
+Bacteria |Actinobacteria |Actinobacteria |Unknown|Unknown|Unknown|Unknown	1.95E-06	3.79E-06	1.18E-06	1.37E-06	0	0	9.55E-06	2.47E-06	8.13E-06	0	0	0	7.06E-07	0	0	1.09E-07	0	7.24E-07
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella tanakaei 	6.50E-07	1.42E-06	1.18E-06	0	0	0	8.95E-07	9.49E-07	6.25E-07	0	0	0	2.82E-07	0	1.34E-06	8.48E-06	8.84E-06	1.72E-06
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Asaccharobacter |Asaccharobacter celatus* 	5.52E-06	7.35E-06	1.29E-05	0	0	0	0	0	0	0	0	0	4.94E-06	4.12E-06	0	8.70E-07	4.50E-07	1.09E-06
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Eggerthella |Eggerthella lenta 	0	0	0	0	0	0	2.98E-07	7.59E-07	1.56E-07	6.69E-07	1.61E-06	2.11E-06	8.47E-07	4.41E-07	0	3.37E-06	3.30E-06	4.03E-06
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Eggerthella |Eggerthella sp. YY7918 	0	1.19E-06	3.92E-07	0	0	0	0	0	0	2.23E-07	0	1.24E-07	5.64E-07	2.94E-07	1.67E-07	2.18E-07	0	1.77E-06
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Eggerthella |Unknown	0	0	0	0	0	0	2.98E-07	1.71E-06	7.82E-07	3.12E-06	1.07E-06	2.85E-06	8.47E-07	4.41E-07	0	1.41E-06	1.80E-06	1.36E-06
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Gordonibacter |Gordonibacter sp. An230 	1.14E-06	1.66E-06	1.76E-06	0	0	0	8.95E-07	3.04E-06	1.25E-06	1.78E-06	1.07E-06	1.12E-06	0	0	0	8.70E-07	6.00E-07	9.51E-07
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Slackia |Slackia heliotrinireducens 	1.33E-05	3.10E-05	6.86E-06	0	0	0	0	0	0	0	0	0	1.72E-05	2.65E-06	0	0	0	4.53E-08
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Unknown|Unknown	5.03E-06	2.84E-06	2.06E-05	0	0	0	5.97E-07	7.59E-07	0	2.23E-07	0	6.21E-07	7.62E-06	2.94E-06	0	3.26E-07	3.00E-07	2.72E-07
+Bacteria |Actinobacteria |Coriobacteriia |Unknown|Unknown|Unknown|Unknown	8.12E-06	6.40E-06	1.18E-05	0	0	0	3.28E-06	4.74E-06	9.22E-06	4.82E-05	1.50E-05	5.89E-05	1.34E-05	5.30E-06	3.68E-06	3.26E-07	4.50E-07	2.26E-07
+Bacteria |Actinobacteria |Unknown|Unknown|Unknown|Unknown|Unknown	3.57E-06	3.79E-06	4.90E-06	3.42E-07	8.27E-07	0	1.13E-05	6.64E-06	1.78E-05	2.54E-05	6.69E-06	3.04E-05	5.22E-06	1.77E-06	2.84E-06	5.33E-06	0	9.05E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides caccae 	2.96E-05	2.61E-05	3.76E-05	1.75E-05	1.93E-06	0	0.002169085	0.001475021	0.002371079	0.000247723	0.000643573	0.000387813	2.67E-05	4.65E-05	3.88E-05	0.000132049	7.64E-06	3.74E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides clarus 	0	0	0	0	0	0	0	0	0	2.68E-06	4.28E-06	2.48E-07	0	1.62E-06	0	0.001284919	0.000587432	0.001037839
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides coprocola 	0	0	0	0	0	0	0	0	0	0	0	0	2.82E-06	3.53E-06	3.18E-06	2.00E-05	1.77E-05	1.48E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides coprophilus 	3.25E-07	4.03E-06	5.09E-06	0	0	0	0	0	0	8.03E-06	5.38E-05	2.38E-05	2.10E-05	2.60E-05	0	6.53E-07	1.50E-07	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides dorei 	1.69E-05	2.06E-05	5.33E-05	7.53E-06	2.76E-06	0	0	0	1.00E-05	9.52E-05	0.000151791	0.000141722	2.03E-05	4.33E-05	4.30E-05	0.000110947	8.27E-05	0.000204471
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides eggerthii 	0	0	0	0	0	0	0	0	0.000347235	0	5.35E-07	1.37E-06	0	0	0	0.000254634	0.000108223	0.000337693
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides eggerthii CAG	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.10E-06	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides faecichinchillae 	0	2.13E-06	0	0	0	0	5.97E-07	0	4.38E-06	6.91E-05	0.000868985	0.000321047	0.00247042	0.000644563	5.02E-07	1.85E-06	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides faecis 	0	0	0	0.000194748	2.04E-05	0	2.39E-06	3.80E-06	0.000304554	5.57E-06	1.42E-05	5.58E-06	0	0	0	5.44E-07	3.00E-07	5.12E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides finegoldii 	0	0	0	0	0	0	0	0	0	1.56E-06	0	1.74E-06	0	0	0	5.32E-05	2.10E-06	1.55E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides fluxus 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4.70E-05	2.28E-05	3.64E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides fragilis 	0.000710432	0.000746124	0.000697099	0.011372391	0.006337608	0.021986341	6.63E-05	7.19E-05	0.000704163	0.000999363	0.000358731	0.000257632	0.00064893	0.000686651	5.86E-05	0.000173599	0.000408909	0.000246615
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides fragilis CAG	0	0	0	4.76E-05	3.12E-05	7.54E-05	5.37E-06	5.31E-06	1.25E-06	9.59E-06	1.07E-06	6.21E-07	0	0	0	8.70E-07	1.35E-06	9.96E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides gallinarum 	0	0	3.92E-07	0	0	0	0	0	0	0	0	0	0	0	0	0.000307606	0.000134604	0.000221039
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides intestinalis 	3.73E-06	4.98E-06	4.31E-06	0	0	0	2.00E-05	2.05E-05	5.78E-06	3.10E-05	2.06E-05	7.32E-06	5.08E-06	8.68E-06	1.17E-05	5.87E-06	9.14E-06	4.44E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides intestinalis CAG	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.41E-06	8.24E-06	4.12E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides mediterraneensis 	1.95E-06	2.37E-07	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0.00027356	0.000132655	0.000152776
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides nordii 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7.19E-05	0.000146745	0.000104839
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides ovatus 	0.000126335	8.77E-05	6.52E-05	0	0	0	0.000500191	0.00063104	0.001042487	0.000701249	0.000953581	0.000946387	0.001052341	0.001343722	0.000209852	0.001056716	0.000486254	0.000779182
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides pyogenes 	0	0	0	0	0	0	0	0	4.69E-07	0	0	0	0	0	0	6.42E-06	5.25E-06	5.12E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides salanitronis 	0	0	0	2.02E-05	1.38E-06	0	0	0	0	0	0	0	0	0	5.02E-07	2.07E-06	1.95E-06	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 1_1_14 	0	0	0	0	0	0	0	0	4.69E-07	1.34E-06	1.34E-06	1.24E-07	0	0	0	1.50E-05	3.00E-06	3.26E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 1_1_30 	0	0	0	0	0	0	0	0	7.82E-07	1.78E-05	2.60E-05	2.66E-05	1.90E-05	2.19E-05	8.37E-07	2.18E-07	0	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 2_2_4 	0	0	0	0	0	0	0	0	2.50E-06	0	0	9.93E-07	0	0	0	6.20E-06	8.24E-06	8.15E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 3_1_13 	5.20E-06	5.45E-06	2.94E-06	0	0	0	0	0	3.13E-07	1.11E-06	2.41E-06	3.60E-06	1.41E-06	3.97E-06	8.37E-07	5.55E-06	5.55E-06	4.35E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 3_1_23 	0	0	0	0	0	0	6.57E-06	1.08E-05	1.72E-06	2.92E-05	3.13E-05	3.18E-05	6.87E-05	7.18E-05	5.19E-06	3.00E-05	6.75E-05	3.78E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 3_1_40A 	6.02E-05	7.96E-05	5.48E-05	0	0	0	0	0	0	2.12E-05	2.68E-06	1.74E-06	0	0	0	5.06E-05	3.57E-05	5.30E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 4_3_47FAA 	9.74E-07	7.11E-07	1.96E-06	0	0	0	1.01E-05	7.02E-06	3.74E-05	0	0	4.96E-07	1.41E-07	1.47E-07	6.69E-07	5.76E-06	1.17E-05	9.28E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 9_1_42FAA 	0	0	0	0	0	0	5.07E-06	3.04E-06	1.72E-06	4.68E-05	5.94E-05	6.07E-05	0	0	0	6.42E-06	1.12E-05	1.28E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AF29-11 	0	0	2.15E-06	0	0	0	0	0	0	1.34E-06	8.03E-07	2.85E-06	0	0	0	5.44E-07	7.79E-06	1.81E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AF39-10AT 	0	5.36E-05	0	0	0	1.61E-07	0	1.90E-07	9.69E-06	0.000157865	0.000184452	0.000248324	0.000440945	0.000536547	3.35E-07	1.96E-06	0	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AF39-16AC 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.000211996	5.55E-06	3.12E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM16-13 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5.91E-05	9.31E-05	7.80E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM23-18 	0	0	0	0	0	0	0	0	0	0	2.68E-07	3.60E-06	0	0	0	1.76E-05	3.24E-05	4.15E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM30-16 	3.25E-07	2.37E-07	1.96E-07	0	0	0	0	0	0	0	0	0	0	0	0	8.27E-06	3.45E-06	4.16E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM51-7 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.48E-06	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM54-2NS 	1.04E-05	8.06E-06	6.46E-06	0	0	0	0	0	1.25E-06	2.01E-06	1.61E-06	1.12E-06	5.50E-06	6.62E-06	0	9.79E-07	1.05E-06	1.77E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AR20 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4.46E-06	7.19E-06	3.80E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AR29 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.07E-06	1.65E-06	1.67E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. CAG	0	2.37E-07	3.72E-06	0	0	0	0	0	3.91E-06	0.000235013	0.000206939	0.00030268	7.06E-07	6.92E-06	0	2.72E-06	7.49E-07	9.05E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. CF01-10NS 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.72E-06	1.05E-06	1.40E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. D2 	0	3.32E-06	0	0	0	0	0	0	1.25E-06	0	0	0	0	0	0	0.000740299	0.00026711	0.00041777
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. D22 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.42E-05	1.54E-05	2.58E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. HMSC073E02 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7.51E-06	2.55E-06	3.71E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. HPS0048 	0	0	0	0	0	0	9.91E-05	0.000110076	2.05E-05	0	0	0	0	0	0	2.39E-06	4.05E-06	2.67E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides stercoris 	0.000209151	0.000304565	0.0003604	0	5.51E-07	0	0	0	1.41E-06	6.69E-07	1.34E-06	4.10E-06	2.82E-07	4.41E-07	1.67E-07	0.015244226	0.006124037	0.022293636
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides stercoris CAG	0	0	0	0	0	0	0	0	0	3.79E-06	3.75E-06	2.61E-06	0	0	0	5.55E-06	2.55E-06	4.84E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides thetaiotaomicron 	0	1.90E-06	1.37E-06	4.18E-05	2.21E-06	0	1.52E-05	1.27E-05	1.99E-05	0.003515833	0.007733856	0.002096794	0.00028418	0.001083837	0.000760422	0.000566482	0.000695654	0.000491782
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides thetaiotaomicron CAG	0	0	0	0	0	0	0	0	0	3.57E-06	4.82E-06	5.96E-06	0	0	0	0	0	4.07E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides togonis 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.02E-05	0	1.05E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides uniformis 	1.74E-05	3.01E-05	2.33E-05	0	0	0	0.000114602	0.000105711	0.001430215	0.001285437	0.000442256	0.000695829	6.10E-05	5.87E-05	4.69E-06	0.000938481	0.000231285	0.000317232
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides vulgatus 	0.00171819	0.001379192	0.001408889	2.57E-05	5.79E-06	1.61E-07	9.85E-06	7.40E-06	0.002077939	0.001878991	0.00033303	0.00036473	0.001103985	0.001810368	0.002166633	0.003833545	0.006777871	0.004922389
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides vulgatus CAG	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.82E-05	2.91E-05	1.95E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides xylanisolvens 	0.000665451	0.000416436	0.000305752	4.79E-06	1.10E-06	0	0	0	2.53E-05	0.000769256	0.000515341	0.001331469	0.000371664	0.00152885	0.000985502	0.00014434	0.000247474	0.000231315
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |uncultured Bacteroides sp. 	4.71E-06	4.03E-06	3.13E-06	0	0	0	1.34E-05	2.05E-05	5.32E-06	4.46E-06	8.30E-06	5.58E-06	0	0	0	5.33E-06	2.05E-05	1.94E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Unknown	0.630566498	0.451280784	0.413093795	0.476379536	0.219212094	0.647158057	0.573706674	0.611616945	0.566086217	0.513681044	0.664436201	0.579074179	0.515295777	0.709277674	0.46434168	0.585003077	0.544739677	0.550319285
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Mediterranea |Mediterranea massiliensis 	0	2.37E-07	2.15E-06	0	0	0	0	0	0	0	0	0	0	0	0	4.02E-06	5.85E-06	1.12E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Unknown|Unknown	5.63E-05	8.25E-05	9.99E-05	5.48E-06	2.48E-06	1.61E-07	0.000851459	0.000876434	0.001206177	0.000815857	0.000928148	0.000998137	0.001006624	0.001395523	0.001658402	0.002976208	0.001489339	0.002825481
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Barnesiellaceae |Barnesiella |Barnesiella intestinihominis 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.25E-05	4.35E-06	1.20E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Butyricimonas |Butyricimonas faecihominis 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.80E-05	3.27E-05	2.60E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Butyricimonas |Butyricimonas virosa 	1.14E-06	1.66E-06	2.15E-06	0	0	0	8.95E-07	2.47E-06	9.38E-07	0	0	0	0	0	0	1.52E-06	1.50E-06	1.22E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Butyricimonas |Unknown	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.00035242	0.000331714	0.000304557
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Odoribacter |Odoribacter laneus 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.27E-05	3.90E-06	9.67E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Odoribacter |Odoribacter sp. AF15-53 	1.46E-06	2.61E-06	1.37E-06	0	0	0	0	0	0	0	0	0	0	0	0	9.79E-07	3.00E-07	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Odoribacter |Odoribacter splanchnicus 	0.000376732	0.000335614	0.000559207	0	0	0	0.000558984	0.000437837	0.000305805	2.23E-05	2.57E-05	2.85E-05	3.09E-05	5.59E-05	2.43E-05	6.53E-07	1.05E-06	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Unknown|Unknown	0.004456478	0.00472419	0.005688049	0	0	0	0.000136985	0.000129624	7.58E-05	0	0	0	0	0	0	0.00386411	0.003968873	0.003126689
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Porphyromonadaceae |Porphyromonas |Porphyromonas sp. 31_2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.53E-05	6.15E-06	1.05E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Paraprevotella |Paraprevotella clara 	0	0	0	0	0	0	0	0	0	0	0	2.48E-07	0	0	0	1.65E-05	1.72E-05	9.19E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Paraprevotella |Paraprevotella clara CAG	0	0	0	0	0	0	0	0	0	2.23E-07	2.68E-07	0	0	0	0	0.000116277	8.95E-05	9.36E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Paraprevotella |Paraprevotella xylaniphila 	0	6.16E-06	1.10E-05	0	0	0	0	0	0	0	0	0	0	0	0	0.000603247	0.000478159	0.000429313
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Paraprevotella |Unknown	0	0	0	0	0	0	0	0	0	0	2.68E-07	3.72E-07	0	0	0	0.025600259	0.019358409	0.018561907
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella bivia 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9.79E-07	7.49E-07	7.70E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella copri 	0	4.74E-06	1.96E-07	0.000343975	0.000170929	0.000580862	2.69E-06	1.90E-06	3.44E-06	0.000196439	0.000459389	0.000327624	1.41E-07	0	0	9.27E-05	0.000173426	0.000110135
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella denticola 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.000170663	6.07E-05	8.07E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella ihumii 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5.22E-06	8.24E-06	6.16E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella sp. CAG	0	2.37E-07	7.83E-07	0	0	0	0	0	0	1.20E-05	5.35E-07	2.22E-05	0	0	0	1.12E-05	5.40E-06	8.56E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella sp. P5-119 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.50E-06	3.60E-06	2.08E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Unknown	7.63E-06	9.01E-06	9.21E-06	0	0	0	1.01E-05	9.68E-06	5.28E-05	9.36E-06	0	9.06E-06	0	0	0	2.30E-05	2.14E-05	1.64E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Unknown|Unknown	3.25E-06	5.93E-06	7.44E-06	0	0	0	0	0	0	0	0	0	0	0	0	0.000314567	0.000586382	0.000339141
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes finegoldii 	3.57E-06	8.30E-06	3.82E-05	0	0	0	0	0	0	1.11E-05	5.35E-06	3.35E-06	1.55E-06	1.53E-05	0	1.10E-05	1.03E-05	7.15E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes putredinis CAG	0	0	0	0	0	0	3.22E-05	3.74E-05	9.69E-06	0	0	0	0	0	0	1.20E-06	4.50E-07	3.17E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes senegalensis 	4.87E-07	8.06E-06	2.41E-05	0	0	0	0	0	0	1.11E-06	0	0	3.95E-06	3.68E-05	0	1.09E-07	0	9.05E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. AL-1 	1.62E-07	0	2.94E-06	0	0	0	0	0	0	0	0	0	0	0	0	1.52E-06	8.99E-07	2.72E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. AM16-43 	0	0	0	0	0	0	0	0	0	2.39E-05	3.16E-05	2.37E-05	0	0	0	4.35E-07	1.50E-07	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. An66 	0	4.74E-07	3.33E-06	0	0	0	0	0	0	1.56E-06	0	0	1.06E-05	8.54E-05	0	0	0	9.05E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. CAG	3.46E-05	4.20E-05	0.000190973	0	0	0	1.19E-06	1.33E-06	4.69E-07	6.29E-05	7.74E-05	6.42E-05	2.26E-06	1.88E-05	0	3.26E-07	3.00E-07	2.26E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Unknown	0.002842052	0.002140012	0.010436121	0	0	0	0.00112155	0.001207991	0.000324566	0.003795663	0.003380099	0.002705629	0.000746008	0.005364	2.34E-06	0.000110729	0.000117966	6.16E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Unknown|Unknown	0.000233996	0.001407634	0.002276983	0	0	0	8.65E-06	1.02E-05	2.66E-06	1.34E-06	8.03E-07	1.24E-07	1.13E-06	7.06E-06	0	0	0	1.36E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides chinchillae 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.96E-06	1.05E-06	1.36E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides distasonis 	1.95E-06	6.16E-06	7.05E-06	0	0	0	6.06E-05	0.000132091	7.96E-05	2.76E-05	8.83E-06	3.46E-05	8.33E-06	1.49E-05	1.15E-05	0.000128894	4.33E-05	4.33E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides goldsteinii 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.56E-05	1.17E-05	1.13E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides gordonii 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.09E-05	1.48E-05	1.86E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides johnsonii 	0	7.11E-07	0	8.56E-06	2.48E-06	0	0	0	0.000130389	2.05E-05	5.35E-07	1.99E-06	0	0	0	2.83E-06	2.10E-06	1.81E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides merdae 	4.77E-05	7.54E-05	0.000181767	0	8.27E-07	0	2.98E-07	5.69E-07	2.61E-05	9.88E-05	8.97E-05	0.00010201	0.000410608	0.000262387	8.84E-05	0.00029216	0.000275054	0.000352857
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides merdae CAG	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.09E-06	6.00E-07	1.81E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. AF14-59 	0	7.11E-07	0	0	0	0	0	0	7.82E-07	0	0	0	0	0	0	8.81E-06	4.35E-06	4.98E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. AF17-3 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.83E-06	1.20E-06	2.72E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. AF18-52 	1.62E-07	4.74E-07	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	1.02E-05	8.24E-06	2.72E-07
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. AF19-14 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.000113449	2.40E-06	1.28E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. AF39-10AC 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.20E-05	4.50E-07	1.54E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. AF48-14 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.79E-05	8.99E-07	4.53E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. AM58-2XD 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.37E-06	3.00E-06	9.05E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. An277 	0	0	0	0	0	0	0	0	0	8.92E-07	0	1.61E-06	0	0	0	5.44E-07	1.50E-07	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. CAG	0	0	0	0	0	0	0	0	1.16E-05	0.004655	6.69E-06	0.008001722	0	0	0	2.83E-06	6.45E-06	9.05E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. D13 	5.20E-06	7.82E-06	8.62E-06	0	0	0	5.97E-07	3.04E-06	1.25E-06	0	0	0	0	0	0	3.26E-06	6.15E-06	2.90E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. D26 	0	0	0	0	0	0	1.79E-06	2.47E-06	4.69E-07	0	0	0	0	0	0	1.09E-07	3.00E-07	9.05E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. HGS0025 	0	0	0	0	0	0	0	0	0	0	0	0	2.82E-07	8.54E-06	0	4.35E-07	3.00E-07	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. Marseille-P4001 	1.35E-05	1.26E-05	1.02E-05	0	0	0	0	0	2.50E-06	0	0	7.45E-07	0	0	0	2.07E-06	1.65E-06	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. TM07-1AC 	0	0	0	0	0	0	0	0	1.25E-06	0	0	0	0	0	0	0.000187631	0.000132056	1.34E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides timonensis 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.98E-05	1.93E-05	2.26E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Unknown	0.005943432	0.011971171	0.034985812	0	2.21E-06	0	0.000378724	0.000756299	0.013249497	0.00785109	0.007478194	0.008961759	0.033800504	0.010300646	3.26E-05	0.006628757	0.008200958	0.006358306
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Unknown|Unknown|Bacteroidales bacterium 43_8 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.21E-05	1.44E-05	1.18E-05
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Unknown|Unknown|Unknown	0.081306694	0.065062373	0.066526868	0.021501681	0.008836756	0.026139915	0.082659523	0.122907058	0.07509377	0.055686081	0.0660688	0.061414373	0.040897812	0.058136048	0.041813987	0.100998751	0.14418903	0.113300137
+Bacteria |Bacteroidetes |Bacteroidia |Unknown|Unknown|Unknown|Unknown	4.56E-05	6.61E-05	8.29E-05	0.003561937	0.001843001	0.005606615	0.001047536	0.00103092	8.65E-05	0.001402052	0.004153511	0.002871054	0.000559471	0.001073389	0.000350925	0.000363841	9.31E-05	0.000139468
+Bacteria |Bacteroidetes |Chitinophagia |Chitinophagales |Chitinophagaceae |Chitinophaga |Chitinophaga sp. K20C18050901 	6.17E-06	2.46E-05	8.62E-06	0	0	0	0	0	0	8.41E-05	0	7.45E-07	0	0	0	0	1.35E-06	0
+Bacteria |Bacteroidetes |Flavobacteriia |Flavobacteriales |Flavobacteriaceae |Ornithobacterium |Ornithobacterium rhinotracheale 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5.87E-06	1.56E-05	5.21E-06
+Bacteria |Bacteroidetes |Unknown|Unknown|Unknown|Unknown|Unknown	0.000396543	0.000550587	0.001526215	0.005248954	0.002626242	0.008774514	0.001881386	0.002177041	0.0008949	0.0008551	0.000756814	0.000759368	9.62E-05	0.000294321	1.02E-05	0.002395041	0.001527412	0.001761388
+Bacteria |Candidatus Melainabacteria |unified Candidatus Melainabacteria no rank|Unknown|Unknown|Unknown|Candidatus Melainabacteria bacterium 	1.62E-07	4.74E-07	1.96E-06	0	0	0	0	0	0	0	0	0	9.88E-06	0.000460907	1.67E-07	2.18E-07	0	0
+Bacteria |Chlamydiae |Chlamydiia |Chlamydiales |Chlamydiaceae |Chlamydia |Chlamydia abortus 	0.007008674	0.025642217	0.009159052	0.055117781	0.046766188	0.005996436	0.065734808	0.029355035	0.034587804	0.044091949	0.01131554	0.005127689	0.002889776	0.001229673	0.003305759	0.003331782	0.005260053	0.023984859
+Bacteria |Chlamydiae |Chlamydiia |Chlamydiales |Chlamydiaceae |Chlamydia |Chlamydia trachomatis 	9.48E-05	0.001022721	0.002172584	0.000477458	0.000431182	4.82E-05	0.000666125	0.000288286	0.000347391	0.000464229	0.000181239	0.00011926	1.51E-05	2.05E-05	3.13E-05	4.27E-05	6.97E-05	0.000301977
+Bacteria |Chlamydiae |Chlamydiia |Chlamydiales |Chlamydiaceae |Chlamydia* |Unknown	0.000864372	0.002834467	0.001092952	0.005476217	0.004700825	0.00056474	0.008506229	0.003647886	0.004312532	0.006838348	0.001593942	0.000742366	0.000279242	0.000119494	0.00038339	0.000258985	0.000467217	0.001984011
+Bacteria |Chloroflexi |Unknown|Unknown|Unknown|Unknown|Unknown	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.26E-07	7.49E-07	7.70E-07
+Bacteria |Firmicutes |Bacilli |Bacillales |Paenibacillaceae |Unknown|Unknown	3.25E-07	1.90E-06	3.92E-07	0	0	0	0	0	0	0	0	0	8.47E-07	3.53E-06	3.51E-06	4.35E-07	0	1.09E-06
+Bacteria |Firmicutes |Bacilli |Bacillales |Unknown|Unknown|Unknown	2.11E-06	4.50E-06	1.76E-06	3.42E-06	5.51E-06	1.13E-06	1.19E-06	1.52E-06	1.09E-06	2.23E-07	1.07E-06	2.61E-06	4.37E-06	5.30E-06	1.00E-06	1.74E-06	1.20E-06	1.36E-06
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus avium 	1.62E-07	0	1.96E-07	6.61E-05	6.12E-05	1.39E-05	6.57E-06	1.10E-05	5.93E-05	0	0	0	0	0	0	0	1.50E-07	1.36E-07
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus cecorum 	1.62E-07	7.11E-07	0	0.046870599	0.103578317	0.061385321	0	0	0	0	0	0	0	0	0	0	0	9.05E-08
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus faecium 	6.50E-07	7.11E-07	1.96E-07	0.000204331	0.000232408	0.00014445	0	0	3.13E-07	2.23E-07	2.68E-07	4.96E-07	0	0	0	0	0	1.36E-07
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus phoeniculicola 	0	0	0	3.08E-06	4.41E-06	8.06E-07	0	0	0	0	0	0	0	0	0	2.18E-07	0	4.53E-08
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Unknown	1.79E-06	2.84E-06	1.37E-06	0.006207634	0.010850962	0.005727205	0.000125645	0.000254124	0.001614854	3.72E-05	5.35E-05	3.19E-05	0	0	0	1.85E-06	4.95E-06	5.12E-06
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Unknown|Unknown	0	7.11E-07	1.96E-07	8.56E-06	2.04E-05	6.29E-06	5.97E-07	5.69E-07	3.44E-06	0	0	0	0	0	0	0	3.00E-07	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Lactobacillaceae |Lactobacillus |Lactobacillus murinus 	0	0	0	0	0	0	0	0	0	4.46E-07	0	7.45E-07	0	0	0	1.09E-07	0	5.43E-07
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus pyogenes 	0	0	0	0	0	0	1.19E-06	0	4.69E-07	0	0	0	0	0	0	0	0	1.18E-06
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Unknown|Unknown|Unknown	1.62E-07	9.48E-07	9.79E-07	0.000214599	0.000395342	0.000147835	1.49E-06	3.04E-06	1.42E-05	5.06E-05	3.24E-05	5.77E-05	0	0	8.37E-07	0	1.50E-07	4.53E-08
+Bacteria |Firmicutes |Bacilli |Unknown|Unknown|Unknown|Unknown	1.79E-06	6.64E-06	2.55E-06	0.000153334	0.000162658	6.74E-05	2.98E-05	3.04E-05	6.83E-05	0.000588202	8.11E-05	0.000479398	5.79E-06	3.97E-06	7.03E-06	0	4.50E-07	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Beduini |Beduini massiliensis* 	4.87E-06	7.11E-06	3.33E-06	0	0	0	0	0	0	3.57E-06	1.07E-06	1.37E-06	2.12E-06	0	3.51E-06	1.31E-06	2.55E-06	1.72E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus pullicaecorum 	1.69E-05	4.74E-06	1.39E-05	0	0	0	0.008374019	0.005107724	0.00945727	0	0	3.72E-07	0.001375748	6.77E-06	0.002960858	3.26E-07	4.50E-07	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. 1XD8-22 	1.62E-07	9.48E-07	5.88E-07	0	0	0	0	0	0	0	0	0	1.83E-05	0	4.60E-05	8.48E-06	4.50E-07	4.98E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |uncultured Butyricicoccus sp.* 	6.50E-06	1.04E-05	1.61E-05	0	0	0	1.49E-05	6.26E-06	6.72E-06	0	0	0	0	3.68E-06	0	7.29E-06	9.44E-06	4.71E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Unknown	0.00041408	0.000342724	0.000566063	0	0	0	4.48E-06	1.71E-06	2.03E-06	0	2.41E-06	0	0.000212359	0.00017674	0.000463047	1.09E-06	1.80E-06	1.13E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium bolteae CAG	0	0	0	0	0	0	0	0	0	0	0	0	1.27E-06	2.94E-07	3.35E-07	0	1.50E-07	1.22E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium botulinum 	9.74E-07	0	7.83E-07	4.42E-05	9.92E-06	5.96E-06	0	0	0	0	5.35E-07	8.69E-07	2.82E-07	7.36E-07	3.18E-06	0	3.00E-07	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium clostridioforme CAG	9.74E-07	1.19E-06	7.83E-07	0	0	0	0	0	0	0	0	0	2.82E-06	4.41E-07	0	1.93E-05	4.20E-06	3.94E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium frigidicarnis 	1.62E-06	2.13E-06	9.79E-07	0	0	0	0	1.33E-06	4.69E-07	8.92E-07	0	0	5.64E-07	4.41E-07	3.35E-07	2.18E-07	4.50E-07	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium merdae 	6.50E-07	7.11E-07	1.96E-07	0	0	0	5.97E-07	1.33E-06	4.69E-07	1.11E-06	8.03E-07	1.37E-06	0	0	0	7.61E-07	6.00E-07	1.22E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium nexile CAG	0	0	0	0	0	0	0	2.28E-06	0	0	0	0	0	0	0	5.44E-07	3.00E-07	2.31E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium paraputrificum 	1.62E-07	0	0	0.0021169	0.003561665	0.005357536	5.97E-06	0	0	0	0	0	4.80E-06	5.89E-06	0.000359795	0.000125087	0.001310966	0.000122719
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium perfringens 	0	0	0	0.023153788	0.076577868	0.001164948	0	0	0	0	0	4.96E-07	1.55E-06	7.95E-06	0.006963448	0	4.50E-07	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. 7_3_54FAA 	0	2.37E-07	0	0	0	0	0	0	0	0	0	0	4.23E-07	2.94E-06	8.53E-06	6.53E-06	1.05E-05	9.33E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AF50-3 	2.27E-06	2.37E-06	3.13E-06	0	0	0	0	0	0	0	0	0	0	0	0	8.70E-07	1.50E-06	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. ASBs410 	0	0	5.88E-07	0	0	0	0	0	4.69E-07	2.23E-07	0	1.37E-06	0	0	0	1.96E-06	4.50E-07	7.70E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AT4 	4.87E-07	4.74E-07	1.96E-07	0	0	0	0.012748301	0.01135113	0.00722471	0.000861566	0.000159822	0.001549761	6.35E-06	0.000453843	0	5.55E-06	6.75E-06	1.22E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. ATCC BAA-442 	6.50E-06	3.32E-05	1.80E-05	0	0	0	5.37E-06	7.59E-06	5.00E-06	2.01E-06	4.55E-06	0	7.06E-07	1.47E-06	1.34E-06	1.51E-05	2.49E-05	1.21E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. C105KSO13 	8.12E-07	7.11E-07	5.88E-07	0	0	0	0	0	0	0	0	0	1.44E-05	0	0	2.18E-07	0	8.60E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. C105KSO14 	5.49E-05	0.000144816	6.82E-05	0	0	0	0	0	0	0	0	0	1.81E-05	0.000127441	2.01E-06	8.70E-07	6.00E-07	1.67E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. CAG	0.000300249	0.001450297	0.000346297	1.85E-05	5.51E-07	1.61E-07	2.39E-06	4.55E-06	3.44E-06	0	0	1.74E-06	0.009529771	0.003555692	0.017281352	3.26E-06	1.20E-06	1.31E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. FS41 	4.87E-06	6.16E-06	5.68E-06	0	0	0	4.33E-05	7.12E-05	1.86E-05	0.000124642	6.96E-06	0.000117523	8.47E-07	2.94E-07	0	3.49E-05	1.69E-05	2.13E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. HMb25 	0	0	0	0	0	0	0	0	0	0	0	0	4.49E-05	4.86E-06	0	4.02E-06	4.65E-06	2.72E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. KLE 1755 	4.87E-07	4.74E-07	1.96E-07	0	0	0	0	0	3.60E-06	0.000163885	0.000222466	0.000227103	0	0	0	6.53E-07	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. M62/1 	3.12E-05	1.37E-05	1.82E-05	0	0	0	0	0	0	0	0	0	0	1.47E-06	0	9.79E-07	7.49E-07	2.26E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. Marseille-P3244 	2.11E-06	1.14E-05	3.53E-06	0	0	0	0	1.90E-07	1.56E-07	0	0	0	2.82E-07	2.47E-05	0	3.26E-07	3.00E-07	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. SN20 	2.60E-06	4.74E-06	3.92E-06	0	0	0	6.57E-06	7.59E-07	1.09E-06	0	0	0	2.82E-07	0	3.35E-07	4.35E-06	8.69E-06	7.70E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |uncultured Clostridium sp. 	8.25E-05	0.000256214	0.000303402	0.000136905	2.21E-05	1.47E-05	2.42E-05	4.50E-05	1.78E-05	3.72E-05	4.55E-06	2.64E-05	2.10E-05	0.000112283	0.000116473	2.41E-05	2.17E-05	1.52E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Unknown	9.91E-05	0.00029698	0.00010146	0.101129299	0.364214791	0.108305358	4.92E-05	4.80E-05	3.11E-05	7.07E-05	1.50E-05	0.00017163	0.000191617	0.00018189	0.074409201	1.42E-05	1.81E-05	1.23E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Hungatella |Hungatella hathewayi 	0.001090411	0.002117258	0.000630308	0	0	0	2.78E-05	1.12E-05	1.45E-05	7.80E-05	0.000180168	0.000178084	0.0016794	0.003106411	0.002563244	0.000867453	0.005063243	0.001995011
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Hungatella |Unknown	0.002332815	0.004583403	0.001363643	0	0	0	0	0	0	0	2.14E-06	0	0.002473101	0.003937573	0.005423359	0.000190241	0.001187154	0.000437552
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Massilioclostridium |Massilioclostridium coli 	8.12E-07	1.66E-06	9.79E-07	0	0	0	2.39E-06	2.09E-06	1.56E-06	2.23E-07	0	6.21E-07	1.41E-07	1.91E-06	0	2.07E-06	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Massilioclostridium |Unknown	8.12E-07	1.42E-06	1.96E-07	0	0	0	0	0	0	1.56E-06	8.03E-07	1.12E-06	0	0	0	1.20E-06	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Oxobacter |Oxobacter pfennigii* 	0	0	0	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	1.52E-06	1.50E-07	1.81E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Unknown|Clostridiaceae bacterium DSM 106076 	1.79E-06	4.50E-06	3.53E-06	0	0	0	0	0	0	0	0	0	5.08E-06	0	0	1.09E-07	0	6.79E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Unknown|Unknown	0.003886509	0.007990736	0.002295198	0.00031454	5.18E-05	3.27E-05	8.65E-05	9.05E-05	4.94E-05	9.59E-06	9.91E-06	2.00E-05	0.003543645	0.005280266	0.007803526	0.012263233	0.080635056	0.025186293
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiales Family XIII. Incertae Sedis |Emergencia |Emergencia timonensis* 	0	0	0	0	0	0	0	0	0	0	0	0	2.82E-07	7.36E-07	0	0	1.50E-06	4.71E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiales Family XIII. Incertae Sedis |Unknown|[Eubacterium] brachy 	0	0	0	0	0	0	1.49E-06	1.14E-06	1.41E-06	2.23E-07	0	1.24E-07	0	0	0	3.26E-07	6.00E-07	8.15E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Acetobacterium |Acetobacterium bakii 	1.14E-06	2.84E-06	1.18E-06	0	0	0	2.98E-07	1.90E-07	0	0	0	0	1.69E-06	0	1.00E-06	8.70E-07	8.99E-07	6.79E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Acetobacterium |Unknown	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.26E-07	0	4.98E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium ventriosum 	6.66E-06	1.16E-05	4.03E-05	0	0	0	2.69E-06	3.04E-06	2.81E-06	1.78E-06	2.14E-06	1.61E-06	2.54E-06	7.36E-07	9.37E-06	2.50E-06	3.30E-06	1.63E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Unknown	8.28E-06	1.04E-05	1.12E-05	0	0	0	8.95E-07	1.90E-06	3.75E-06	0.000721762	2.68E-07	0.000225614	1.69E-06	8.68E-06	5.02E-07	1.31E-06	8.99E-07	1.36E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Intestinibacillus |Intestinibacillus sp. Marseille-P4005 	2.76E-06	3.79E-06	9.01E-06	0	0	0	2.42E-05	2.01E-05	1.88E-05	0	0	0	1.69E-06	8.83E-07	0	5.98E-06	1.12E-05	4.57E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Intestinibacillus |Intestinibacillus sp. Marseille-P6563 	1.30E-06	4.74E-06	5.09E-06	0	0	0	5.97E-07	1.90E-07	0	0	0	0	1.50E-05	1.91E-06	5.89E-05	1.09E-06	3.60E-06	1.18E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerobium |Anaerobium acetethylicum* 	1.79E-06	2.84E-06	1.76E-06	0	0	0	0	0	0	0	0	0	0	1.03E-06	0	1.52E-06	6.00E-07	1.63E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerostipes |Anaerostipes caccae 	3.57E-06	3.32E-06	2.74E-06	0	0	0	0	0	0	0	0	0	3.80E-05	1.41E-05	7.71E-05	3.00E-05	5.53E-05	4.30E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerostipes |Anaerostipes sp. 992a 	0	0	0	0	0	0	0	0	0	4.46E-07	8.03E-07	2.23E-06	3.67E-06	3.24E-06	0	5.44E-07	1.50E-07	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerostipes |Anaerostipes sp. AF04-45 	0	0	0	0	0	0	0	0	0	0	0	0	5.64E-06	2.22E-05	0.000136053	1.09E-06	3.45E-06	2.63E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerostipes |Unknown	6.50E-07	4.74E-07	1.37E-06	0	0	0	0	0	0	0	0	4.96E-07	0.000165654	0.000275779	0.001705761	0.000438241	0.000747817	0.000575707
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |[Ruminococcus] gnavus 	0.000437626	0.001035994	0.000546476	0	0	0	0.000987549	0.001122777	0.000788432	5.53E-05	2.68E-07	4.27E-05	0.009541764	0.000329051	0.003617023	4.05E-05	6.16E-05	4.09E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia coccoides 	2.40E-05	8.72E-05	4.47E-05	0	0	0	0	0	3.13E-07	0	0	0	0.000547759	7.99E-05	5.02E-07	0.000985905	1.23E-05	5.23E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia hominis 	1.02E-05	1.83E-05	9.99E-06	0	0	0	0	0	1.41E-06	1.76E-05	2.41E-05	2.21E-05	6.17E-05	3.44E-05	3.35E-07	4.76E-05	4.86E-05	0.000196731
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia marasmi 	9.74E-07	1.42E-06	9.79E-07	0	0	0	0	0	9.38E-07	0	0	0	0	1.91E-06	0	3.69E-05	1.80E-05	7.08E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia obeum 	1.45E-05	8.58E-05	6.29E-05	0	5.51E-07	0	3.58E-06	3.04E-06	2.19E-06	0	0	0	8.75E-06	1.13E-05	8.37E-06	8.81E-06	1.95E-06	7.70E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia producta 	1.41E-05	3.25E-05	2.12E-05	0	0	0	0	1.90E-07	1.28E-05	0.00054383	0.000758956	0.000772274	1.13E-06	1.18E-06	0	0.000130308	0.000230086	0.000696706
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. An81 	4.87E-06	1.23E-05	5.29E-06	0	0	0	8.95E-06	7.21E-06	6.72E-06	4.01E-06	8.03E-07	3.35E-06	0	5.89E-07	0	5.87E-06	6.00E-07	1.81E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. CAG	1.79E-06	0.000768167	7.83E-07	0	0	0	0	0	0	0	0	0	0.041176489	0.005969124	6.71E-05	3.26E-07	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. Marseille-P3201T 	0	0	0	0	0	0	0	0	0	0	0	0	0	5.30E-06	0	6.53E-07	1.50E-07	1.27E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. N6H1-15 	8.12E-07	0.000256451	1.37E-06	0	0	0	4.48E-06	6.26E-06	0.001191168	0.110183941	0.054021075	0.105082194	0.028590441	0.003642811	0.119217013	0.000104312	3.00E-07	2.72E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. OF01-4LB 	0	0	0	0	0	0	0	0	1.56E-06	4.59E-05	6.02E-05	6.54E-05	0	1.32E-06	0	7.72E-05	0.000310129	0.000794392
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia wexlerae 	1.62E-07	5.93E-06	7.83E-07	0	0	0	0	0	0	1.34E-06	0	2.85E-06	0.000101029	2.97E-05	1.67E-06	4.02E-06	8.44E-05	0.000467066
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Unknown	0.000346366	0.001165641	0.000670461	0	0	0	5.97E-07	1.52E-06	0.000227321	0.031176036	0.046130074	0.048544704	0.026682596	0.011435401	0.000732977	0.004702739	0.003506452	0.014584107
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Butyrivibrio |Unknown	1.95E-06	3.56E-06	1.18E-06	0	0	0	0	0	0	0	0	2.48E-07	4.23E-07	4.41E-07	0	6.20E-06	4.65E-06	1.58E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus comes 	1.95E-06	1.90E-06	1.37E-06	0	0	0	2.98E-07	3.80E-07	1.56E-07	0	0	0	1.41E-06	2.94E-07	1.67E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus sp. AF21-14LB 	1.62E-07	2.84E-06	3.92E-07	0	0	0	0	0	0	0	0	0	4.66E-06	1.03E-06	9.54E-06	2.28E-06	3.15E-06	1.19E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus sp. AM27-12LB 	2.60E-06	1.66E-06	1.18E-06	0	0	0	2.39E-06	1.40E-05	6.41E-06	0	0	0	5.22E-06	7.36E-07	2.74E-05	1.04E-05	3.90E-06	2.83E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus sp. HPP0048 	0	4.74E-07	3.92E-07	0	0	0	0	0	0	2.90E-06	2.68E-07	3.60E-06	5.08E-06	4.41E-07	2.58E-05	1.81E-05	0	4.53E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Dorea |Dorea longicatena 	5.33E-05	6.97E-05	4.94E-05	0	0	0	4.78E-06	5.88E-06	6.25E-06	4.46E-07	1.34E-06	3.72E-07	7.76E-06	1.77E-06	9.87E-06	1.70E-05	1.65E-05	9.46E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Dorea |Dorea sp. 5-2 	3.41E-06	9.01E-06	6.07E-06	0	0	0	0	0	0	0	0	0	0	0	0	9.79E-07	6.00E-06	2.93E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Dorea |Dorea sp. AM58-8 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.18E-07	0	4.98E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Dorea |Dorea sp. CAG	0	6.40E-06	1.96E-07	0	0	0	0	0	0	0	0	9.93E-07	0.001916593	1.69E-05	5.02E-07	9.81E-05	4.65E-06	0.000398577
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Dorea |Dorea sp. Marseille-P4003 	6.50E-07	4.03E-06	1.57E-06	0	0	0	2.98E-07	0	3.13E-07	0	0	0	1.06E-05	7.36E-07	0	6.53E-07	0	1.99E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Dorea |Unknown	6.50E-07	4.74E-07	1.18E-06	0	0	0	0	0	0	2.23E-07	1.07E-06	1.86E-06	0.000201917	4.90E-05	0	1.00E-05	1.50E-07	3.31E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Eisenbergiella |Eisenbergiella massiliensis 	5.52E-06	8.77E-06	1.31E-05	0	0	0	0	0	0	4.46E-07	2.68E-07	6.21E-07	9.59E-06	0.00081939	4.52E-06	1.31E-06	0	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Faecalicatena |Faecalicatena contorta 	1.36E-05	2.32E-05	1.45E-05	0	0	0	0	0	0	1.14E-05	1.90E-05	2.71E-05	1.27E-06	2.21E-06	1.51E-06	4.57E-06	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Faecalicatena |Faecalicatena fissicatena 	6.33E-06	6.87E-06	9.99E-06	0	0	0	0	0	0	2.68E-06	4.55E-06	6.83E-06	2.82E-07	0	1.67E-07	8.70E-07	7.49E-07	1.49E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Faecalimonas |Faecalimonas umbilicata* 	0	0	0	0	0	0	0	0	0	0	0	0	2.62E-05	3.24E-06	8.90E-05	8.38E-06	6.00E-07	1.99E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Hespellia |Hespellia stercorisuis 	2.11E-06	3.79E-06	2.55E-06	0	0	0	1.49E-06	2.28E-06	1.72E-06	6.69E-07	0	2.48E-07	0	0	0	8.70E-07	1.05E-06	1.67E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] aldenense 	3.62E-05	3.82E-05	3.13E-05	0	2.76E-07	0	6.57E-06	1.27E-05	4.06E-06	8.52E-05	0.00046394	7.04E-05	2.96E-05	1.32E-06	0.000114967	3.62E-05	3.03E-05	8.65E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] asparagiforme 	1.62E-07	7.11E-07	5.88E-07	0	0	0	0	0	0	0	0	0	2.62E-05	5.30E-06	0	5.44E-07	3.75E-06	1.40E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] bolteae 	1.07E-05	3.13E-05	2.00E-05	0	0	0	9.55E-06	7.40E-06	9.54E-06	6.69E-07	6.43E-06	2.73E-06	0.00029307	0.000159963	0.000139232	0.000177733	9.10E-05	0.00015676
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] citroniae 	1.28E-05	1.52E-05	1.35E-05	0	0	0	0.000247409	0.000446947	0.000110377	6.85E-05	0.000141886	6.86E-05	9.20E-05	6.18E-06	0.00022006	0.000134224	7.37E-05	7.73E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] clostridioforme 	0.000501605	0.001556243	0.000763499	0	1.93E-06	0	7.16E-06	1.23E-05	4.22E-06	1.00E-05	3.69E-05	2.49E-05	8.86E-05	0.000123173	6.34E-05	0.001957127	0.000682014	0.001493452
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] lavalense 	1.62E-07	4.74E-07	5.88E-07	0	0	0	0	0	1.88E-06	4.68E-06	2.41E-05	3.35E-06	8.00E-05	1.25E-05	0	2.80E-05	5.22E-05	2.28E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] scindens 	0.00036845	0.000296032	0.000423078	0	0	0	0	0	0	2.23E-07	2.68E-07	3.72E-07	2.12E-06	8.83E-07	5.02E-07	0	1.05E-06	4.98E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] symbiosum 	2.03E-05	3.56E-05	2.00E-05	0	0	0	0	0	0	0	0	0	0.0001689	5.02E-05	0.000180901	0.000144775	0.000186017	0.00011611
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An118 	7.14E-06	1.35E-05	6.86E-06	0	0	0	0	0	3.13E-07	0	0	0	0	1.72E-05	0	0	0	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An169 	4.01E-05	9.48E-05	4.96E-05	0	0	0	0	0	1.25E-06	0	0	0	0	4.41E-07	0	0	2.25E-06	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Unknown	0.000720662	0.002203532	0.001048489	0	5.51E-07	0	0.000247111	0.000235525	0.000155091	0.000197554	0.001016493	0.000324025	0.000836314	0.000413521	0.000910029	0.003509841	0.001317112	0.00145665
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Oribacterium |Unknown	0	0	0	0	0	0	0	0	0	0	0	0	0	1.18E-06	0	1.52E-06	1.05E-06	1.81E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Robinsoniella |Unknown	1.95E-06	6.87E-06	2.55E-06	6.33E-05	0.00143608	0.000187978	0	1.14E-06	6.25E-07	0	0	3.72E-07	6.35E-06	1.32E-05	1.61E-05	1.09E-07	4.50E-07	4.98E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia hominis 	4.55E-06	3.03E-05	1.55E-05	0	0	0	0	0	0	0	0	0	0.000873	1.41E-05	3.51E-06	0	6.30E-06	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia sp. CAG	1.14E-06	1.42E-06	3.33E-06	0	0	0	0	0	0	0	0	0	1.41E-07	8.83E-07	5.02E-07	2.15E-05	1.47E-05	5.16E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Sellimonas |Sellimonas intestinalis* 	6.66E-06	9.01E-06	7.05E-06	0	0	0	0	0	0	0	0	0	3.95E-06	3.09E-06	3.35E-07	3.21E-05	1.54E-05	1.09E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Tyzzerella |Tyzzerella sp. Marseille-P3062 	0	0	0	0	0	0	1.49E-06	5.39E-05	1.56E-07	0	0	7.45E-07	0	0	0	6.53E-06	1.12E-05	3.20E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Tyzzerella |Unknown	0	0	0	0	0	0	1.01E-05	0.000327761	1.56E-07	0	0	5.21E-06	1.41E-05	0	0	6.09E-06	1.11E-05	2.95E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 1_4_56FAA 	6.50E-07	4.74E-07	1.96E-07	0	0	0	0	0	0	0	0	0	5.64E-07	1.47E-07	1.19E-05	0	1.50E-07	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 2_1_46FAA 	6.17E-06	1.28E-05	5.88E-06	0	0	0	0	0	0	4.46E-07	0	0	1.55E-06	7.36E-07	6.69E-07	3.26E-07	6.00E-07	5.43E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 6_1_63FAA 	3.25E-07	9.48E-07	1.96E-07	0	0	0	0	0	4.69E-07	2.23E-07	0	1.24E-06	0	0	0	1.09E-07	0	2.26E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 7_1_58FAA 	5.20E-05	0.000280389	0.000186076	0	0	0	8.24E-05	4.52E-05	0.000154153	0.00015073	5.41E-05	0.000112683	4.09E-06	4.92E-05	1.44E-05	2.56E-05	4.05E-05	2.06E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium FE2018 	1.62E-07	9.48E-07	3.92E-07	0	0	0	0	0	0	2.23E-07	0	4.96E-07	0	1.62E-06	0	3.73E-05	5.40E-06	4.07E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium M18-1 	1.62E-06	2.61E-06	1.76E-06	0	0	0	0	0	2.81E-06	0	0	0	2.07E-05	3.09E-06	1.67E-07	5.00E-06	4.80E-06	1.27E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium OF09-33XD 	2.27E-06	6.40E-06	1.96E-06	0	0	0	0	9.49E-07	4.69E-07	0	0	0	8.47E-07	2.35E-06	0	1.09E-07	1.50E-07	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Unknown	0.009206872	0.017753398	0.008622957	6.85E-06	4.69E-06	3.22E-07	0.001358812	0.001932975	0.001183038	0.006054599	0.006373625	0.005929375	0.026241934	0.003199711	0.03348081	0.002464655	0.00129178	0.002931089
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter sp. CAG	6.98E-06	1.30E-05	1.14E-05	0	0	0	3.88E-06	2.28E-06	2.50E-06	0	0	0	4.37E-06	1.03E-05	0	4.35E-07	0	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter valericigenes 	0	0	0	0	0	0	0	0	0	2.23E-07	0	1.24E-07	7.20E-06	1.47E-07	8.37E-07	1.09E-07	3.00E-07	1.81E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |uncultured Oscillibacter sp. 	5.85E-06	1.37E-05	2.23E-05	0	0	0	0	0	0	0	0	0	1.35E-05	2.06E-05	3.35E-07	2.18E-07	6.00E-07	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptococcaceae |Dehalobacterium |Dehalobacterium formicoaceticum* 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.18E-07	8.99E-07	3.30E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Clostridioides |Clostridioides difficile 	1.88E-05	4.72E-05	5.25E-05	4.93E-05	9.10E-06	1.68E-05	1.19E-06	3.61E-06	2.50E-06	2.68E-06	1.87E-06	3.10E-06	0.000166501	0.000101982	2.51E-05	3.09E-05	0.00015424	0.000632381
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Unknown|Unknown	6.50E-07	2.84E-06	9.79E-07	0.037322472	0.003700614	0.012973712	0	0	0	0	0	2.48E-07	2.82E-07	4.41E-07	6.18E-05	3.37E-06	3.15E-06	1.22E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Acutalibacter |Acutalibacter sp. 1XD8-33 	1.14E-06	7.11E-07	9.79E-07	0	0	0	0	0	0	0	0	0	0	5.89E-07	1.67E-07	5.44E-07	1.80E-06	6.34E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Agathobaculum |Agathobaculum desmolans 	1.62E-07	1.90E-06	1.18E-06	0	0	0	5.07E-06	3.23E-06	3.13E-06	0	2.41E-06	0	0	0	0	2.18E-06	4.65E-06	1.95E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerofilum |Anaerofilum sp. An201* 	3.90E-06	5.45E-06	7.25E-06	0	0	0	5.97E-07	7.59E-07	0	0	0	0	2.82E-07	4.41E-07	1.00E-06	2.18E-07	4.50E-07	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaeromassilibacillus |Anaeromassilibacillus senegalensis 	3.25E-07	9.48E-07	1.76E-06	0	0	0	8.95E-07	7.59E-07	6.25E-07	0	0	2.48E-07	0	4.41E-07	0	2.18E-07	3.00E-07	7.24E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaeromassilibacillus |Anaeromassilibacillus sp. An172 	3.90E-06	1.35E-05	3.92E-06	0	0	0	0	0	0	0	0	0	7.06E-07	1.77E-06	0	3.26E-07	1.50E-07	3.62E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaeromassilibacillus |Anaeromassilibacillus sp. An250 	1.62E-06	8.53E-06	2.74E-06	0	0	0	0	0	0	0	0	0	1.13E-06	2.35E-06	0	0	1.50E-07	9.05E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaeromassilibacillus |Anaeromassilibacillus sp. Marseille-P4683 	3.25E-06	4.27E-06	3.92E-06	0	0	0	0	0	0	0	0	0	2.82E-07	6.03E-06	0	3.26E-07	4.50E-07	2.26E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaeromassilibacillus |Unknown	6.50E-07	1.66E-06	2.15E-06	0	0	0	5.97E-07	3.23E-06	2.03E-06	2.45E-06	1.07E-06	1.24E-06	1.83E-06	1.32E-06	8.37E-07	1.09E-07	6.00E-07	4.07E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerotruncus |Anaerotruncus colihominis 	6.33E-06	2.49E-05	4.45E-05	0	0	0	2.03E-05	8.35E-06	6.88E-06	0	1.55E-05	0	1.40E-05	1.80E-05	0.00038088	9.25E-06	1.50E-07	1.49E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerotruncus |Anaerotruncus sp. AF02-27 	0	0	0	0	0	0	0	0	0	0	0	0	8.47E-07	5.89E-07	6.36E-06	6.53E-07	0	4.53E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerotruncus |Anaerotruncus sp. G32012 	0	0	7.83E-07	0	0	0	0	0	0	0	3.75E-06	0	0	0	3.35E-07	1.09E-07	0	2.26E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerotruncus |uncultured Anaerotruncus sp. 	0	0	0	0	0	0	2.39E-06	2.85E-06	1.25E-06	6.69E-07	5.35E-07	1.12E-06	0	0	0	3.26E-07	6.00E-07	6.34E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerotruncus |Unknown	1.14E-06	4.03E-06	7.05E-06	0	0	0	0	0	0	0	0	0	3.95E-06	1.77E-06	3.10E-05	6.53E-07	0	1.18E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Drancourtella |Drancourtella massiliensis 	6.01E-06	1.42E-05	6.86E-06	0	0	0	0	0	0	0	0	0	8.47E-07	5.89E-07	0	2.18E-07	0	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Drancourtella |Drancourtella sp. An57 	8.12E-07	4.74E-07	5.88E-07	0	0	0	0	0	0	0	0	0	0	0	0	1.74E-06	1.20E-06	6.34E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Drancourtella |Unknown	1.14E-06	1.19E-06	1.57E-06	0	0	0	0	0	0	0	0	0	1.83E-06	1.47E-06	0	1.09E-07	0	9.05E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Faecalibacterium |Faecalibacterium prausnitzii 	0.002860889	5.21E-06	0.004988599	0	0	0	6.86E-06	4.55E-06	3.75E-06	0	0	0	3.53E-06	3.53E-06	1.84E-06	1.09E-07	1.50E-07	4.53E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Faecalibacterium |Unknown	0.008227369	3.03E-05	0.014053047	0	5.51E-07	0	0	0	0	0	0	0	4.23E-06	1.32E-06	0	0	1.50E-07	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor plautii 	9.97E-05	0.000211418	0.000308886	0	0	0	0.000262033	0.000167961	0.000125386	0.00011929	0.000229695	7.87E-05	0.000138845	0.000339941	0.000573998	4.73E-05	9.01E-05	5.02E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An52 	0	2.61E-06	5.88E-07	0	0	0	0	0	0	0	1.61E-06	0	0	4.41E-07	0	1.09E-07	0	4.53E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An91 	9.58E-06	1.94E-05	1.21E-05	0	0	0	0	1.90E-07	1.56E-07	1.27E-05	0	8.19E-06	1.27E-06	1.47E-06	4.52E-06	1.74E-06	7.49E-07	5.93E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Unknown	2.31E-05	5.31E-05	8.68E-05	0	0	0	2.78E-05	2.90E-05	1.91E-05	4.24E-06	1.53E-05	5.21E-06	8.18E-06	1.16E-05	1.81E-05	3.05E-06	6.30E-06	3.62E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Gemmiger |Gemmiger sp. An194 	3.25E-07	2.37E-07	3.92E-07	8.66E-05	1.93E-06	1.37E-05	0	0	0	0	0	0	0	0	0	5.44E-07	4.50E-07	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Pseudoflavonifractor |Pseudoflavonifractor capillosus 	3.90E-06	1.07E-05	9.99E-06	0	0	0	0	0	0	0	0	0	7.20E-06	7.36E-07	3.35E-07	5.44E-07	0	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Pseudoflavonifractor |Pseudoflavonifractor sp. An184 	2.60E-06	1.19E-06	4.11E-06	0	0	0	1.34E-05	7.59E-06	4.69E-06	0	0	0	3.53E-06	1.27E-05	0	1.09E-07	0	9.05E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Pseudoflavonifractor |Unknown	2.60E-06	5.45E-06	4.70E-06	0	0	0	0	0	0	0	0	0	0	4.41E-07	0	1.09E-07	0	9.05E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |[Ruminococcus] gnavus CAG	1.62E-07	5.45E-06	1.18E-06	0	0	0	5.67E-06	6.07E-06	3.60E-06	0	0	2.48E-07	0	0	0	0	4.65E-06	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. 5_1_39BFAA 	0	0	0	0	0	0	0	0	0	0	0	0	3.29E-05	3.09E-06	0	9.79E-07	4.50E-07	9.05E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AF41-9 	1.95E-06	3.08E-06	2.15E-06	0	0	0	0	0	0	0	0	0	1.41E-07	4.27E-06	1.67E-07	0	6.00E-07	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AF45-4BH 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.48E-06	3.00E-07	2.17E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. CAG	2.44E-06	4.74E-06	1.76E-06	0	0	0	0	0	0	0	0	0	7.06E-07	1.47E-06	0	1.09E-07	1.50E-07	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. DSM 100440 	4.06E-06	4.74E-06	3.53E-06	0	0	0	0	0	0	0	0	0	0	0	0	3.59E-06	1.35E-06	1.58E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. OM05-10BH 	2.60E-06	5.93E-06	4.11E-06	0	0	0	0	0	9.38E-07	0	0	0	0	0	0	2.07E-06	1.35E-06	6.34E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |uncultured Ruminococcus sp. 	5.20E-06	9.48E-06	4.70E-06	0	0	0	1.49E-06	6.64E-06	3.91E-06	0.000215169	1.87E-06	0.000111194	1.89E-05	9.71E-06	6.19E-06	0	1.50E-07	2.72E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Unknown	1.36E-05	3.56E-05	1.51E-05	0	8.27E-07	0	1.19E-06	3.80E-07	6.25E-07	6.69E-07	8.03E-07	6.21E-07	3.09E-05	4.69E-05	0.000106098	3.81E-06	4.50E-07	1.45E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum variabile 	4.06E-06	7.11E-06	1.63E-05	0	0	0	2.39E-06	2.66E-06	1.45E-05	2.27E-05	2.17E-05	1.44E-05	7.06E-07	5.89E-07	0	2.18E-07	0	1.36E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|[Clostridium] leptum 	1.62E-06	3.56E-06	1.37E-06	0	0	0	2.09E-06	3.80E-07	7.82E-07	0	0	0	1.41E-07	1.47E-07	0	4.35E-07	1.50E-07	4.07E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|[Clostridium] methylpentosum 	8.12E-07	2.13E-06	1.57E-06	0	0	0	2.69E-06	1.71E-06	1.72E-06	0	0	0	2.82E-07	5.89E-07	1.34E-06	2.18E-07	3.00E-07	2.26E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|[Clostridium] viride 	6.50E-07	7.11E-07	1.37E-06	0	0	0	5.97E-07	0	1.56E-07	1.34E-06	2.68E-07	9.93E-07	2.26E-06	1.32E-06	0	0	0	1.81E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|[Eubacterium] siraeum 	1.14E-06	4.50E-06	1.96E-07	0	0	0	0	0	7.82E-07	0	0	0	0	1.62E-06	0	5.98E-06	1.12E-05	4.26E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium D5 	9.74E-07	7.11E-07	1.96E-06	0	0	0	0	0	0	0	0	0	1.13E-06	7.36E-07	8.37E-07	4.35E-07	3.00E-07	9.05E-08
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Unknown	0.011571027	0.010648389	0.013568465	0	8.27E-07	0	0.000105947	5.81E-05	0.004800631	5.49E-05	8.19E-05	4.52E-05	0.000382528	0.000379674	0.00013371	3.98E-05	2.73E-05	6.42E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Intestinimonas |Intestinimonas butyriciproducens 	1.75E-05	1.99E-05	0.000126532	0	0	0	0	0	0	0	8.30E-06	0	0	4.41E-06	1.51E-06	3.15E-06	7.49E-06	4.07E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium 	4.55E-05	0.000131544	6.13E-05	0	0	0	2.09E-06	1.33E-06	9.69E-06	0.003457414	0.000420304	0.003108457	1.17E-05	1.60E-05	1.51E-06	1.20E-06	2.25E-06	2.72E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium 1_7_47FAA 	6.50E-06	7.58E-06	6.27E-06	2.74E-06	4.41E-06	6.45E-07	1.19E-06	7.59E-07	1.41E-06	2.01E-06	7.76E-06	2.48E-06	1.83E-06	0	2.68E-06	9.90E-06	4.20E-06	5.30E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium 41_21_two_genomes 	0	0	0	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	0	0	6.79E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium TF09-2AC 	1.43E-05	1.26E-05	1.04E-05	0	0	0	8.95E-07	1.33E-06	1.56E-07	1.34E-06	2.68E-07	1.86E-06	0	0	0	3.37E-06	3.30E-06	4.07E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-03 	3.90E-06	1.02E-05	1.88E-05	0	0	0	7.40E-05	6.40E-05	3.78E-05	1.56E-06	3.21E-06	9.93E-07	2.12E-06	2.65E-06	5.69E-06	3.05E-06	5.70E-06	3.71E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-06 	1.58E-05	3.41E-05	1.90E-05	0	0	0	0	0	1.72E-06	0	0	0	0	0	0	5.10E-05	4.39E-05	0.000207052
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-13 	0	2.37E-07	7.83E-07	0	0	0	0	0	0	0	0	0	4.23E-07	4.41E-07	3.35E-06	0	0	3.62E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-28 	7.79E-06	1.33E-05	8.23E-06	0	0	0	0	0	0	0	0	0	9.17E-06	1.62E-06	1.09E-05	1.95E-05	1.47E-05	7.70E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Unknown	0.085581465	0.219921093	0.161084224	0.044652046	0.015096068	0.010161456	0.089242584	0.068929883	0.067482114	0.080036701	0.091261056	0.082074794	0.195630935	0.13021305	0.152542693	0.155696166	0.079990365	0.114201631
+Bacteria |Firmicutes |Clostridia |Unknown|Unknown|Unknown|Clostridia bacterium 	1.95E-06	3.56E-06	2.15E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	1.50E-07	9.51E-07
+Bacteria |Firmicutes |Clostridia |Unknown|Unknown|Unknown|Clostridia bacterium UC5.1-1D1 	8.12E-07	9.48E-07	1.37E-06	0	0	0	1.85E-05	1.25E-05	1.11E-05	0	0	0	0	0	0	7.29E-06	8.69E-06	4.93E-06
+Bacteria |Firmicutes |Clostridia |Unknown|Unknown|Unknown|Clostridia bacterium UC5.1-2H11 	2.44E-06	8.06E-06	5.48E-06	0	0	0	0	0	0	0	1.93E-05	0	0	0	3.35E-07	5.44E-07	8.99E-07	4.98E-07
+Bacteria |Firmicutes |Clostridia |Unknown|Unknown|Unknown|Unknown	0.000749242	0.001189343	0.002297941	0.000532904	6.07E-05	0.000206679	0.000953228	0.000762942	0.000667892	0.001710869	0.001168284	0.00128096	0.000425282	0.000546848	0.001231502	0.000378308	0.00061696	0.000311121
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Candidatus Stoquefichus |Candidatus Stoquefichus sp. KLE1796 	1.62E-07	1.42E-05	8.81E-06	0	0	0	0	0	0	0	0	0	0	0	0	4.35E-07	3.00E-07	3.17E-07
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Catenibacterium |Catenibacterium mitsuokai 	8.12E-07	4.27E-06	1.96E-07	0	0	0	0	0	1.41E-06	1.96E-05	2.46E-05	2.93E-05	5.64E-07	1.47E-07	0	4.10E-05	1.26E-05	4.12E-06
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Coprobacillus |Coprobacillus sp. 3_3_56FAA 	0	7.11E-07	5.88E-07	0	0	0	3.52E-05	1.52E-05	1.64E-05	0	0	0	1.02E-05	3.38E-06	5.96E-05	5.44E-07	0	4.26E-06
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Coprobacillus |Coprobacillus sp. D7 	9.74E-07	1.42E-06	1.37E-06	0	0	0	0	1.52E-06	3.13E-07	8.92E-07	1.34E-06	6.21E-07	9.88E-07	5.89E-07	4.85E-06	3.26E-07	4.50E-07	3.62E-07
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |[Clostridium] innocuum 	2.27E-06	4.74E-06	2.35E-06	0	0	0	5.97E-06	6.07E-06	3.13E-06	1.56E-06	5.35E-07	2.36E-06	4.16E-05	5.58E-05	7.53E-06	2.28E-06	4.20E-06	3.76E-06
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |[Clostridium] saccharogumia 	3.25E-07	2.61E-06	1.18E-06	0	0	0	0	0	0	0	0	0	7.06E-07	5.89E-07	0	3.26E-07	0	1.81E-07
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |[Clostridium] spiroforme 	0.000159786	0.000394868	0.000162376	0	0	0	0	0	0	0	0	0	0.000398473	6.33E-05	1.86E-05	8.70E-07	0	6.34E-07
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |Erysipelatoclostridium ramosum 	3.25E-06	1.04E-05	4.90E-06	0	0	0	1.49E-05	4.93E-06	5.94E-06	4.46E-07	0	2.48E-07	4.28E-05	1.31E-05	0.000189436	1.86E-05	0	7.43E-05
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |Unknown	1.38E-05	3.96E-05	2.02E-05	0	0	0	1.19E-06	1.14E-06	6.25E-07	4.46E-07	2.68E-07	3.72E-07	5.23E-05	1.07E-05	6.19E-06	0	0	2.26E-07
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Holdemania |Holdemania sp. Marseille-P2844 	0	0	0	0	0	0	0	0	0	0	0	0	0.000380553	0.00019852	3.35E-07	0	2.70E-06	1.26E-05
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Unknown|Erysipelotrichaceae bacterium 2_2_44A 	1.62E-06	2.37E-06	1.96E-06	0	0	0	2.98E-07	2.09E-06	9.38E-07	3.79E-06	0	6.21E-07	8.47E-07	5.89E-07	1.34E-06	3.26E-07	1.95E-06	1.40E-06
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Unknown|Erysipelotrichaceae bacterium 21_3 	3.25E-07	9.48E-07	3.92E-07	0	0	0	8.95E-07	2.09E-06	1.88E-06	0	0	0	9.03E-06	3.09E-06	6.86E-06	0	0	4.53E-08
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Unknown|Erysipelotrichaceae bacterium 6_1_45 	8.56E-05	0.000200752	0.000110079	0	0	0	0	0	0	0	0	0	1.98E-05	0	2.09E-05	1.09E-07	3.00E-07	3.17E-07
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Unknown|Erysipelotrichaceae bacterium CAG	1.62E-07	2.37E-07	7.83E-07	0	0	0	4.18E-06	4.18E-06	4.38E-06	0	0	0	1.13E-06	1.47E-07	0	7.61E-07	1.65E-06	1.36E-06
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales* |Erysipelotrichaceae* |Unknown|Unknown	0.000180084	0.000748257	0.000513766	2.50E-05	5.51E-07	0	0.006343112	0.003628338	0.003261602	0.00011929	0	3.24E-05	0.004138814	0.001446588	0.017286038	0.001889471	0.000663577	0.006846648
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Phascolarctobacterium |Phascolarctobacterium faecium 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.000137922	0.000173876	0.000219772
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Phascolarctobacterium |Phascolarctobacterium sp. 	1.75E-05	7.11E-06	1.94E-05	0	0	0	0	0	0	6.02E-06	0	0	1.13E-06	7.36E-07	0	0	0	1.36E-07
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Phascolarctobacterium |Phascolarctobacterium sp. CAG	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.63E-06	3.60E-06	5.61E-06
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Phascolarctobacterium |Phascolarctobacterium succinatutens 	0	0	0	2.74E-06	2.76E-07	0	0	0	0	0	0	0	0	0	0	1.09E-07	6.00E-07	1.86E-06
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Phascolarctobacterium |Unknown	0	0	0	0	0	0	0	0	0	0	2.68E-07	0	0	0	0	0.015120771	0.01674637	0.015711257
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae* |Unknown|Unknown	0	1.90E-06	6.27E-06	0	0	0	0	0	0	0	0	0	0	0	0	1.16E-05	1.18E-05	1.14E-05
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Selenomonadaceae |Megamonas |Unknown	0	0	0	0	0	0	0.056878505	0.05241751	0.122029917	1.00E-05	1.34E-06	0.000566889	0	2.94E-07	3.35E-07	0	4.50E-07	7.24E-07
+Bacteria |Firmicutes |Negativicutes |Unknown|Unknown|Unknown|Unknown	3.57E-06	6.80E-05	0.000208797	1.57E-05	5.51E-07	0	0	0	0	2.23E-07	2.68E-07	7.69E-06	0	0	8.37E-07	3.37E-06	1.00E-05	3.15E-05
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Unknown	2.76E-06	1.90E-06	9.79E-07	0.004024677	0.00042429	4.84E-07	0	0	0	0	0	0	2.82E-07	0	0	4.35E-07	0	0
+Bacteria |Firmicutes |Tissierellia |Tissierellales |Peptoniphilaceae |Murdochiella |Murdochiella massiliensis 	1.62E-07	4.74E-07	5.88E-07	0	0	0	0	0	3.13E-07	0	0	0	0	0	0	2.07E-06	1.05E-06	9.05E-07
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Firmicutes bacterium 	3.73E-06	7.35E-06	9.21E-06	0	0	0	8.95E-07	1.71E-06	4.69E-07	4.46E-07	1.61E-06	7.45E-07	2.68E-06	4.41E-07	3.35E-07	1.41E-06	4.50E-07	9.05E-07
+Bacteria |Firmicutes |Unknown|Unknown|Unknown|Unknown|Unknown	0.01359044	0.027834846	0.020878118	0.019700006	0.014083175	0.008482873	0.029037034	0.028909986	0.026877497	0.02740869	0.008925966	0.018376732	0.031950794	0.015534998	0.024072433	0.021355013	0.030820294	0.027321135
+Bacteria |Fusobacteria |Fusobacteriia |Fusobacteriales |Fusobacteriaceae |Cetobacterium |Cetobacterium sp. ZOR0034 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.18E-07	1.20E-06	4.98E-07
+Bacteria |Fusobacteria |Fusobacteriia |Fusobacteriales |Fusobacteriaceae |Fusobacterium |Fusobacterium mortiferum 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.002905506	0.010761434	0.010283009
+Bacteria |Fusobacteria |Fusobacteriia |Fusobacteriales |Fusobacteriaceae |Fusobacterium |Fusobacterium necrophorum 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.31E-06	2.55E-06	2.26E-06
+Bacteria |Fusobacteria |Fusobacteriia |Fusobacteriales |Fusobacteriaceae |Fusobacterium |Unknown	3.25E-07	7.11E-07	9.79E-07	0	0	0	0	0	0	0	0	0	2.82E-07	0	3.35E-07	0.001162115	0.004246325	0.004035109
+Bacteria |Fusobacteria |Fusobacteriia |Fusobacteriales |Unknown|Unknown|Unknown	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.78E-05	7.15E-05	6.61E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Burkholderiaceae |Burkholderia |Burkholderia sp. MSHR3999 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.09E-06	1.65E-06	1.45E-06
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Comamonadaceae |Ottowia |Ottowia thiooxydans 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.31E-06	7.49E-07	6.34E-07
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Oxalobacteraceae |Oxalobacter |Oxalobacter formigenes 	1.07E-05	1.40E-05	2.41E-05	0	0	0	0	0	0	0	0	0	0	0	0	2.18E-07	1.50E-07	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Duodenibacillus |Duodenibacillus massiliensis* 	0	0	0	0	0	0	0	0	0	0.000437249	2.68E-07	0	0	0	0	8.21E-05	8.32E-05	9.99E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Parasutterella |Parasutterella excrementihominis 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4.46E-06	2.70E-06	3.71E-06
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella megalosphaeroides 	0	0	0	0	0	0	0	0	0	6.87E-05	0	0	0	0	0	3.62E-05	0	1.91E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella parvirubra 	0	0	0	0	0	0	0	0	0	7.47E-05	0	0	0	0	0	3.48E-06	8.99E-07	4.12E-06
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella sp. 63_29 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.35E-05	1.18E-05	1.55E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella sp. AM11-39 	0	0	0	0	0	0	0	0	0	0.02236215	5.62E-06	1.63E-05	0	0	0	5.98E-05	1.20E-06	2.68E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella sp. CAG	1.72E-05	1.26E-05	3.27E-05	0	0	0	0	0	0	7.22E-05	0	0	1.13E-05	5.67E-05	0	2.35E-05	9.89E-06	2.01E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella sp. KLE1602 	0	0	0	0	0	0	0	0	0	6.82E-05	0	0	0	0	0	3.28E-05	3.37E-05	3.48E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella wadsworthensis 	0.000733003	0.000547742	0.001440816	0	5.51E-07	0	0	0	0	6.91E-05	0	0	7.06E-07	0	1.67E-07	0.000481097	0.000342806	0.000458827
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Unknown	0.023820496	0.016930481	0.045862444	0	3.03E-06	0	0	0	0	0.00064506	0	1.24E-07	6.21E-06	1.18E-05	1.67E-07	0.005883889	0.004563949	0.005064799
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Unknown|Unknown	0	0	0	0	0	0	0	0	0	0.00084306	0	1.24E-07	0.000609703	0.003685929	3.35E-06	0.000306083	0.000110022	0.000212167
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Unknown|Unknown|Unknown	0	4.74E-07	1.37E-06	0	0	0	1.49E-06	7.59E-07	0	0.000216506	0	0	1.41E-07	5.89E-07	0	0.000118779	2.70E-06	7.00E-05
+Bacteria |Proteobacteria |Betaproteobacteria |Unknown|Unknown|Unknown|Betaproteobacteria bacterium RBG_16_56_24 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.52E-06	1.80E-06	2.17E-06
+Bacteria |Proteobacteria |Betaproteobacteria |Unknown|Unknown|Unknown|Unknown	0	0	0	0	0	0	1.49E-06	0	3.13E-07	4.91E-06	0	0	0	0	0	1.52E-06	0	2.26E-07
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfomicrobiaceae |Desulfomicrobium |Desulfomicrobium escambiense 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.96E-06	1.50E-06	1.18E-06
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfomicrobiaceae |Desulfomicrobium |Desulfomicrobium orale 	1.02E-05	5.69E-06	1.02E-05	0	0	0	0	0	0	0	2.41E-06	2.36E-06	0	0	0	1.57E-05	1.26E-05	4.71E-06
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Bilophila |Bilophila sp. 4_1_30 	8.48E-05	5.83E-05	0.000184509	0	0	0	4.80E-05	1.94E-05	0	0	1.87E-06	6.21E-07	1.41E-07	7.36E-07	0	6.36E-05	6.24E-05	7.00E-05
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Bilophila |Bilophila wadsworthia 	0.000482119	0.000290581	0.000668307	0	0	0	0.000376934	0.00016929	5.14E-05	0	2.41E-06	2.36E-06	1.41E-07	2.06E-06	0	0.000296076	0.000263962	0.000171743
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Bilophila |Unknown	0.003862476	0.001747751	0.005441645	0	2.76E-07	1.61E-07	0.000904283	0.00035585	1.25E-06	3.57E-06	1.45E-05	1.77E-05	0	5.89E-06	0	0.003153288	0.002932061	0.001935078
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio alaskensis 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.52E-06	1.05E-06	7.70E-07
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio aminophilus 	1.62E-07	2.37E-07	1.18E-06	0	0	0	0	0	0	0	0	0	0	0	0	3.26E-07	6.00E-07	4.98E-07
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio fairfieldensis 	0	2.39E-05	0.000123202	0	0	0	0	0	0	0	0	0	2.82E-07	2.94E-07	0	5.44E-07	1.20E-06	1.77E-06
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio magneticus 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.09E-06	8.99E-07	4.98E-07
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio piger 	2.34E-05	1.02E-05	2.41E-05	0	0	0	7.19E-05	3.80E-05	2.08E-05	0.000606932	0.001865667	0.001719778	0	0.000514326	1.67E-07	2.92E-05	2.62E-05	1.63E-05
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio sp. 6_1_46AFAA 	8.28E-06	6.16E-06	2.88E-05	0	0	0	8.65E-06	3.04E-06	0	0	0	0	0	0	0	1.09E-07	0	4.53E-08
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio sp. An276 	0	7.11E-07	1.37E-06	0	0	0	0	0	0	3.57E-06	6.96E-06	3.60E-06	0	6.62E-06	0	1.14E-05	9.59E-06	5.75E-06
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |uncultured Desulfovibrio sp. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7.61E-07	6.00E-07	7.24E-07
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Unknown	3.38E-05	0.0001223	0.000866135	0	0	0	1.91E-05	8.16E-06	1.56E-06	8.12E-05	0.000292874	0.000286051	7.06E-07	0.000103601	0	9.19E-05	7.19E-05	3.31E-05
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Mailhella |Mailhella massiliensis* 	0	4.74E-07	2.55E-06	0	0	0	6.57E-06	4.74E-06	2.97E-06	1.56E-06	8.57E-06	9.18E-06	9.88E-07	4.71E-06	0	1.50E-05	1.00E-05	7.60E-06
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Unknown|Desulfovibrionaceae bacterium 	3.25E-07	1.19E-06	5.48E-06	0	0	0	0.011516327	0.006966682	0.005021698	2.68E-06	8.30E-06	8.94E-06	1.26E-05	2.94E-05	0	5.38E-05	4.39E-05	2.32E-05
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Unknown|Unknown	0.000153453	9.41E-05	0.000171582	0	0	0	0.000888167	0.000505022	0.000335978	1.27E-05	5.03E-05	4.69E-05	3.39E-06	3.24E-05	0	0.000503177	0.000423748	0.000272282
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Unknown|Unknown|Unknown	6.50E-07	2.37E-07	2.35E-06	0	0	0	0.000199659	0.000121653	7.04E-05	2.45E-06	7.50E-06	5.21E-06	0	2.94E-06	0	6.09E-06	6.00E-06	2.49E-06
+Bacteria |Proteobacteria |Deltaproteobacteria |Unknown|Unknown|Unknown|Unknown	4.24E-05	3.15E-05	5.21E-05	0	0	0	0.00013221	7.52E-05	4.44E-05	5.80E-06	1.71E-05	1.61E-05	5.64E-07	1.75E-05	0	7.76E-05	6.01E-05	7.61E-05
+Bacteria |Proteobacteria |Gammaproteobacteria |Alteromonadales |Alteromonadaceae |Marinobacter |Marinobacter sp. B9-2 	0	0	0	6.16E-06	6.07E-06	6.45E-07	3.88E-06	2.28E-06	2.66E-06	9.59E-06	1.34E-06	7.45E-07	1.13E-06	1.32E-06	2.18E-06	1.20E-06	3.00E-06	1.06E-05
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Escherichia |Escherichia coli 	4.87E-07	0	0	0.000735524	0.001084848	0.000244404	2.69E-05	8.20E-05	6.72E-05	8.92E-06	1.31E-05	2.57E-05	6.49E-06	8.68E-06	2.26E-05	4.35E-07	1.05E-06	6.79E-07
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Escherichia |Unknown	0	0	0	0.000840942	0.001412646	9.74E-05	1.49E-05	5.20E-05	2.33E-05	3.79E-06	4.28E-06	8.44E-06	1.98E-06	3.09E-06	8.03E-06	2.18E-07	1.95E-06	8.60E-07
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Klebsiella |Klebsiella pneumoniae 	0.000671135	0.000998309	0.000940565	2.05E-06	1.35E-05	5.00E-06	0	0	0	0.000257087	3.88E-05	9.05E-05	0	0	0	2.18E-07	1.50E-07	4.07E-07
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Klebsiella |Unknown	0	0	0	1.78E-05	0.00081274	0.000504768	0	0	0	0	0	0	0	0	0	5.44E-07	6.00E-07	5.88E-07
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Shigella |Shigella flexneri 	0	0	0	3.42E-07	6.89E-06	2.42E-06	0	0	0	0	0	0	0	0	0	2.18E-07	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Unknown|Unknown	6.50E-07	3.08E-06	3.53E-06	0.016808906	0.018920192	0.01185874	0.0002301	0.000724035	0.000659137	0.00043881	0.000611181	0.001094438	0.000239874	0.000120083	0.000713565	5.11E-06	1.33E-05	8.06E-06
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Unknown|Unknown|Unknown	0	1.19E-06	0	0.004893	0.022389224	0.01646904	5.88E-05	0.000176501	0.000171976	0.000196216	0.000278685	0.000482253	1.51E-05	6.77E-06	5.02E-05	2.72E-06	6.15E-06	4.93E-06
+Bacteria |Proteobacteria |Gammaproteobacteria |Oceanospirillales |Halomonadaceae |Halomonas |Halomonas salina 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7.61E-07	0	1.58E-06
+Bacteria |Proteobacteria |Gammaproteobacteria |Oceanospirillales |Halomonadaceae |Halomonas |Halomonas sp. N3-2A 	6.50E-07	5.69E-06	2.15E-06	2.74E-05	2.56E-05	2.42E-06	2.66E-05	8.16E-06	8.44E-06	1.34E-06	5.35E-07	2.48E-07	5.64E-07	0	1.00E-06	0	0	3.17E-07
+Bacteria |Proteobacteria |Gammaproteobacteria |Oceanospirillales |Oceanospirillaceae |Oceanospirillum |Oceanospirillum multiglobuliferum 	1.62E-07	0	0	2.74E-06	2.21E-06	0	2.98E-06	1.14E-06	1.56E-06	4.24E-06	1.34E-06	3.72E-07	0	0	0	1.09E-07	0	4.98E-07
+Bacteria |Proteobacteria |Gammaproteobacteria |Pseudomonadales |Moraxellaceae |Acinetobacter |Acinetobacter calcoaceticus/baumannii complex  group	6.82E-06	1.61E-05	8.03E-06	2.40E-05	1.79E-05	1.77E-06	1.46E-05	6.45E-06	7.50E-06	5.57E-06	2.68E-07	2.48E-07	2.82E-07	1.47E-07	1.34E-06	5.44E-07	1.80E-06	2.63E-06
+Bacteria |Proteobacteria |Gammaproteobacteria |Pseudomonadales |Pseudomonadaceae |Pseudomonas |Unknown	6.50E-07	2.13E-06	1.18E-06	0	0	0	0	0	0	0	0	0	0	0	0	9.79E-07	6.00E-07	4.98E-07
+Bacteria |Proteobacteria |Gammaproteobacteria |Unknown|Unknown|Unknown|Unknown	0	0	0	0.003774825	0.003806204	0.003399566	3.49E-05	9.76E-05	8.72E-05	7.96E-05	7.04E-05	0.000206999	7.22E-05	3.93E-05	0.000188599	1.20E-06	1.05E-06	8.60E-07
+Bacteria |Proteobacteria |Unknown|Unknown|Unknown|Unknown|Unknown	4.09E-05	3.27E-05	8.50E-05	0.038931111	0.042612888	0.025118772	0.002085521	0.005707829	0.005087049	0.003030198	0.003939343	0.006798572	0.001000557	0.00053331	0.002877018	0.000258441	7.00E-05	0.000148023
+Bacteria |Synergistetes |Synergistia |Synergistales |Synergistaceae |Unknown|Unknown	6.50E-07	1.90E-06	1.76E-06	0	0	0	0	0	0	0	0	0	0	0	0	3.26E-07	0	9.51E-07
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium MS4 	7.14E-06	1.14E-05	1.04E-05	0	0	0	3.88E-06	4.37E-06	2.03E-06	1.78E-06	5.35E-07	1.24E-06	2.82E-06	1.77E-06	8.37E-07	7.61E-07	4.50E-07	2.26E-07
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|Unknown	6.82E-06	1.64E-05	6.07E-06	0	0	0	0	0	4.69E-07	1.32E-05	6.43E-06	1.48E-05	3.39E-06	5.30E-06	1.20E-05	2.18E-07	0	2.26E-07
+Bacteria |Unknown|Unknown|Unknown|Unknown|Unknown|uncultured bacterium 	3.09E-06	9.01E-05	8.64E-05	0.002079251	7.22E-05	0.000376923	7.07E-05	5.73E-05	0.00022779	0	0	7.45E-07	1.57E-05	5.89E-07	4.42E-05	8.70E-07	3.00E-07	6.79E-07
+Viruses |Unknown|unified Microviridae no rank|Unknown|Microviridae |Unknown|Microviridae sp. 	6.11E-05	2.35E-05	7.44E-06	0	0	0	0	0	6.25E-07	3.41E-05	7.50E-06	0.000129685	0	0	0	1.09E-07	1.50E-07	7.24E-07
+Viruses |Unknown|unified Murine leukemia virus no rank|Ortervirales |Retroviridae |Gammaretrovirus |Murine leukemia virus 	2.60E-06	9.48E-06	3.33E-06	1.03E-05	1.21E-05	9.67E-07	1.55E-05	5.50E-06	9.85E-06	2.45E-06	1.07E-06	8.69E-07	2.82E-06	1.91E-06	4.69E-06	3.26E-07	1.80E-06	4.21E-06
+Viruses |Unknown|unified Retroviridae no rank|Ortervirales |Retroviridae |Intracisternal A-particles |Mouse Intracisternal A-particle 	7.63E-06	1.68E-05	8.23E-06	5.68E-05	5.51E-05	6.77E-06	0.000148923	5.81E-05	2.95E-05	6.44E-05	1.18E-05	5.09E-06	4.66E-06	1.62E-06	9.71E-06	1.85E-06	1.20E-06	1.27E-05
+Viruses |Unknown|Unknown|Ortervirales |Retroviridae |Betaretrovirus |Mouse mammary tumor virus 	0	0	0	0	0	0	4.78E-06	1.90E-06	1.09E-06	1.05E-05	2.14E-06	4.96E-07	0	0	0	0	1.50E-07	5.88E-07
+Viruses |Unknown|Unknown|Ortervirales |Retroviridae |Betaretrovirus |Unknown	3.25E-07	1.19E-06	1.18E-06	7.53E-06	6.34E-06	6.45E-07	5.07E-06	2.85E-06	3.13E-06	8.92E-07	0	0	4.23E-07	0	3.35E-07	2.18E-07	7.49E-07	3.17E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. Marseille-P299 	0	0	0	0	0	0	0	0	0	0	0	0	3.53E-06	2.06E-06	6.53E-06	0	3.00E-07	1.81E-07
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio bastinii 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.74E-06	1.80E-06	3.21E-06
+Archaea |Euryarchaeota |Halobacteria |Haloferacales |Halorubraceae |Halorubrum |Halorubrum sp. AJ67 	0	2.37E-07	3.13E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium adolescentis 	3.25E-07	1.42E-06	1.96E-07	0	0	0	0.000123257	9.26E-05	0.000213876	0	0	0	2.82E-07	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium gallinarum 	4.22E-06	8.06E-06	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium pseudocatenulatum 	6.50E-07	2.84E-06	5.88E-07	0	0	0	8.95E-07	2.28E-06	1.72E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium pullorum 	7.63E-06	1.35E-05	9.21E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium saeculare 	1.14E-05	1.30E-05	5.09E-06	0	0	0	0	0	0	0	0	0	0	4.41E-07	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium scardovii 	3.25E-07	1.42E-06	9.79E-07	0.000496967	0.000122683	1.61E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Streptomycetales |Streptomycetaceae |Unknown|Unknown	9.74E-07	2.37E-06	2.15E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella aerofaciens 	1.14E-06	9.48E-07	1.57E-06	0	0	0	8.95E-07	9.49E-07	4.22E-06	9.59E-06	3.75E-06	1.51E-05	8.75E-06	1.62E-06	2.01E-06	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella sp. An2 	1.62E-07	9.48E-07	0	0	0	0	0	0	0	2.23E-07	2.68E-07	1.24E-07	0	1.62E-06	0	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella sp. CAG	1.62E-07	4.74E-07	3.92E-07	0	0	0	5.97E-07	9.49E-07	1.56E-07	8.92E-07	5.35E-07	3.85E-06	8.47E-07	4.41E-07	0	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella sp. TF05-9AC 	1.62E-07	2.37E-07	3.92E-07	0	0	0	0	0	0	4.01E-06	8.03E-07	4.96E-06	9.88E-07	0	1.67E-06	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Unknown	6.41E-05	4.74E-05	0.000132604	0	0	0	5.10E-05	6.28E-05	0.0001701	0.000996019	0.000309472	0.001295604	0.000190206	3.34E-05	5.25E-05	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Unknown|Unknown	4.22E-06	3.32E-06	6.07E-06	0	0	0	5.67E-06	3.61E-06	5.94E-06	3.12E-05	7.23E-06	3.72E-05	8.04E-06	1.77E-06	2.84E-06	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Unknown|Unknown|Unknown	4.55E-06	4.03E-06	9.60E-06	0	0	0	2.98E-06	3.42E-06	9.22E-06	2.74E-05	1.15E-05	3.71E-05	1.24E-05	1.91E-06	1.34E-06	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Eggerthella |Eggerthella sp. CAG	1.79E-06	1.19E-06	3.13E-06	0	0	0	0	0	4.69E-07	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Eggerthellales |Eggerthellaceae |Gordonibacter |Unknown	9.74E-07	4.74E-07	3.72E-06	0	0	0	0	0	0	0	0	0	1.55E-06	5.89E-07	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides cellulosilyticus 	0	7.11E-07	0	0	0	0	0	0	7.71E-05	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides ndongoniae 	0	4.74E-07	0	0	0	0	0	0	1.56E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides plebeius 	0	1.19E-06	1.57E-06	0	0	0	0	0	4.69E-07	6.69E-06	0	1.01E-05	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 3_1_33FAA 	0	7.11E-07	0	0	0	0	0	0	0	0	0	4.96E-07	2.33E-05	2.37E-05	1.67E-07	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 4_1_36 	4.55E-06	2.84E-06	5.09E-06	0	0	0	0	0	0	1.14E-05	2.68E-07	7.69E-06	0	0	0	1.52E-06	3.00E-07	2.08E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 43_108 	3.41E-06	4.27E-06	4.11E-06	0	0	0	5.37E-06	5.50E-06	1.25E-06	0	0	0	0	0	0	2.18E-07	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM25-34 	0	1.19E-06	0	0	0	0	0.000457215	0.000388683	2.66E-06	0	0	0	6.35E-06	1.02E-05	1.17E-05	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. D20 	0	9.72E-06	0	0	0	0	0	0	5.94E-06	0.000203128	0.000373455	0.000316951	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. OM05-10AA 	4.06E-06	7.11E-07	1.18E-06	0	0	0	0	0	0	0	0	0	1.27E-06	2.06E-06	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. OM08-17BH 	4.87E-07	0	3.53E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Muribaculaceae |Unknown|Unknown	3.25E-07	0	0	0	0	0	0.000439905	0.000416202	1.88E-06	0	0	7.45E-07	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Odoribacter |Unknown	0.003303711	0.002900594	0.005019939	0	0	0	0.00415045	0.004277787	0.002383899	4.46E-07	0	6.21E-07	0	0	0	2.18E-07	0	4.53E-08
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Unknown|Prevotellaceae bacterium 	6.50E-07	4.27E-06	2.27E-05	0	0	0	0	0	0	2.47E-05	3.75E-06	7.82E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes ihumii 	6.17E-06	4.01E-05	5.19E-05	0	0	0	0	0	0	0	1.85E-05	7.07E-06	0	4.41E-07	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes inops 	4.87E-07	4.03E-06	5.48E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes obesi 	4.55E-06	4.74E-06	2.35E-05	0	0	0	0	0	0	4.46E-07	0	0	1.69E-06	1.35E-05	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes putredinis 	9.74E-07	3.08E-06	7.83E-06	0	0	0	0.000188915	0.000201174	5.96E-05	8.47E-06	2.14E-06	3.47E-06	4.09E-06	2.91E-05	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes shahii 	0	0	3.92E-07	0	0	0	6.27E-06	7.97E-06	2.97E-06	5.13E-06	0	0	7.34E-06	5.61E-05	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. 56_11 	6.50E-07	9.72E-06	8.42E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. AF14-19 	1.62E-07	4.74E-07	1.37E-06	0	0	0	0	0	0	4.24E-06	0	1.24E-07	4.23E-06	2.83E-05	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. An116 	8.12E-07	2.84E-06	3.33E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. An54 	1.62E-07	1.19E-06	1.45E-05	0	0	0	0	0	0	2.68E-06	0	3.97E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. CHKCI003 	3.09E-06	1.42E-06	1.61E-05	0	0	0	1.49E-06	7.59E-07	0	4.46E-07	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. Marseille-P2431 	1.62E-07	0	4.11E-06	0	0	0	0	0	0	0	0	0	1.41E-07	2.94E-07	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes timonensis 	3.25E-07	9.48E-07	2.55E-06	0	0	0	1.22E-05	1.21E-05	3.60E-06	3.34E-06	3.21E-06	3.10E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Tidjanibacter |Tidjanibacter massiliensis* 	2.76E-06	2.84E-05	3.31E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Unknown|Unknown|Bacteroidales bacterium 	1.62E-07	0	1.96E-07	0	0	0	0	0	0	0	0	0	5.64E-07	6.92E-06	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Marinilabiliales |Marinilabiliaceae |Alkalitalea |Alkalitalea saponilacus* 	7.14E-06	1.66E-05	6.66E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Marinilabiliales |Prolixibacteraceae |Sunxiuqinia |Sunxiuqinia dokdonensis 	9.74E-07	1.42E-06	2.15E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Chitinophagia |Chitinophagales |Chitinophagaceae |Chitinophaga |Chitinophaga arvensicola 	2.27E-06	1.45E-05	5.80E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Chitinophagia |Chitinophagales |Chitinophagaceae |Chitinophaga |Chitinophaga jiangningensis 	2.44E-06	1.42E-05	6.33E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Chitinophagia |Chitinophagales |Chitinophagaceae |Chitinophaga |Unknown	1.25E-05	3.70E-05	0.00026129	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Flavobacteriia |Flavobacteriales |Flavobacteriaceae |Flavobacterium |Flavobacterium sp. ABG 	6.50E-07	3.32E-06	2.00E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Flavobacteriia |Flavobacteriales |Unknown|Unknown|Flavobacteriales bacterium 	0.000392158	0.002257571	0.001028511	0	0	0	0	0	0	0	0	0	1.41E-07	0	0	0	0	0
+Bacteria |Caldiserica |unified Caldiserica no rank|Unknown|Unknown|Unknown|Caldiserica bacterium SMC1 	1.46E-06	1.42E-06	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Cloacimonetes |Unknown|Unknown|Unknown|Candidatus Cloacimonas |Candidatus Cloacimonas sp. 4484_209 	2.44E-06	1.04E-05	6.07E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Candidatus Gastranaerophilales bacterium HUM_10 	3.57E-06	8.30E-06	9.01E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Candidatus Gastranaerophilales bacterium HUM_13 	0	2.37E-07	4.11E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Candidatus Gastranaerophilales bacterium HUM_15 	0	0	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Candidatus Gastranaerophilales bacterium HUM_16 	1.30E-06	2.61E-06	2.94E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Candidatus Gastranaerophilales bacterium HUM_17 	1.62E-07	7.11E-07	9.01E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Candidatus Gastranaerophilales bacterium HUM_19 	1.62E-07	7.11E-07	7.25E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Candidatus Gastranaerophilales bacterium HUM_3 	1.62E-07	4.74E-07	1.61E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Candidatus Gastranaerophilales |Unknown|Unknown|Unknown	1.06E-05	2.49E-05	0.000363142	0	0	0	0	0	0	1.56E-06	1.07E-06	6.21E-07	0	0	0	0	0	0
+Bacteria |Candidatus Melainabacteria |Unknown|Unknown|Unknown|Unknown|Unknown	3.25E-07	9.48E-07	3.92E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Chloroflexi |unified Chloroflexi no rank|Unknown|Unknown|Unknown|Chloroflexi bacterium 	9.74E-07	3.56E-06	1.57E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Bacillus cereus group  group	1.62E-07	2.37E-07	1.96E-07	2.12E-05	4.25E-05	2.68E-05	8.95E-07	0	0	0	0	0	0	0	2.21E-05	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Bacillus safensis 	2.11E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Unknown	9.74E-07	2.61E-06	2.94E-06	4.07E-05	1.38E-06	3.22E-07	2.98E-07	1.90E-07	0	0	5.35E-07	7.45E-07	5.64E-07	1.47E-07	1.17E-06	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Paenibacillaceae |Paenibacillus |Unknown	9.74E-07	1.19E-06	4.90E-06	0	0	0	5.97E-07	3.80E-07	0	4.46E-07	0	1.24E-07	4.66E-06	1.47E-06	9.37E-06	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Unknown	0	1.66E-06	0	3.42E-07	0.000842515	4.84E-07	0.017000222	0.015499293	0.019683586	0.05096196	0.004949946	0.036689801	5.64E-07	2.94E-07	6.69E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Christensenellaceae |Christensenella* |Unknown	1.62E-06	6.16E-06	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. AM05-1 	2.11E-06	7.11E-07	2.55E-06	0	0	0	0	1.90E-07	1.56E-07	0	0	0	0	1.35E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. AM28-25 	3.57E-06	4.03E-06	4.90E-06	0	0	0	2.69E-06	1.90E-06	1.25E-06	0	0	0	0	1.60E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. AM32-19 	2.68E-05	2.11E-05	3.92E-05	0	0	0	0	0	0	0	0	0	2.82E-07	7.95E-06	6.69E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. OF10-2 	2.76E-06	9.48E-07	2.15E-06	0	0	0	0	0	0	0	0	0	0	5.74E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium akagii 	2.11E-06	2.13E-06	2.94E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium beijerinckii 	1.62E-07	1.19E-06	1.18E-06	2.74E-06	4.41E-06	2.90E-06	0	0	0	4.46E-07	5.35E-07	2.61E-06	0	0	1.51E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium cadaveris 	6.50E-07	2.37E-07	1.96E-07	4.79E-06	2.56E-05	3.51E-05	8.95E-07	7.59E-07	1.09E-06	0	0	0	0	0	1.00E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium disporicum 	1.62E-07	1.66E-06	1.96E-07	0.001154455	0.017695016	0.002452904	0	0	0	0	0	0	0	2.65E-06	0.000623198	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium hathewayi CAG	1.14E-06	3.32E-06	2.74E-06	0	0	0	0	0	0	0	0	0	1.51E-05	4.12E-06	4.13E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium phoceensis 	6.82E-06	1.21E-05	2.15E-05	0	0	0	0.000112215	6.59E-05	5.24E-05	0	0	0	0	1.03E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. 	6.66E-06	2.73E-05	8.62E-06	0	0	0	0	0	4.69E-07	0	0	0	0	1.32E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. 12A 	3.25E-07	2.37E-06	5.88E-07	0	0	0	0	0	0	0	0	0	2.82E-07	2.21E-06	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AF15-17LB 	3.09E-06	3.32E-06	5.29E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AF18-27 	4.87E-07	9.48E-07	1.96E-07	0	0	0	2.98E-06	7.40E-06	2.66E-06	4.46E-07	0	3.72E-07	0	2.65E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AF19-22AC 	8.12E-07	2.84E-06	1.37E-06	0	0	0	0	0	0	1.45E-05	1.93E-05	2.64E-05	1.13E-06	2.80E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AF32-12BH 	3.25E-07	3.08E-06	1.57E-06	0	0	0	0	0	0	0	0	0	1.41E-07	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AM29-11AC 	1.64E-05	7.11E-06	8.42E-06	0	0	0	0	0	0	4.46E-07	8.03E-07	1.99E-06	7.62E-06	1.50E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AM58-1XD 	6.50E-07	7.11E-07	1.18E-06	0	0	0	1.40E-05	7.78E-06	1.16E-05	0	0	0	8.47E-07	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. ASF502 	8.12E-07	4.50E-06	3.13E-06	0	0	0	0	0	0	0	0	0	1.13E-06	1.91E-06	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. CAG_433_25_7 	0	3.56E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. chh4-2 	5.52E-06	4.50E-06	7.44E-06	1.37E-06	8.27E-07	4.84E-07	0	0	0	0	0	0	4.77E-05	1.09E-05	1.84E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. CL-6 	3.25E-07	0	5.88E-07	4.79E-05	2.76E-07	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. D5 	1.30E-06	2.84E-06	1.96E-06	0	0	0	0	0	0	0	8.03E-07	6.21E-07	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. HMSC19A11 	0	2.37E-07	1.96E-07	0	0	0	0	0	0	0	0	0	4.80E-06	5.89E-07	1.41E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sulfidigenes 	1.62E-07	2.37E-07	1.96E-07	0	0	0	5.97E-07	2.66E-06	3.13E-07	0	0	0	0	0	5.19E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Hungatella |Hungatella effluvii 	6.28E-05	0.000144342	2.51E-05	0	0	0	2.09E-06	4.18E-06	1.09E-06	1.43E-05	7.04E-05	1.19E-05	5.05E-05	3.09E-05	0.00013304	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Lactonifactor |Lactonifactor longoviformis* 	2.11E-06	4.74E-06	4.11E-06	0	0	0	0	0	1.09E-06	0	0	0	3.44E-05	2.68E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Mordavella |Mordavella sp. Marseille-P3756* 	6.66E-06	5.69E-06	4.50E-06	0	0	0	0	0	0	0	0	0	0	1.03E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Unknown|Clostridiaceae bacterium OM08-6BH 	2.92E-06	2.13E-06	4.11E-06	0	0	0	1.79E-06	1.14E-06	1.56E-06	1.11E-06	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiales Family XIII. Incertae Sedis |Anaerovorax |Anaerovorax odorimutans* 	1.62E-07	0	0	0	0	0	0	0	0	2.23E-07	0	1.24E-07	1.83E-06	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Anaerofustis |Anaerofustis stercorihominis* 	6.82E-06	1.23E-05	6.27E-06	0	0	0	0	0	0	0	0	0	7.70E-05	6.33E-06	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |[Eubacterium] hallii 	0	4.03E-06	1.18E-06	0	0	0	0	0	6.25E-07	0	0	0	5.64E-07	1.47E-07	0	3.15E-06	3.45E-06	1.38E-05
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium barkeri 	4.87E-07	1.19E-06	1.96E-06	0	0	0	0	0	0	1.11E-06	0	7.45E-07	2.82E-07	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium plexicaudatum 	5.36E-06	1.54E-05	2.00E-05	0	0	0	0	0	3.13E-07	0	0	0	1.37E-05	8.54E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium ramulus 	0	2.37E-06	0	0	0	0	0	0	0	0	0	6.21E-07	8.47E-07	2.50E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium rectale CAG	2.60E-06	1.16E-05	8.81E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. 36_13 	4.06E-06	6.16E-06	3.33E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. AB3007 	1.14E-06	1.19E-06	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. AF17-7 	1.14E-06	2.84E-06	3.92E-07	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. AF36-5BH 	1.62E-07	9.48E-07	0	0	0	0	0	0	0	0	0	0	0	1.47E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. An11 	4.06E-06	4.74E-06	3.33E-06	0	0	0	0	0	3.13E-07	0	0	0	0	1.62E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. CAG	4.87E-07	1.19E-06	9.79E-07	0	0	0	0	0	0	0	0	0	2.26E-06	3.24E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. ER2 	1.79E-06	3.56E-06	3.33E-06	0	0	0	2.09E-06	1.71E-06	7.82E-07	0	0	0	0	1.59E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. SB2 	4.06E-06	9.95E-06	7.83E-06	0	0	0	0	0	0	1.20E-05	1.26E-05	2.77E-05	4.23E-07	5.89E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |uncultured Eubacterium sp. 	9.74E-07	1.66E-06	7.83E-07	0	0	0	0	0	0	6.69E-07	5.35E-07	1.86E-06	0	1.03E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Intestinibacillus |Intestinibacillus massiliensis 	9.74E-07	4.74E-07	2.35E-06	0	0	0	0	0	0	0	0	0	1.83E-06	7.36E-07	6.36E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Unknown|Eubacteriaceae bacterium CHKCI004 	1.14E-06	3.32E-06	1.96E-06	0	0	0	0	0	6.25E-07	0	0	0	1.13E-06	4.41E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Unknown|Eubacteriaceae bacterium CHKCI005 	9.74E-07	6.87E-06	4.90E-06	0	0	0	0	0	0	0	0	0	0	1.03E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Unknown|Unknown	6.50E-07	4.27E-06	3.72E-06	0	0	0	0	0	0	0	0	0	0	2.50E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Hungateiclostridiaceae |Pseudoclostridium |Pseudoclostridium thermosuccinogenes* 	1.30E-06	3.79E-06	1.76E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Hungateiclostridiaceae |Thermoclostridium |Thermoclostridium stercorarium* 	6.50E-06	7.35E-06	2.55E-06	0	0	0	0	0	0	0	0	0	1.55E-06	5.89E-07	3.51E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Acetatifactor |Acetatifactor muris* 	3.25E-07	9.48E-07	0	0	0	0	0	0	0	4.46E-07	2.68E-07	8.69E-07	1.55E-06	1.32E-06	2.68E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerocolumna |Anaerocolumna xylanovorans 	0	2.37E-07	1.96E-07	0	0	0	0	0	0	0	0	0	0	3.09E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerotignum |Anaerotignum lactatifermentans 	6.50E-07	1.90E-06	2.55E-06	0	0	0	1.91E-05	1.69E-05	2.64E-05	0	0	0	0	1.62E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Bariatricus |Bariatricus massiliensis* 	2.11E-06	6.87E-06	2.55E-06	0	0	0	0	0	0	0	0	0	2.31E-05	1.38E-05	1.67E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |[Ruminococcus] torques 	3.41E-06	6.64E-06	1.45E-05	0	0	0	1.13E-05	4.18E-06	3.91E-06	6.69E-07	3.21E-06	1.49E-06	1.26E-05	2.94E-06	5.02E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia hansenii 	4.87E-07	4.98E-06	1.96E-06	0	0	0	0	0	2.03E-06	0	0	0	4.78E-05	3.68E-06	8.22E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia hydrogenotrophica 	1.79E-06	1.66E-06	1.29E-05	0	0	0	0	0	1.09E-06	6.98E-05	9.50E-05	0.000157235	0	1.47E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia hydrogenotrophica CAG	1.46E-06	2.37E-07	7.05E-06	0	0	0	0	0	0	2.45E-06	2.94E-06	4.96E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia schinkii 	8.12E-07	3.32E-06	2.15E-06	0	0	0	5.97E-07	0	1.56E-07	0	0	0	2.82E-06	1.91E-05	1.34E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. An249 	1.19E-05	3.56E-05	1.57E-05	0	0	0	0	0	1.56E-07	0	0	0	1.17E-05	1.06E-05	1.81E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. An46 	2.44E-06	4.27E-06	1.96E-06	0	0	0	0	0	4.69E-07	0	0	0	0	2.58E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. OF03-13 	2.44E-06	1.19E-06	1.76E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. OF03-15BH 	5.85E-06	1.35E-05	1.94E-05	0	0	0	0	0	0	0	0	0	4.23E-07	1.21E-05	1.34E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. OM06-15AC 	1.62E-07	2.37E-06	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |uncultured Blautia sp. 	2.76E-06	4.27E-05	3.66E-05	0	0	0	0	0	0	4.46E-07	1.34E-06	7.45E-07	8.75E-06	9.34E-05	8.20E-06	0	1.35E-06	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus catus 	6.50E-07	1.66E-06	3.92E-06	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus sp. AM14-16 	3.25E-07	3.56E-06	1.76E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus sp. HPP0074 	0	7.35E-06	0	0	0	0	0	0	0	0	0	0	3.44E-05	0	0.000102583	7.61E-07	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Unknown	1.14E-06	5.21E-06	7.25E-06	0	0	0	0	0	0	0	0	0	6.91E-06	2.21E-06	3.41E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Dorea |Dorea formicigenerans 	6.50E-06	1.35E-05	1.02E-05	0	0	0	0	0	0	0	0	0	5.64E-06	3.24E-06	6.69E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Eisenbergiella |Eisenbergiella sp. OF01-20 	3.25E-07	2.37E-06	1.37E-06	0	0	0	0	0	0	6.69E-07	5.09E-06	8.69E-07	1.41E-06	1.47E-07	2.34E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Eisenbergiella |Eisenbergiella tayi 	5.36E-06	1.59E-05	1.12E-05	0	0	0	0	0	3.13E-07	0	0	0	4.39E-05	0.000106103	8.03E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Faecalicatena |Faecalicatena orotica 	3.25E-06	3.08E-06	4.31E-06	0	0	0	0	0	0	4.46E-07	2.68E-07	4.96E-07	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Fusicatenibacter |Fusicatenibacter saccharivorans 	1.62E-06	1.04E-05	3.53E-06	0	0	0	0	0	0	0	0	0	0	0	0	4.35E-07	0	1.81E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Fusicatenibacter |Fusicatenibacter sp. 2789STDY5834925 	8.12E-07	4.27E-06	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] aminophilum 	9.74E-07	4.74E-07	7.83E-07	0	0	0	1.13E-05	6.83E-06	4.06E-06	0	0	0	1.13E-06	9.12E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] amygdalinum 	1.62E-07	1.19E-06	0	0	0	0	7.46E-06	4.55E-06	4.38E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] fimetarium 	1.30E-06	2.37E-06	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] glycyrrhizinilyticum 	1.62E-07	2.37E-07	1.96E-07	0	0	0	5.97E-07	1.90E-07	7.82E-07	6.69E-07	0	1.49E-06	7.20E-06	5.74E-06	0.000126346	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] saccharolyticum 	8.05E-05	4.55E-05	8.60E-05	0	0	0	0	0	0	0	2.68E-07	1.24E-07	0	1.37E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium edouardi 	1.79E-06	2.37E-07	1.18E-06	0	0	0	0.004963409	0.004034671	0.005181479	2.23E-07	2.68E-07	3.72E-07	5.50E-06	1.62E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium phocaeense 	3.09E-06	4.98E-06	1.76E-06	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An131 	3.33E-05	6.68E-05	9.30E-05	0	0	0	0	0	0	0	0	0	2.82E-07	2.80E-06	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An138 	1.59E-05	2.84E-05	2.39E-05	0	0	0	0	0	0	0	0	0	5.64E-07	4.56E-06	8.37E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An14 	5.57E-05	4.29E-05	4.50E-05	0	0	0	0	0	0	6.69E-07	5.35E-07	6.21E-07	2.50E-05	5.15E-06	5.02E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An181 	1.30E-06	4.74E-07	3.92E-07	0	0	0	0	0	0	2.23E-07	0	4.96E-07	2.82E-06	3.38E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An196 	4.87E-07	1.42E-06	9.79E-07	0	0	0	0	0	0	0	0	0	0	5.44E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An298 	1.88E-05	4.91E-05	2.43E-05	0	0	0	0	0	0	0	0	0	7.06E-07	8.83E-07	5.02E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |Lachnoclostridium sp. An76 	5.36E-06	9.95E-06	4.11E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnotalea |Lachnotalea glycerini 	4.87E-07	4.74E-07	5.88E-07	0	0	0	0	0	0	2.23E-06	7.50E-06	4.10E-06	4.23E-07	0	4.35E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnotalea |Lachnotalea sp. AF33-28 	9.74E-07	2.37E-06	5.88E-07	0	0	0	0	0	0	0	0	0	5.50E-06	1.03E-06	1.91E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Marvinbryantia |Marvinbryantia formatexigens* 	1.79E-06	1.66E-06	3.92E-07	0	0	0	0	0	1.41E-06	0	0	0	4.94E-06	9.27E-06	1.04E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Merdimonas |Merdimonas faecis* 	1.14E-06	1.64E-05	6.46E-06	0	0	0	0	0	0	0	0	0	0	5.89E-05	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Murimonas |Murimonas intestini* 	1.95E-06	3.08E-06	1.57E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Parasporobacterium |Parasporobacterium paucivorans* 	1.62E-07	2.37E-06	2.35E-06	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Pseudobutyrivibrio |Unknown	1.30E-06	1.19E-06	1.37E-06	0	0	0	0	0	0	6.69E-07	8.03E-07	1.24E-06	7.06E-07	1.18E-06	2.18E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Robinsoniella |Robinsoniella peoriensis 	1.46E-06	1.90E-06	1.96E-06	0	0	0	0	0	9.38E-07	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Robinsoniella |Robinsoniella sp. KNHs210 	0	4.74E-07	3.92E-07	0	0	0	0	0	0	8.92E-07	1.07E-06	2.23E-06	0	2.80E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Robinsoniella |Robinsoniella sp. RHS 	0	7.11E-07	0	0	0	0	0	0	0	0	0	0	3.01E-05	1.90E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia intestinalis 	2.60E-06	5.45E-06	3.13E-06	0	2.76E-07	0	8.95E-07	3.80E-07	0	0	0	0	2.82E-07	1.62E-06	1.00E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia inulinivorans 	6.50E-07	1.66E-06	2.94E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia sp. 1XD42-69 	0	3.79E-06	7.83E-07	0	0	0	0	0	0	0	0	0	7.06E-07	0	5.02E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia sp. 499 	2.11E-06	4.03E-06	2.74E-06	0	0	0	0	0	0	0	0	0	0	1.18E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia sp. AM16-25 	8.44E-06	5.93E-06	9.21E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia sp. AM51-8 	8.12E-07	2.84E-06	9.79E-07	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Unknown	8.78E-05	0.000161881	0.000130645	0	0	0	0	0	0	0	0	2.48E-07	7.06E-07	1.91E-06	1.61E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Stomatobaculum |Stomatobaculum longum* 	9.74E-07	2.37E-06	2.55E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Tyzzerella |Tyzzerella nexilis 	4.87E-07	9.48E-07	9.79E-07	0	0	0	1.76E-05	0.000178589	1.36E-05	2.23E-07	0	1.12E-06	5.64E-07	1.47E-07	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|[Eubacterium] rectale 	0.00061154	0.001484664	0.001701714	0	9.65E-06	0	0	0	1.09E-06	0	1.82E-05	0	1.03E-05	1.15E-05	1.36E-05	1.20E-06	7.49E-07	3.17E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 	8.12E-07	1.19E-06	3.92E-07	0	0	0	0	0	0	0	0	0	8.75E-06	4.86E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 10-1 	3.25E-07	0	0	0	0	0	0	0	0	0	0	0	1.41E-07	5.59E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 2_1_58FAA 	0	2.09E-05	0	0	0	0	0	0	0	0	0	0	4.23E-07	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 28-4 	1.95E-06	1.90E-06	1.57E-06	0	0	0	0	0	0	0	0	0	1.92E-05	1.62E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 3-1 	3.25E-07	2.61E-06	1.96E-07	0	0	0	0	0	0	0	0	0	2.82E-07	5.89E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 6_1_37FAA 	0	3.32E-06	0	0	0	0	0	0	0	2.23E-07	2.68E-07	8.69E-07	0.000139268	2.94E-06	4.84E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium AC2012 	5.85E-06	1.07E-05	6.07E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium AM25-17 	6.50E-07	3.79E-06	3.92E-07	0	0	0	0	0	0	0	0	0	1.13E-06	4.41E-07	1.96E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium AM48-27BH 	1.62E-07	9.48E-07	1.96E-07	0	0	0	0	0	1.41E-06	0	0	0	1.41E-06	4.41E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium Marseille-P3773 	8.12E-07	9.48E-07	1.96E-07	0	0	0	0	0	3.13E-07	0	0	0	0	2.50E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter sp. 1-3 	1.30E-06	3.32E-06	6.07E-06	0	0	0	0	0	0	0	8.03E-07	0	2.82E-06	8.39E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter sp. 57_20 	1.62E-07	9.48E-07	0	0	0	0	0	0	0	0	0	0	2.82E-07	5.30E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter sp. ER4 	8.12E-07	4.03E-06	2.55E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter sp. KLE 1745 	1.62E-07	2.37E-07	7.83E-07	0	0	0	0	0	0	0	0	0	8.18E-06	1.25E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter sp. PC13 	1.30E-06	2.84E-06	6.07E-06	0	0	0	0	0	0	0	0	0	8.47E-07	2.50E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Oscillibacter sp. PEA192 	6.82E-06	0.000234645	0.000294588	0	0	0	0	0	0	0	0	0	2.95E-05	8.01E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Oscillibacter |Unknown	0.000306257	0.004271017	0.008730881	0	5.51E-07	0	0	1.90E-07	4.69E-07	9.59E-06	9.37E-06	1.69E-05	0.000524195	0.001060439	8.37E-07	4.35E-07	4.50E-07	1.81E-07
+Bacteria |Firmicutes |Clostridia |Clostridiales |Oscillospiraceae |Unknown|Unknown	8.80E-05	0.001539889	0.002475594	0	0	0	0	0	0	0	0	0	0.0002585	0.000547879	1.00E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptococcaceae |Desulfosporosinus |Desulfosporosinus orientis 	1.62E-07	2.61E-06	2.15E-06	0	0	0	0	0	0	0	0	0	2.82E-07	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptococcaceae |Desulfotomaculum |Desulfotomaculum ruminis 	2.44E-06	2.84E-06	7.83E-07	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Paeniclostridium |Paeniclostridium sordellii* 	0	1.90E-06	0	0.000611283	3.89E-05	3.35E-05	0	0	0	8.92E-07	2.68E-07	2.48E-06	1.55E-06	1.18E-06	0.000877397	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Romboutsia |Unknown	4.87E-07	0	0	0.009990673	9.54E-05	9.22E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Acetivibrio |Acetivibrio ethanolgignens 	0	4.74E-07	3.92E-07	0	0	0	0	0	0	4.01E-06	2.94E-06	1.15E-05	6.07E-06	9.57E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Agathobaculum |Agathobaculum butyriciproducens 	3.25E-07	0	1.96E-07	0	0	0	0	0	0	0	0	0	0	7.36E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaeromassilibacillus |Anaeromassilibacillus sp. An200 	1.14E-06	2.13E-06	4.90E-06	0	0	0	1.49E-06	7.59E-07	0	0	8.57E-06	0	8.47E-07	7.36E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Angelakisella |Angelakisella massiliensis* 	8.77E-06	7.82E-06	1.25E-05	0	0	0	0	0	0	4.46E-07	6.69E-06	0	3.53E-06	1.91E-06	3.18E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Bittarella |Bittarella massiliensis* 	1.46E-06	2.84E-06	4.50E-06	0	0	0	0	0	0	0	0	0	1.41E-06	1.18E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Drancourtella |Drancourtella sp. An177 	0	1.66E-06	3.92E-07	0	0	0	0	0	0	0	0	0	0	2.06E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Drancourtella |Drancourtella sp. An210 	1.62E-06	2.13E-06	1.76E-06	0	0	0	0	0	0	0	0	0	4.23E-07	4.41E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Faecalibacterium |Faecalibacterium sp. An122 	9.74E-07	3.56E-06	3.92E-07	0	0	0	0	0	0	0	0	0	1.41E-07	0	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Faecalibacterium |Faecalibacterium sp. An192 	1.95E-06	3.56E-06	1.37E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Faecalibacterium |Faecalibacterium sp. CAG	4.22E-06	9.01E-05	0.000101852	0	0	0	1.79E-06	0	0	2.23E-07	0	6.21E-07	0	1.03E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An10 	4.06E-06	8.53E-06	1.74E-05	0	0	0	4.45E-05	4.06E-05	2.74E-05	0	0	0	1.13E-06	1.91E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An100 	4.87E-06	9.48E-07	4.31E-06	0	0	0	0	0	0	0	0	0	6.77E-06	1.03E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An306 	6.33E-06	2.09E-05	1.82E-05	0	0	0	8.06E-06	6.64E-06	3.60E-06	0	9.37E-06	0	5.64E-07	8.83E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An4 	8.12E-07	7.82E-06	5.88E-06	0	0	0	0	1.90E-07	1.56E-07	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An82 	2.92E-06	6.64E-06	1.16E-05	0	0	0	2.98E-07	1.90E-07	1.56E-07	0	2.41E-06	0	5.64E-07	3.24E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |Flavonifractor sp. An9 	1.30E-06	2.61E-06	6.46E-06	0	0	0	0	0	0	0	0	0	1.41E-07	1.47E-07	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Flavonifractor |uncultured Flavonifractor sp.* 	5.36E-05	0.000147424	0.000184313	0	0	0	4.30E-05	7.97E-06	2.03E-06	4.21E-05	1.82E-05	5.27E-05	2.30E-05	1.50E-05	3.63E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Fournierella |Fournierella massiliensis* 	3.57E-06	7.11E-06	5.48E-06	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Gemmiger |Gemmiger formicilis 	0.000645316	0.000620506	0.000193715	0	0	0	5.97E-07	1.90E-07	0.000439946	0	0	0	0	1.16E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Gemmiger |Gemmiger sp. An120 	1.62E-07	0	5.88E-07	0	0	0	3.58E-06	4.55E-06	3.13E-06	0	0	0	4.80E-06	1.77E-06	1.05E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Hydrogenoanaerobacterium |Hydrogenoanaerobacterium saccharovorans* 	1.95E-06	7.11E-07	2.55E-06	0	0	0	0	0	0	6.69E-07	8.03E-07	2.48E-07	1.83E-06	5.89E-07	2.34E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Massilimaliae |Massilimaliae massiliensis 	2.27E-06	3.08E-06	3.13E-06	0	0	0	0	0	0	0	0	0	1.41E-07	1.03E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Negativibacillus |Negativibacillus massiliensis 	0	7.11E-07	2.74E-06	0	0	0	0	0	0	0	0	0	2.74E-05	2.75E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Neglecta |Neglecta timonensis 	6.50E-07	7.11E-07	2.74E-06	0	0	0	1.79E-06	3.80E-07	3.13E-07	0	0	0	2.82E-07	5.89E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Papillibacter |Papillibacter cinnamivorans* 	3.90E-06	6.40E-06	9.01E-06	0	0	0	2.98E-07	1.90E-07	1.56E-07	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Phocea |Phocea massiliensis* 	5.52E-06	8.06E-06	7.83E-06	0	0	0	0	0	0	0	0	0	1.48E-05	8.39E-06	1.54E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Pseudoflavonifractor |Pseudoflavonifractor sp. AF19-9AC 	1.62E-06	2.13E-06	2.94E-06	0	0	0	3.28E-06	5.69E-07	9.38E-07	0	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Pseudoflavonifractor |Pseudoflavonifractor sp. Marseille-P3106 	9.74E-07	6.16E-06	5.48E-06	0	0	0	0	0	0	0	2.14E-06	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus bromii 	1.62E-07	7.11E-07	9.79E-07	0	2.76E-07	1.61E-07	0	0	0	0	0	0	0	2.65E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus flavefaciens 	1.95E-06	1.90E-06	1.18E-06	0	0	0	0	0	0	0	0	0	7.06E-07	0	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus gauvreauii 	8.12E-07	6.40E-06	4.11E-06	0	0	0	0	0	0	0	0	0	0	5.00E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus lactaris 	1.62E-07	1.54E-05	3.92E-07	0	5.51E-07	1.61E-07	0	0	0	0	0	0	1.41E-06	3.68E-06	5.19E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. 1xD21-23 	4.87E-07	1.19E-06	1.96E-07	0	0	0	0	0	0	0	0	0	8.89E-06	2.80E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AF18-22 	6.66E-06	1.02E-05	9.21E-06	0	0	0	0	0	0	0	0	0	8.47E-07	1.47E-07	5.02E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AF31-8BH 	8.12E-07	1.66E-05	1.53E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AM42-11 	2.92E-06	4.20E-05	3.53E-05	0	0	0	0	0	0	0	0	0	6.32E-05	8.98E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruthenibacterium |Ruthenibacterium lactatiformans* 	1.85E-05	4.60E-05	3.98E-05	0	0	0	0	0	6.88E-06	0	0	0	6.77E-06	8.24E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum sp. 4_3_54A2FAA 	0.000222954	0.000454358	0.000432872	0	0	0	0	0	0	0	0	0	6.49E-06	6.92E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum sp. 60_17 	0.000150855	9.36E-05	4.70E-05	0	0	0	5.97E-07	3.80E-07	0.000292359	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum sp. AF14-43 	1.06E-05	1.30E-05	1.63E-05	0	0	0	0	0	0	0	0	0	3.10E-06	7.36E-07	7.20E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum sp. AM16-9 	1.62E-07	2.37E-07	1.96E-07	0	0	0	0	0	0	0	0	0	3.53E-06	3.24E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum sp. AM23-21AC 	3.25E-07	9.48E-07	1.96E-07	0	0	0	0	0	0	0	0	0	3.39E-06	5.74E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum sp. APC924/74 	0.00033435	0.000264272	0.000100873	0	0	0	0	0	6.96E-05	0	0	0	0	0	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Subdoligranulum sp. OF01-18 	5.02E-05	9.01E-05	9.01E-05	0	0	0	0	7.59E-07	3.13E-07	0	0	0	3.25E-06	2.50E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Subdoligranulum |Unknown	0.000429507	0.000569074	0.000475375	0	0	0	0	0	0.000133047	0	0	0	1.24E-05	1.07E-05	0	2.18E-07	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium 	6.66E-06	5.45E-06	1.21E-05	0	0	0	0	0	0	0	0	0	1.83E-06	1.03E-06	6.69E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium AF10-16 	0	4.74E-07	1.18E-06	0	0	0	0	0	0	0	0	0	2.54E-05	2.50E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium AM28-23LB 	0	0	7.83E-07	0	0	0	2.09E-06	2.28E-06	1.56E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium cv2 	4.87E-06	7.11E-06	5.88E-06	0	0	0	0	0	0	0	0	0	4.23E-07	8.83E-07	3.35E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium D16 	3.25E-07	9.48E-07	1.76E-06	0	0	0	0.000139373	9.43E-05	0.000203713	0	0	0	6.21E-06	1.75E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium KLE1738 	1.10E-05	1.68E-05	2.78E-05	0	0	0	2.98E-06	0	0	1.56E-06	1.61E-06	1.49E-06	1.41E-07	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium Marseille-P2935 	1.62E-07	2.37E-07	5.88E-07	0	0	0	2.39E-06	1.90E-06	2.97E-06	0	0	0	4.23E-07	1.47E-07	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Unknown|Ruminococcaceae bacterium TF06-43 	4.87E-07	4.74E-07	3.92E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Epulopiscium |Unknown	1.62E-07	9.48E-07	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Intestinimonas |Intestinimonas massiliensis 	2.11E-06	3.18E-05	4.09E-05	0	0	0	5.97E-07	0	0	0	0	0	0	5.89E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Lawsonibacter |Lawsonibacter asaccharolyticus* 	1.66E-05	3.77E-05	7.13E-05	0	0	0	0.000186825	0.000104383	8.07E-05	0	0	0	7.62E-06	2.94E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Monoglobus |Monoglobus pectinilyticus* 	0.000446557	0.001934045	0.000409955	0	0	0	0	0	0	0	0	0	2.82E-07	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium 41_12_two_minus 	8.12E-07	7.11E-06	2.55E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium 42_27 	9.74E-07	1.90E-06	3.13E-06	0	0	0	1.07E-05	2.28E-06	9.38E-07	0	0	0	0	1.18E-06	3.18E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium 52_15 	4.99E-05	3.89E-05	2.00E-05	0	0	0	0	0	0.000117725	0	0	0	2.82E-07	2.06E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium CCNA10 	1.12E-05	6.45E-05	4.15E-05	0	0	0	3.67E-05	6.07E-06	0	0	0	0	0	5.74E-06	5.02E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium CHKCI001 	2.60E-06	3.08E-06	3.92E-07	0	0	0	0	0	0	0	0	0	0	3.38E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium CHKCI006 	6.50E-07	7.11E-07	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium Choco116 	3.25E-06	6.40E-06	8.42E-06	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium Marseille-P2846 	1.62E-06	9.48E-07	2.35E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium Marseille-P5551 	2.92E-06	3.79E-06	2.74E-06	0	0	0	0	0	0	3.34E-06	4.02E-06	6.21E-06	0	1.18E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium NK3B98 	9.74E-07	4.27E-06	1.96E-06	0	0	0	0	0	0	0	0	0	7.06E-07	4.86E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-08 	1.20E-05	3.56E-05	2.59E-05	0	0	0	0	0	0	0	0	0	2.82E-07	1.18E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-21 	2.76E-06	1.19E-06	1.96E-06	0	0	0	0	0	0	1.56E-06	2.94E-06	4.10E-06	2.82E-07	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-26 	0.000117404	0.000108316	0.000146902	0	0	0	0	0	0	0	0	0	0	4.41E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Unknown|Unknown|Unknown|Clostridia bacterium UC5.1-1C12 	3.25E-07	0	3.92E-07	0	0	0	0	0	0	0	0	0	3.53E-06	3.24E-06	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Absiella |Absiella sp. AM27-20 	0	2.37E-07	0	0	0	0	0	0	0	0	0	0	6.49E-06	0	8.87E-06	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Absiella |Unknown	1.79E-06	9.48E-07	1.76E-06	0	0	0	0	0	0	0	0	0	7.06E-07	1.62E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Coprobacillus |Coprobacillus sp. AF09-1A 	0	4.50E-06	3.33E-06	0	0	0	1.79E-06	5.69E-07	1.25E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Coprobacillus |Unknown	1.41E-05	1.35E-05	9.99E-06	0	0	0	6.12E-05	2.90E-05	2.67E-05	0	0	0	2.30E-05	6.62E-06	7.65E-05	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Dielma |Dielma fastidiosa* 	0.00081452	0.000812963	0.000652049	0	0	0	0	0	0	0	0	0	0.000108226	0.000108016	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |[Clostridium] cocleatum 	1.62E-07	4.74E-07	1.96E-07	0	0	0	7.52E-05	3.40E-05	2.77E-05	0	0	0	2.82E-07	0	1.67E-07	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |Erysipelatoclostridium sp. An15 	0	3.79E-06	4.11E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelatoclostridium |Erysipelatoclostridium sp. An173 	9.74E-07	2.37E-06	2.74E-06	0	0	0	0	0	0	0	0	0	1.41E-07	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Faecalicoccus |Faecalicoccus pleomorphus 	1.62E-07	7.11E-07	1.96E-07	0	0	0	0	0	0	0.00027225	0	0.00012137	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Faecalitalea |Faecalitalea cylindroides 	1.14E-06	9.48E-07	7.83E-07	0	0	0	0	0	0	0	0	0	0	0	0	5.44E-07	0	5.88E-07
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Faecalitalea |Faecalitalea sp. Marseille-P3755 	6.50E-07	5.93E-06	7.83E-07	0	0	0	0	3.99E-06	0	0	0	0	2.26E-06	2.80E-06	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Holdemanella |Holdemanella biformis* 	4.87E-07	9.48E-07	1.96E-07	0	0	0	0	0	1.41E-06	0.000224533	0	8.30E-05	0	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Holdemania |Unknown	0	3.32E-06	7.83E-07	0	0	0	0	0	0	0	0	0	0.001358392	0.000744926	1.67E-06	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Massiliomicrobiota |Massiliomicrobiota sp. An105 	4.87E-07	9.48E-06	1.25E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Massiliomicrobiota |Massiliomicrobiota sp. An134 	6.50E-07	6.87E-06	4.70E-06	0	0	0	0	0	0	0	0	0	1.57E-05	4.86E-06	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Massiliomicrobiota |Massiliomicrobiota sp. An142 	1.17E-05	2.89E-05	0.000216632	0	0	0	0	0	0	0	0	0	4.23E-07	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Massiliomicrobiota |Massiliomicrobiota sp. An80 	4.87E-07	1.23E-05	1.14E-05	0	0	0	0	0	0	0	0	0	5.64E-07	0	2.34E-06	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Massiliomicrobiota |Massiliomicrobiota timonensis 	1.51E-05	0.000714364	0.000593484	0	5.51E-07	0	0	0	0	0	0	0	1.41E-07	5.89E-07	1.67E-07	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Massiliomicrobiota |Unknown	1.45E-05	0.000743754	0.000578794	0	0	0	0	0	0	0	0	0	3.25E-06	1.18E-06	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Unknown|Erysipelotrichaceae bacterium AF19-24AC 	1.46E-06	1.42E-06	4.50E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Unknown|Unknown	6.01E-06	1.61E-05	6.46E-06	0	0	0	0	0	0	1.11E-06	0	8.69E-07	6.35E-06	9.57E-06	2.84E-06	0	0	0
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Acidaminococcus |Acidaminococcus intestini 	1.62E-07	9.01E-06	1.98E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Acidaminococcus |Acidaminococcus massiliensis 	3.25E-07	7.11E-07	1.18E-06	0	0	0	0	0	0	0	0	0	1.98E-06	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Acidaminococcus |Acidaminococcus sp. AM33-14BH 	2.76E-06	6.54E-05	0.000105574	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Acidaminococcus |Acidaminococcus sp. BV3L6 	1.95E-06	6.87E-06	1.16E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Acidaminococcus |Acidaminococcus sp. HPA0509 	3.25E-07	5.45E-06	8.42E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Acidaminococcus |Unknown	0.000223928	0.00287547	0.006156961	0	0	0	0	0	0	0	0	0	5.64E-07	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Selenomonadaceae |Megamonas |Megamonas hypermegale 	3.25E-07	9.48E-07	1.96E-07	0	0	0	0	0	0	0	0	1.49E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Selenomonadaceae |Selenomonas |Selenomonas sp. oral taxon 126 	1.01E-05	1.33E-05	1.51E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Sporomusaceae |Sporomusa |Sporomusa acidovorans 	0	1.42E-06	5.48E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella sp. CAG	0.000503716	0.000767219	0.000292433	0	0	0	3.28E-06	0	0	0	0	0	4.23E-06	4.41E-07	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae* |Unknown|Unknown	6.50E-07	2.37E-07	1.57E-06	2.70E-05	3.03E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Tissierellia |Tissierellales |Unknown|Sporanaerobacter |Sporanaerobacter sp. PP17-6a 	8.12E-07	1.66E-06	3.33E-06	0	0	0	0	0	0	0	0	0	0	2.94E-07	0	0	0	0
+Bacteria |Firmicutes |Tissierellia |Unknown|Unknown|Dethiosulfatibacter |Dethiosulfatibacter aminovorans* 	4.87E-07	4.74E-07	2.55E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Firmicutes bacterium AF36-3BH 	1.62E-07	9.48E-07	3.92E-07	0	0	0	0	0	0	0	0	0	0	1.91E-05	0	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Firmicutes bacterium AM55-24TS 	3.73E-06	9.24E-06	2.35E-06	0	0	0	0	0	0	0	0	0	0	1.10E-05	0	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Firmicutes bacterium AM59-13 	4.38E-06	3.79E-06	7.83E-07	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Firmicutes bacterium CAG	2.76E-06	3.01E-05	9.21E-06	0	0	0	0	0	0	3.39E-05	2.60E-05	2.30E-05	0.000147311	9.21E-05	1.67E-07	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Firmicutes bacterium HGW-Firmicutes-16 	9.74E-07	1.19E-06	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Unknown	1.46E-06	2.13E-06	1.76E-06	0	0	0	0	0	3.13E-07	0	0	0	1.41E-07	2.91E-05	0	0	0	0
+Bacteria |Firmicutes |Unknown|Unknown|Unknown|Unknown|Firmicutes bacterium CAG	1.51E-05	4.10E-05	4.35E-05	0	0	0	0	7.59E-07	6.41E-06	2.45E-06	0	2.98E-06	1.37E-05	4.22E-05	2.44E-05	0	0	0
+Bacteria |Fusobacteria |Fusobacteriia |Fusobacteriales |Fusobacteriaceae |Fusobacterium |Fusobacterium sp. CAG	8.12E-07	1.42E-06	2.35E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Alphaproteobacteria |Rhodospirillales |Rhodospirillaceae |Azospirillum |Azospirillum sp. CAG	0.026894596	0.037849692	0.071879785	0	6.62E-06	0	0	0	0	0	0	0	1.19E-05	0	5.02E-07	0	0	0
+Bacteria |Proteobacteria |Alphaproteobacteria |Rhodospirillales |Unknown|Unknown|Unknown	0.000378518	0.000652266	0.000821085	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Alphaproteobacteria |Unknown|Unknown|Unknown|Unknown	0	0	7.83E-07	0	0	0	0	0	0	0	0	0	7.62E-06	0	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Burkholderiaceae |Cupriavidus |Unknown	0	2.37E-07	1.37E-06	0	0	0	0	0	0	7.36E-06	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Unknown|Unknown|[Polyangium] brachysporum 	1.51E-05	1.09E-05	2.74E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Neisseriales |Neisseriaceae |Vitreoscilla |Vitreoscilla filiformis 	4.71E-06	4.50E-06	1.14E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfobacterales |Desulfobacteraceae |Unknown|Unknown	7.31E-06	4.98E-06	8.62E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio desulfuricans 	0	4.74E-07	1.96E-06	0	0	0	8.36E-06	4.37E-06	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio legallii 	2.86E-05	1.83E-05	2.57E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio sp. 3_1_syn3 	3.90E-06	4.98E-06	1.31E-05	0	0	0	0	0	0	0	0	0	0	5.89E-07	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio sp. MES5 	0	4.74E-07	7.83E-07	0	0	0	0	0	0	1.11E-06	1.87E-06	1.49E-06	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Lawsonia |Lawsonia intracellularis 	3.25E-07	2.37E-07	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Unknown|Unknown|Unknown|uncultured delta proteobacterium 	0	2.37E-07	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Epsilonproteobacteria |Campylobacterales |Campylobacteraceae |Campylobacter |Unknown	3.25E-07	2.37E-07	0	0	0	0	1.79E-06	3.04E-06	9.38E-07	0	0	0	0	5.89E-07	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Morganellaceae |Unknown|Unknown	0	0	3.92E-07	1.03E-06	7.72E-06	8.06E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Pseudomonadales |Moraxellaceae |Acinetobacter |Acinetobacter sp. CAG	6.50E-07	1.90E-06	2.35E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Pseudomonadales |Moraxellaceae |Acinetobacter |Unknown	0	0	5.88E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Unknown|Unknown|Unknown|Unknown|Proteobacteria bacterium CAG	2.68E-05	3.84E-05	6.15E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Spirochaetes |Spirochaetia |Spirochaetales |Spirochaetaceae |Sediminispirochaeta |Sediminispirochaeta bajacaliforniensis 	4.87E-06	1.37E-05	3.92E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Spirochaetes |Spirochaetia |Spirochaetales |Spirochaetaceae |Treponema |Treponema bryantii 	4.87E-07	4.74E-07	3.13E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Spirochaetes |Spirochaetia |Spirochaetales |Spirochaetaceae |Treponema |Treponema denticola 	0	4.74E-07	0	0	0	0	0	0	0	1.56E-06	6.69E-06	2.98E-06	3.95E-06	5.15E-06	0	0	0	0
+Bacteria |Spirochaetes |Spirochaetia |Spirochaetales |Spirochaetaceae |Treponema |Treponema primitia 	8.12E-07	1.19E-06	2.74E-06	0	0	0	0	0	0	0	0	0	6.35E-06	1.44E-05	0	0	0	0
+Bacteria |Synergistetes |Synergistia |Synergistales |Synergistaceae |Cloacibacillus |Cloacibacillus sp. An23 	3.25E-07	9.48E-07	2.15E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Synergistetes |Synergistia |Synergistales |Synergistaceae |Pyramidobacter |Unknown	6.50E-07	1.66E-06	4.31E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium 0.1xD8-71 	3.25E-07	2.37E-07	5.88E-07	0	0	0	0	0	0	0	0	0	0	1.47E-06	0	0	0	0
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium 1xD42-67 	4.87E-07	4.03E-06	3.72E-06	0	0	0	0	0	0	0	1.66E-05	0	9.88E-07	2.06E-06	0	0	0	0
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium 1XD8-76 	3.73E-06	4.27E-06	2.74E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium C-53 	1.46E-06	4.50E-06	4.50E-06	3.08E-06	2.76E-07	0	0	0	0	0	0	0	2.82E-07	0	0	0	0	0
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium D16-50 	1.62E-07	1.66E-06	3.72E-06	0	0	0	0	0	0	2.23E-07	8.03E-07	3.72E-07	0	1.32E-06	0	0	0	0
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium LF-3 	1.14E-06	2.84E-06	9.79E-07	0	0	0	0	0	0	0	0	0	1.41E-06	2.94E-07	1.67E-07	0	0	0
+Bacteria |Verrucomicrobia |Verrucomicrobiae |Verrucomicrobiales |Akkermansiaceae |Akkermansia |Akkermansia muciniphila 	0.001112496	0.000889993	0.001027531	0	1.93E-06	0	8.06E-06	3.42E-06	1.88E-06	0	0	0	4.52E-06	5.89E-07	1.67E-07	0	0	0
+Bacteria |Verrucomicrobia |Verrucomicrobiae |Verrucomicrobiales |Akkermansiaceae |Akkermansia* |Unknown	0.049204755	0.037253599	0.046735826	0	3.31E-06	1.61E-07	0	0	0	0	0	0	1.06E-05	1.47E-07	3.35E-07	0	0	0
+Viruses |Unknown|unified Myoviridae no rank|Caudovirales |Myoviridae |Unknown|Unknown	1.46E-06	3.56E-06	2.10E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses |Unknown|unified Podoviridae no rank|Caudovirales |Podoviridae |Unknown|Podoviridae sp. 	9.21E-05	0.000173495	0.000237394	0	0	0	0	0	0	0	0	0	2.12E-06	2.94E-07	1.67E-07	0	0	0
+Viruses |Unknown|unified Siphoviridae no rank|Caudovirales |Siphoviridae |Unknown|Siphoviridae sp. 	8.12E-07	2.84E-06	3.13E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses |Unknown|unified viruses no rank|Unknown|Unknown|Unknown|unidentified virus 	0	0	2.55E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses |Unknown|Unknown|Caudovirales |Myoviridae |P100virus |Unknown	6.50E-07	9.48E-07	1.25E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses |Unknown|Unknown|Caudovirales |Myoviridae |Unknown|Unknown	2.60E-06	1.04E-05	6.78E-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Unknown|Unknown|Bacteroidales bacterium 52_46 	0	0	3.13E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. AM27-36 	4.87E-07	2.37E-07	1.96E-07	0	0	0	0	0	0	0	0	0	0	2.65E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] algidixylanolyticum 	2.18E-05	2.28E-05	8.23E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerotruncus |Anaerotruncus sp. AT3 	1.62E-07	0	1.96E-07	0	0	0	0	0	0	8.92E-07	1.61E-06	2.36E-06	2.54E-06	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Massilimaliae |Massilimaliae timonensis 	9.74E-07	2.37E-06	1.37E-06	0	0	0	0	0	0	0	0	0	3.05E-05	1.00E-05	1.02E-05	0	0	0
+Bacteria |Proteobacteria |Alphaproteobacteria |Rhodospirillales |Rhodospirillaceae |Azospirillum |Unknown	0.000342144	0.000483748	0.000858104	0	1.10E-06	0	0	0	0	0	0	0	1.27E-06	0	1.67E-07	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella sp. AM15-2 	0	0	0	0	0	0	0	1.90E-07	1.56E-07	4.01E-06	2.14E-06	5.46E-06	4.23E-07	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides barnesiae 	0	0	0	0	0	0	0	0	0	1.34E-06	0	2.48E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides massiliensis 	3.86E-05	2.87E-05	1.78E-05	0	0	0	1.79E-06	1.14E-06	6.25E-07	0.000160317	0.000168657	0.000159344	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM16-15 	0	0	0	0	0	0	0	0	0	7.14E-06	9.37E-06	1.01E-05	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM22-3LB 	0	0	0	0	0	0	0.000311276	0.000289804	2.19E-06	3.34E-06	2.68E-06	4.10E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Muribaculaceae |Muribaculum |Unknown	0	0	0	0	0	0	0	0	0	4.01E-06	0	3.72E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Porphyromonadaceae |Porphyromonas |Porphyromonas crevioricanis 	0	0	0	0	0	0	0	0	0	8.92E-07	2.68E-07	9.93E-07	4.09E-06	4.12E-06	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Bacillus subtilis group  group	0	0	0	6.85E-07	4.14E-06	2.58E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium butyricum 	0	0	0	2.77E-05	1.13E-05	3.87E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AM25-23AC 	0	0	0	0	0	0	0	0	0	2.68E-06	5.35E-07	2.85E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Roseburia |Roseburia sp. TF10-5 	0	0	0	0	0	0	0	0	0	0	6.43E-06	1.24E-07	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AF31-14BH 	0	0	0	0	0	0	0	0	0	0	0	0	3.81E-06	5.89E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|[Bacteroides] pectinophilus 	0	0	0	0	0	0	1.19E-06	1.90E-06	1.25E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Acidaminococcales |Acidaminococcaceae |Acidaminococcus |Acidaminococcus fermentans 	0	0	0	0	0	0	0	0	0	0	0	0	5.36E-06	5.89E-07	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Selenomonadaceae |Selenomonas |Selenomonas sputigena 	0	0	0	3.42E-06	5.51E-07	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Enterobacter |Enterobacter cloacae complex  group	0	0	0	9.93E-06	1.93E-06	1.35E-05	0	0	0	0	0	0	0	0	3.35E-07	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Salmonella |Salmonella enterica 	0	0	0	1.44E-05	1.30E-05	8.06E-07	5.97E-07	0	3.13E-07	0	0	0	0	0	3.35E-07	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Shigella |Shigella sonnei 	0	0	0	3.76E-06	2.76E-06	3.22E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides acidifaciens 	0	0	0	0	0	0	3.28E-06	4.37E-06	5.47E-06	0	0	0	0	0	0	1.09E-07	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes indistinctus 	0	0	0	0	0	0	0	0	0	5.35E-06	8.83E-06	5.46E-06	4.23E-07	1.32E-06	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. 56_sp_Nov_56_25 	0	0	0	0	0	0	0	0	0	3.57E-06	0	0	1.26E-05	8.70E-05	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Rikenellaceae |Alistipes |Alistipes sp. cv1 	0	0	0	0	0	0	0	0	0	0	5.35E-07	0	1.83E-06	2.35E-06	0	0	0	0
+Bacteria |Bacteroidetes |Flavobacteriia |Flavobacteriales |Flavobacteriaceae |Unknown|Unknown	0	0	0	0	0	0	5.97E-07	1.90E-07	1.56E-07	0	0	0	0	7.36E-07	0	6.31E-06	1.00E-05	1.19E-05
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus faecalis 	0	0	0	6.50E-06	0.00014529	1.68E-05	0	1.90E-07	4.69E-07	3.48E-05	5.19E-05	3.30E-05	1.58E-05	7.06E-06	2.66E-05	3.26E-07	1.50E-07	9.05E-08
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus equinus 	0	0	0	0	0	0	0	0	2.81E-06	0	3.75E-06	8.31E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. AF35-5AC 	0	0	0	0	0	0	0	0	0	0	0	0	0	2.80E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium septicum 	0	0	0	6.47E-05	1.41E-05	6.61E-06	0	0	0	0	0	0	0	0	4.69E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. AF37-5AT 	0	0	0	0	0	0	0	0	0	0	0	0	8.47E-07	1.03E-06	2.01E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. OM04-12AA 	0	0	0	0	0	0	0	0	0	2.23E-07	5.35E-07	2.11E-06	0	2.06E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Unknown|Clostridiaceae bacterium AF31-3BH 	0	0	0	0	5.51E-07	0	0	0	0	0	0	0	1.23E-05	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Unknown|Clostridiaceae bacterium OF09-1 	0	0	0	0	0	0	0	0	0	0	0	0	1.33E-05	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiales Family XIII. Incertae Sedis |Unknown|[Eubacterium] infirmum 	0	0	0	0	0	0	0	0	0	1.61E-05	1.61E-06	6.33E-06	1.41E-07	1.47E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |[Eubacterium] eligens 	0	0	0	0	0	0	0	0	0	0	0	0	0	3.24E-06	1.51E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium maltosivorans 	0	0	0	0	0	0	0	0	0	0	0	3.72E-07	5.64E-07	3.83E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerosporobacter |Anaerosporobacter mobilis* 	0	0	0	0	0	0	0	0	0	0	0	0	1.69E-06	1.32E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. SF-50 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.62E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Kineothrix |Kineothrix alysoides* 	0	0	0	0	0	0	0	0	0	0	0	0	2.82E-06	1.47E-07	7.20E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Clostridium] indolis 	0	0	0	0	0	0	0	0	0	0	0	0	2.82E-06	2.94E-07	5.69E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 3-2 	4.87E-07	9.48E-07	0	0	0	0	0	0	0	0	0	0	1.11E-05	8.83E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium CAG	0	0	0	0	0	0	0	0	1.09E-06	0	2.68E-07	2.48E-07	1.03E-05	7.95E-06	0.000159146	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptococcaceae |Desulfitobacterium |Desulfitobacterium hafniense 	0	0	0	0	0	0	0	0	0	0	0	0	0	2.06E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Anaerotruncus |Anaerotruncus sp. 1XD22-93 	0	0	0	0	0	0	0	0	0	2.23E-07	0	2.48E-07	1.69E-06	2.80E-06	5.52E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. TF06-23 	0	0	0	0	0	0	0	0	0	0	0	0	0	3.09E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium 43-6 	0	0	0	0	0	0	0	0	0	6.69E-07	0	0	0	3.24E-06	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Coprobacillus |Coprobacillus cateniformis 	0	0	0	0	0	0	0	0	0	0	0	0	6.91E-06	3.09E-06	1.17E-06	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Coprobacillus |Coprobacillus sp. 8_2_54BFAA 	0	0	0	0	0	0	3.91E-05	1.73E-05	1.49E-05	0	0	0	2.96E-06	8.83E-07	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Holdemania |Holdemania filiformis 	0	0	0	0	0	0	0	0	3.13E-07	0	0	0	3.32E-05	1.94E-05	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Dakarella |Dakarella massiliensis* 	0	0	0	0	0	0	0	0	0	0	0	0	9.31E-06	7.05E-05	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Mesosutterella |Mesosutterella multiformis* 	0	0	0	0	0	0	0	0	0	0	0	0	1.41E-07	3.53E-06	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfovibrionaceae |Desulfovibrio |Desulfovibrio vulgaris 	0	0	0	0	0	0	1.43E-05	7.78E-06	0	3.34E-06	1.20E-05	1.13E-05	0	2.21E-06	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Klebsiella |Klebsiella oxytoca 	0	0	0	4.45E-06	0.000233235	0.000107692	0	0	0	0	0	0	0	0	3.35E-07	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Morganellaceae |Proteus |Proteus mirabilis 	0	0	0	1.71E-06	3.80E-05	3.87E-06	0	0	0	0	0	0	0	0	5.02E-07	0	0	0
+Bacteria |Spirochaetes |Spirochaetia |Spirochaetales |Unknown|Unknown|uncultured spirochete 	0	0	0	0	0	0	0	0	0	0	0	0	2.96E-06	8.24E-06	0	0	0	0
+Bacteria |Unknown|unified Bacteria no rank|Unknown|Unknown|Unknown|bacterium 1xD42-87 	0	0	0	0	0	0	0	0	0	0	0	0	3.39E-06	5.30E-06	1.00E-06	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium vansinderenii 	0	0	0	0	0	0	2.69E-06	3.80E-07	1.56E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella sp. AF11-11 	0	0	0	0	0	0	0	0	0	1.78E-06	5.35E-07	2.48E-06	2.82E-07	0	0	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella sp. TM05-38 	0	0	0	0	0	0	0	0	0	2.23E-06	2.68E-07	2.36E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides salyersiae 	0	0	0	0	0	0	0.001854825	0.002022934	2.97E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM56-10ce 	0	0	0	0	0	0	2.45E-05	1.50E-05	4.25E-05	4.46E-07	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. An51A 	0	0	0	0	0	0	0.000279343	0.000267219	6.25E-07	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. KCTC 15687 	0	0	0	7.87E-06	5.51E-07	0	0	0	0	8.92E-07	2.68E-07	1.37E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. KFT8 	0	0	0	0	5.51E-07	0	0	0	0	0	0	0	0	0	0	6.96E-06	1.00E-05	9.23E-06
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. OF04-15BH 	0	0	0	0	0	0	0	0	0	1.34E-06	0	2.11E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Odoribacteraceae |Odoribacter |Odoribacter splanchnicus CAG	0	0	0	0	0	0	2.98E-06	5.50E-06	2.50E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella ruminicola 	0	0	0	0	0	0	0	0	0	0	0	0	0	3.09E-06	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. OF01-14 	0	0	0	0	0	0	0.000205329	0.000413545	0.000229666	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Tannerellaceae |Parabacteroides |Parabacteroides sp. SN4 	0	0	0	0	0	0	0	0	0	6.69E-07	2.68E-07	0	3.95E-06	3.86E-05	1.67E-07	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus gallolyticus 	0	0	0	0	8.27E-07	0	0	0	1.41E-06	4.46E-07	6.96E-06	2.12E-05	5.64E-07	2.94E-07	5.02E-07	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus parasanguinis 	0	0	0	3.42E-07	6.75E-05	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus salivarius 	0	0	0	0	8.27E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Butyricicoccus |Butyricicoccus sp. GAM44 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.57E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. TM06-18 	0	0	0	0	0	0	0	0	0	6.69E-07	0	1.37E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Unknown|Clostridiaceae bacterium TF01-6 	0	0	0	0	0	0	0	0	0	0	0	0	1.38E-05	0	2.51E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Blautia |Blautia sp. BCRC 81119 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.63E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Butyrivibrio |Butyrivibrio sp. LC3010 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.06E-05	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium 9_1_43BFAA 	0	0	0	0	0	0	0	0	1.09E-06	0.000312385	0.000141618	0.000210846	1.41E-07	0	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium AC2031 	0	0	0	0	0	0	0	0	0	0	0	0	1.41E-06	4.41E-07	2.68E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Intestinibacter |Intestinibacter bartlettii 	0	0	0	0.002052555	0.000220002	0.000160894	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Unknown|[Clostridium] hiranonis 	0	0	0	1.68E-05	2.48E-06	7.58E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AF21-42 	0	0	0	0	0	0	0	0	0	0	0	0	0	5.89E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AM42-10AC 	0	0	0	0	0	0	0	0	0	1.11E-06	1.34E-06	2.61E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium AF36-10 	0	0	0	0	0	0	0	0	0	0	0	0	3.25E-06	1.77E-06	5.69E-06	0	0	0
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Selenomonadaceae |Megamonas |Megamonas funiformis 	0	0	0	0	0	0	0.00104873	0.0008715	0.002408445	4.46E-07	0	1.24E-05	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Selenomonadaceae |Megamonas |Megamonas sp. Calf98-2 	0	0	0	0	0	0	0.000111319	8.96E-05	0.000198085	0	0	1.12E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Selenomonadales |Selenomonadaceae |Unknown|Unknown	0	0	0	0	0	0	1.49E-06	2.28E-06	2.97E-06	2.23E-07	0	1.10E-05	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella atypica 	0	0	0	6.50E-06	2.76E-07	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella dispar 	0	0	0	4.24E-05	2.48E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella parvula 	0	0	0	2.36E-05	3.03E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella sp. DORA_A_3_16_22 	0	0	0	1.44E-05	1.10E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella sp. oral taxon 158 	0	0	0	8.56E-06	1.93E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella sp. S13053-19 	0	0	0	1.95E-05	1.93E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Unknown|Firmicutes bacterium AF12-30 	0	0	0	0	0	0	0	0	0	0	0	0	7.06E-07	0	1.67E-06	0	0	0
+Bacteria |Proteobacteria |Alphaproteobacteria |Rhodospirillales |Rhodospirillaceae |Azospirillum |Azospirillum sp. 51_20 	0	0	0	0	0	0	7.46E-06	3.23E-06	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Sutterellaceae |Sutterella |Sutterella sp. 54_7 	0	0	0	0	0	0	0	0	0	9.81E-05	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Unknown|Unknown|Unknown|Deltaproteobacteria bacterium 	0	0	0	0	0	0	1.49E-06	2.28E-06	1.25E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Enterobacter |Unknown	0	0	0	3.42E-06	2.76E-07	1.19E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Morganellaceae |Proteus |Unknown	0	0	0	2.40E-06	2.62E-05	3.55E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Vibrionales |Vibrionaceae |Vibrio |Unknown	0	0	0	3.42E-07	3.03E-06	4.84E-07	2.98E-07	3.80E-07	1.56E-07	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. 44_46 	0	0	0	1.57E-05	3.31E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. TM06-47 	0	0	0	0	0	0	0	0	9.38E-07	0.000148277	0	4.05E-05	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium TF09-5 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.55E-05	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sartorii 	0	0	0	0	0	0	0	0	4.38E-06	0.000209594	0.000375329	0.000358773	0	2.94E-07	6.69E-07	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AF14-46 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.09E-06	6.00E-07	1.27E-06
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Coprococcus |Coprococcus sp. AF18-48 	0	0	0	0	0	0	0	0	0	0	0	0	9.88E-07	0	7.03E-06	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Unknown|Unknown|Burkholderiales bacterium 1_1_47 	0	0	0	0	0	0	0	0	0	4.06E-05	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerostipes |Anaerostipes sp. CAG	0	0	0	0	0	0	0	0	0	0	0	0	0	4.41E-07	7.20E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. CL-2 	6.50E-07	7.11E-07	1.96E-06	0.000657146	6.62E-05	8.66E-05	0	0	0	0	0	0	2.82E-07	0	0.000279134	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Romboutsia |[Clostridium] dakarense 	9.74E-07	1.66E-06	3.92E-07	9.93E-06	5.79E-06	2.90E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium GWE2_32_10 	1.79E-06	2.37E-06	2.55E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Verrucomicrobia |Verrucomicrobiae |Verrucomicrobiales |Akkermansiaceae |Akkermansia |Akkermansia sp. CAG	1.01E-05	6.64E-06	8.62E-06	0	0	0	0	0	0	0	0	0	2.82E-07	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Desulfovibrionales |Desulfonatronaceae |Desulfonatronum |Desulfonatronum thiodismutans 	0	2.37E-07	1.96E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses |Unknown|unified bacterial viruses no rank|Unknown|Unknown|Unknown|Cellulophaga phage phi14	0	4.03E-06	4.90E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Unknown|Unknown|Unknown|uncultured actinobacterium HF0130_15N16 	0	0	0	3.90E-05	5.79E-06	4.51E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AM23-12 	0	0	0	5.31E-05	5.24E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Bacillus sp. YN-1 	0	0	0	5.82E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Bacillus thermozeamaize 	0	0	0	0.000185849	5.24E-06	2.84E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Listeriaceae |Listeria |Unknown	0	0	0	3.08E-06	2.48E-06	6.45E-07	5.97E-07	1.90E-07	3.44E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Paenibacillaceae |Brevibacillus |Brevibacillus panacihumi 	0	0	0	1.27E-05	1.10E-06	9.67E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus canintestini 	0	0	0	3.42E-07	2.76E-07	0	0	9.49E-07	1.61E-05	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus gallinarum 	0	0	0	8.21E-06	1.76E-05	7.09E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus hirae 	0	0	0	3.42E-07	2.76E-07	8.06E-07	0	0	0	0	0	0	0	8.83E-07	5.52E-06	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus sp. 3H8_DIV0648 	0	0	0	4.11E-06	2.76E-06	1.13E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus sp. CR-Ec1 	0	0	0	3.42E-06	9.37E-06	1.45E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus sp. HMSC05C03 	0	0	0	7.19E-06	9.37E-06	1.93E-06	1.19E-06	2.47E-06	9.07E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Enterococcaceae |Enterococcus |Enterococcus sp. HMSC064A12 	0	0	0	1.03E-06	1.10E-06	6.45E-07	5.97E-07	0	1.56E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Lactobacillaceae |Lactobacillus |Lactobacillus nantensis 	0	0	0	4.11E-06	3.58E-06	8.06E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium acidisoli 	0	0	0	7.53E-06	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium baratii 	0	0	0	9.51E-05	8.55E-06	6.13E-06	1.49E-06	1.71E-06	4.69E-07	0	8.03E-07	7.45E-07	5.64E-07	5.89E-07	2.01E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium celatum 	0	0	0	1.13E-05	0	0	0	0	0	0	0	0	0	0	8.38E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium chauvoei 	0	0	0	6.85E-06	6.62E-06	4.84E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium gasigenes 	0	0	0	2.05E-06	6.62E-06	3.87E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium nigeriense 	0	0	0	3.73E-05	4.69E-06	1.77E-06	0	0	0	0	0	2.48E-07	0	0	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium saudiense 	0	0	0	1.71E-05	8.27E-07	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. 7_2_43FAA 	0	0	0	0.00015265	6.64E-05	4.39E-05	0	0	0	0	0	0	1.41E-07	0	1.00E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. C8 	0	0	0	1.03E-05	1.08E-05	1.05E-05	0	0	0	0	0	0	0	0	2.01E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium tertium 	0	0	0	0.002388315	0.00097595	0.000276486	0	0	0	0	0	0	7.06E-07	0	2.48E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium ventriculi 	0	0	0	6.85E-07	8.27E-07	4.84E-07	0	0	0	0	0	0	7.06E-07	0.001261018	4.69E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Niameybacter |Niameybacter massiliensis* 	0	0	0	2.74E-06	0	0	0	0	0	0	0	0	0	0	1.67E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Asaccharospora |Asaccharospora irregularis* 	0	0	0	8.21E-06	4.69E-06	1.13E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Paraclostridium |Paraclostridium benzoelyticum 	0	0	0	6.85E-07	0	0	0	0	0	0	0	6.21E-07	0	0	8.53E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Paraclostridium |Paraclostridium bifermentans 	0	0	0	3.42E-06	2.76E-06	1.13E-06	2.98E-07	1.14E-06	4.69E-07	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Peptoclostridium |Peptoclostridium litorale 	0	0	0	0.000107128	0.000772213	0.000114947	0	0	0	0	0	0	0	0	8.30E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Romboutsia |Romboutsia hominis 	0	0	0	4.45E-06	8.27E-07	1.61E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Romboutsia |Romboutsia ilealis 	0	0	0	0.000675971	6.62E-06	5.80E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Romboutsia |Romboutsia lituseburensis 	0	0	0	6.47E-05	4.41E-06	1.93E-06	0	0	0	4.46E-07	0	2.48E-07	0	0	1.51E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Romboutsia |Romboutsia timonensis 	0	0	0	9.24E-06	1.65E-06	9.67E-07	0	0	0	2.23E-07	0	3.72E-07	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Romboutsia |Romboutsia weinsteinii 	0	0	0	4.24E-05	9.37E-06	5.32E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Tepidibacter |Unknown	0	0	0	2.60E-05	0	6.45E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Terrisporobacter |Terrisporobacter glycolicus 	0	0	0	5.72E-05	7.44E-06	3.18E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Terrisporobacter |Terrisporobacter othiniensis 	0	0	0	0.000180031	2.76E-05	9.67E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Unknown|Peptostreptococcaceae bacterium VA2 	0	0	0	1.71E-06	4.14E-06	1.61E-06	0	0	0	0	0	0	0	0	2.01E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Anaerovirgula |Anaerovirgula multivorans* 	0	0	0	3.70E-05	2.76E-07	1.77E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Turicibacter |Turicibacter sanguinis 	0	0	0	0.002947574	0.000102557	0.000518955	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Turicibacter |Turicibacter sp. HGF1 	0	0	0	0.000333022	1.13E-05	4.76E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Turicibacter |Unknown	0	0	0	0.041003517	0.001087054	0.005862143	0	0	0	0	0	0	0	0	1.17E-06	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella sp. 	0	0	0	2.46E-05	4.41E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella sp. AM51-8BH 	0	0	0	4.45E-06	8.27E-07	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Veillonella |Veillonella sp. HPA0037 	0	0	0	6.50E-06	8.27E-07	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Buttiauxella |Buttiauxella gaviniae 	0	0	0	7.19E-06	1.65E-06	3.22E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Buttiauxella |Unknown	0	0	0	5.13E-06	1.10E-06	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Citrobacter |Citrobacter freundii complex  group	0	0	0	0.000164629	3.03E-05	9.67E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Citrobacter |Citrobacter sp. KTE151 	0	0	0	1.03E-06	2.76E-07	6.77E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Citrobacter |Citrobacter sp. KTE32 	0	0	0	8.90E-06	1.38E-06	4.84E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Citrobacter |Citrobacter sp. MH181794 	0	0	0	6.16E-06	1.93E-06	6.45E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Citrobacter |Unknown	0	0	0	0.00037204	6.29E-05	0.000246338	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Enterobacter |Enterobacter sp. Bisph1 	0	0	0	3.76E-06	2.76E-07	3.22E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Klebsiella |Klebsiella michiganensis 	0	0	0	1.37E-06	2.43E-05	3.19E-05	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Yersiniaceae |Rahnella |Rahnella victoriana 	0	0	0	3.42E-06	8.27E-07	1.61E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses |Unknown|Unknown|Caudovirales |Unknown|Unknown|uncultured Caudovirales phage 	0	0	0	6.85E-07	0	0	0	0	0	0	0	0	2.54E-06	1.32E-06	8.37E-07	0	0	0
+Viruses |Unknown|Unknown|Ortervirales |Retroviridae |Gammaretrovirus |Porcine type-C oncovirus 	0	0	0	4.45E-06	2.76E-06	4.84E-07	0	0	0	0	0	0	1.41E-07	0	1.67E-07	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Klebsiella |Klebsiella variicola 	0	0	0	0	3.03E-06	6.45E-07	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Gammaproteobacteria |Enterobacterales |Enterobacteriaceae |Kluyvera |Kluyvera ascorbata 	0	0	0	0	0	5.00E-06	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Bifidobacteriales |Bifidobacteriaceae |Bifidobacterium |Bifidobacterium actinocoloniiforme 	0	0	0	0	0	0	5.67E-06	2.92E-05	1.28E-05	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Burkholderiaceae |Paraburkholderia |Paraburkholderia sacchari 	0	0	0	0	0	0	4.18E-06	1.90E-06	0	0	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Betaproteobacteria |Burkholderiales |Burkholderiaceae |Unknown|Unknown	0	0	0	0	0	0	8.95E-07	1.90E-07	2.19E-06	0	0	0	0	0	0	0	0	0
+Bacteria |Synergistetes |Synergistia |Synergistales |Synergistaceae |Jonquetella |Jonquetella anthropi 	0	0	0	0	0	0	6.57E-06	3.42E-06	3.44E-06	0	0	0	0	0	0	0	0	0
+Viruses |Unknown|unified bacterial viruses no rank|Unknown|Unknown|Unknown|Phage DP-2017a 	0	0	0	0	0	0	0	1.90E-07	1.56E-07	0.000357871	5.57E-05	0.00011715	2.82E-07	4.41E-07	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Muribaculaceae |Muribaculum |Muribaculum sp. An289 	0	0	0	0	0	0	0	0	6.25E-07	3.57E-06	1.61E-06	6.45E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Prevotellaceae |Prevotella |Prevotella sp. P4-119 	0	0	0	0	0	0	0	0	3.13E-07	9.81E-06	0	1.76E-05	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus lutetiensis 	0	0	0	0	0	0	0	0	4.53E-06	6.76E-05	1.10E-05	6.30E-05	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus parauberis 	0	0	0	0	0	0	0	0	3.13E-07	5.35E-06	3.75E-06	1.92E-05	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. AM28-29 	0	0	0	0	0	0	0	0	3.13E-07	2.36E-05	0	8.19E-06	0	0	0	0	0	0
+Bacteria |Actinobacteria |Coriobacteriia |Coriobacteriales |Coriobacteriaceae |Collinsella |Collinsella sp. OM07-12 	0	0	0	0	0	0	0	0	0	6.69E-07	1.07E-06	4.22E-06	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. AF34-31BH 	0	0	0	0	0	0	0	0	0	9.81E-06	2.68E-07	1.24E-07	0	0	0	0	0	0
+Bacteria |Bacteroidetes |Bacteroidia |Bacteroidales |Bacteroidaceae |Bacteroides |Bacteroides sp. D1 	0	0	0	0	0	0	0	0	0	8.92E-07	5.35E-07	1.74E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Eubacteriaceae |Eubacterium |Eubacterium sp. TM05-53 	0	0	0	0	0	0	0	0	0	0.000108811	0	3.15E-05	0	0	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Unknown|Lachnospiraceae bacterium JC7 	0	0	0	0	0	0	0	0	0	2.03E-05	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Alphaproteobacteria |Rhizobiales |Methylobacteriaceae |Methylobacterium |Methylobacterium sp. Leaf123 	0	0	0	0	0	0	0	0	0	2.45E-06	0	0	0	0	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Syntrophobacterales |Syntrophaceae |Syntrophus |Unknown	0	0	0	0	0	0	0	0	0	4.01E-06	0	0	0	0	0	0	0	0
+Bacteria |Spirochaetes |Spirochaetia |Brachyspirales |Brachyspiraceae* |Brachyspira* |Unknown	0	0	0	0	0	0	0	0	0	2.23E-07	2.68E-07	1.24E-06	0	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Lactobacillales |Streptococcaceae |Streptococcus |Streptococcus infantarius 	0	0	0	0	0	0	0	0	0	0	2.14E-06	4.59E-06	0	0	0	0	0	0
+Bacteria |Actinobacteria |unified Actinobacteria no rank|Unknown|Unknown|Unknown|Actinobacteria bacterium HGW-Actinobacteria-7 	0	0	0	0	0	0	0	0	0	0	0	0	3.39E-06	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Bacillus sp. CAG	0	0	0	0	0	0	0	0	0	0	0	0	2.68E-06	3.24E-06	8.37E-07	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Bacillaceae |Bacillus |Bacillus sp. Marseille-P3661 	0	0	0	0	0	0	0	0	0	0	0	0	4.52E-06	0	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Paenibacillaceae |Paenibacillus |Paenibacillus lactis 	0	0	0	0	0	0	0	0	0	0	0	0	5.36E-06	1.03E-06	2.49E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium sp. C105KSO15 	0	0	0	0	0	0	0	0	0	0	0	0	3.39E-06	8.83E-07	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Inediibacterium |Inediibacterium massiliense* 	0	0	0	0	0	0	0	0	0	0	0	0	1.41E-05	1.18E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Defluviitaleaceae |Vallitalea |Vallitalea guaymasensis 	0	0	0	0	0	0	0	0	0	0	0	0	7.06E-07	1.62E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Anaerocolumna |Anaerocolumna aminovalerica 	0	0	0	0	0	0	0	0	0	0	0	0	7.06E-07	8.83E-07	4.02E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Butyrivibrio |Butyrivibrio sp. INlla14 	0	0	0	0	0	0	0	0	0	0	0	0	2.82E-07	2.65E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Lachnoclostridium |[Desulfotomaculum] guttoideum 	0	0	0	0	0	0	0	0	0	0	0	0	1.13E-06	1.77E-06	8.37E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Pseudobutyrivibrio |Pseudobutyrivibrio ruminis 	0	0	0	0	0	0	0	0	0	0	0	0	1.27E-06	2.50E-06	3.18E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Lachnospiraceae |Pseudobutyrivibrio |Pseudobutyrivibrio sp. AR14 	0	0	0	0	0	0	0	0	0	0	0	0	1.41E-06	2.35E-06	3.18E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Peptostreptococcaceae |Criibacterium |Criibacterium bergeronii* 	0	0	0	0	0	0	0	0	0	0	0	0	1.55E-06	1.47E-07	1.00E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-01 	0	0	0	0	0	0	0	0	0	0	0	0	3.81E-06	7.36E-07	2.68E-06	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-09 	0	0	0	0	0	0	0	0	0	0	0	0	4.23E-07	1.07E-05	9.19E-05	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Unknown|Unknown|Clostridiales bacterium VE202-15 	0	0	0	0	0	0	0	0	0	0	0	0	3.19E-05	5.15E-06	1.67E-07	0	0	0
+Bacteria |Firmicutes |Clostridia |Unknown|Unknown|Unknown|Clostridia bacterium UC5.1-2F7 	0	0	0	0	0	0	0	0	0	0	0	0	5.08E-06	0	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Absiella |Absiella sp. AM29-15 	0	0	0	0	0	0	0	0	0	0	0	0	2.68E-06	3.68E-06	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Coprobacillus |Coprobacillus sp. CAG	0	0	0	0	0	0	0	0	0	0	0	0	3.10E-06	1.18E-06	1.17E-05	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Erysipelothrix |Erysipelothrix rhusiopathiae 	0	0	0	0	0	0	0	0	0	0	0	0	1.98E-06	2.21E-06	0	0	0	0
+Bacteria |Firmicutes |Erysipelotrichia |Erysipelotrichales |Erysipelotrichaceae |Holdemania |Holdemania massiliensis 	0	0	0	0	0	0	0	0	0	0	0	0	3.81E-06	2.50E-06	0	0	0	0
+Bacteria |Firmicutes |Negativicutes |Veillonellales |Veillonellaceae |Megasphaera |Megasphaera paucivorans 	0	0	0	0	0	0	0	0	0	0	0	0	3.25E-06	1.47E-07	0	0	0	0
+Bacteria |Proteobacteria |Deltaproteobacteria |Unknown|Unknown|Unknown|Deltaproteobacteria bacterium RBG_13_43_22 	0	0	0	0	0	0	0	0	0	0	0	0	6.77E-06	1.18E-06	0	0	0	0
+Bacteria |Actinobacteria |Actinobacteria |Corynebacteriales |Corynebacteriaceae |Corynebacterium |Unknown	0	0	0	0	0	0	0	0	0	0	0	0	0	2.21E-06	0	0	0	0
+Bacteria |Candidatus Magasanikbacteria |unified Bacteria no rank|Unknown|Unknown|Unknown|Candidatus Magasanikbacteria bacterium GW2011_GWE2_42_7 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.10E-05	0	0	0	0
+Bacteria |Firmicutes |Bacilli |Bacillales |Paenibacillaceae |Paenibacillus |Paenibacillus herberti 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.62E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Christensenellaceae |Christensenella |Christensenella sp. AF73-05CM02 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.47E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium collagenovorans 	0	0	0	0	0	0	0	0	0	0	0	0	0	1.77E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium mediterraneense 	0	0	0	0	0	0	0	0	0	0	0	0	0	2.06E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AF24-32LB 	0	0	0	0	0	0	0	0	0	0	0	0	0	2.65E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Ruminococcaceae |Ruminococcus |Ruminococcus sp. AM40-10AC 	0	0	0	0	0	0	0	0	0	0	0	0	0	3.83E-06	0	0	0	0
+Bacteria |Firmicutes |unified Firmicutes sensu stricto no rank|Unknown|Unknown|Ndongobacter |Ndongobacter massiliensis* 	0	0	0	0	0	0	0	0	0	0	0	0	0	2.94E-06	0	0	0	0
+Bacteria |Firmicutes |Clostridia |Clostridiales |Clostridiaceae |Clostridium |Clostridium intestinale 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.68E-06	0	0	0
