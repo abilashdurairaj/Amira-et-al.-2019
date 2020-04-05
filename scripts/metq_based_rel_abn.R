@@ -1,12 +1,32 @@
-metq_based_rel_abn=function(list_count_files,ghost_path,cnt_file,path_to_home)
+metq_based_rel_abn=function()
 {
+ install_packages=function()
+  {
+    packages=c("doParallel","foreach","reshape2","dplyr","base","RcppArmadillo","Rcpp","RCurl","plyr","zoo","grid","gridExtra","data.table","reshape2","stringr","checkmate","base64enc","colorspace","scales","doSNOW","digest","stringi","tictoc")
+    
+     if(length(setdiff(packages,rownames(installed.packages())))>0)
+     { 
+	 
+      install.packages(pkgs=setdiff(packages, rownames(installed.packages())),repos = "http://cran.us.r-project.org")  
+       library(setdiff(packages, rownames(installed.packages())))  
+     }
+    
+    lapply(packages,require,character.only=T)
+  }   
+  install_packages()
+  args <- commandArgs(trailingOnly = TRUE)
+  list_count_folders=args[1]
+  cnt_folders=args[2]
+  path_to_home=args[3]
+  
   library("dplyr")
   library("stringr")
   # geneLenPath="/naslx/projects/pr74xe/di52yal/Amira_results/count_new_90_megaHIT/"
   # list_genLen=list.files(path = geneLenPath,pattern = "geneLen")
   
-  # list_count_files=list.files(path = "/path/to/samples/contigs_list/",pattern = "_bbmap_fin")
-  ghost_path="/path/to/Data/Functional Profile/GhostKOALA_results/"
+  list_count_files=list.files(path = list_count_folders,pattern = "_bbmap_fin")
+  ghost_path=str_c(path_to_home,"/Data/Functional Profile/GhostKOALA_results/")
+  # ghost_path="/path/to/Data/Functional Profile/GhostKOALA_results/"
   
   list_contig2ko_file=list.files(path = ghost_path,pattern = "user_ko_definition.txt",recursive = T)
   mod_location=str_c(path_to_home,"/Data/Functional Profile/module")
@@ -35,7 +55,7 @@ metq_based_rel_abn=function(list_count_files,ghost_path,cnt_file,path_to_home)
     
     for(i in 1: length(ll))
     {
-      # cnt_file=fread(file = str_c("/path/to/samples/contigs_list/",ll[i]),header = F,sep = "\t")
+      cnt_file=fread(file = str_c(cnt_folders,ll[i]),header = F,sep = "\t")
       colnames(cnt_file)=c("Count","Contig","None")
   
       colnames(ctg2ko_req)=c("Contig","KO","Gene","Score","SecondKO","SecondScore")
@@ -143,7 +163,7 @@ metq_based_rel_abn=function(list_count_files,ghost_path,cnt_file,path_to_home)
       
 }
 
-metq_based_rel_abn(list_count_files=list_count_files,ghost_path=ghost_path,cnt_file=cnt_file,path_to_home=path_to_home)
+metq_based_rel_abn()
 
 
 ##### Supplementary figure 5:

@@ -1,5 +1,22 @@
-CAT_tax_count=function(cnt_path,ref_path)
+CAT_tax_count=function()
 {
+  install_packages=function()
+  {
+    packages=c("doParallel","foreach","reshape2","dplyr","base","RcppArmadillo","Rcpp","RCurl","plyr","zoo","grid","gridExtra","data.table","reshape2","stringr","checkmate","base64enc","colorspace","scales","doSNOW","digest","stringi","tictoc")
+    
+     if(length(setdiff(packages,rownames(installed.packages())))>0)
+     { 
+	 
+      install.packages(pkgs=setdiff(packages, rownames(installed.packages())),repos = "http://cran.us.r-project.org")  
+       library(setdiff(packages, rownames(installed.packages())))  
+     }
+    
+    lapply(packages,require,character.only=T)
+  }   
+  install_packages()
+  args <- commandArgs(trailingOnly = TRUE)
+  cnt_path=args[1] 
+  ref_path=args[2]
   # cnt_path="/path/to/megaHIT_contig_count_final/"
   cntg_cnt=list.files(path = cnt_path,pattern = "_bbmap_final")
   

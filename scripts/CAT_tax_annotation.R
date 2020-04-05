@@ -1,6 +1,6 @@
 ###### Script to restructure taxonomic annotation to the contigs:
 
-CAT_tax_annotation=function(CAT_path)
+CAT_tax_annotation=function()
 {
   
   install_packages=function()
@@ -17,7 +17,8 @@ CAT_tax_annotation=function(CAT_path)
     lapply(packages,require,character.only=T)
   }   
   install_packages()
-  
+  args <- commandArgs(trailingOnly = TRUE)
+  CAT_path=args[1]
   # CAT_path="/path/to/megaHIT_contigs/"
   CAT_tax_files=list.files(path = CAT_path,pattern = "out.CAT.contig2classification_names_tax.txt",recursive = T)
   
