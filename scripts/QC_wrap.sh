@@ -22,5 +22,4 @@ hm_dr=/path/to/store/data/
 ### STRING2: variable storing the sampleIDs
 mapfile -t STRING2 < <(ls ${hh}*.fastq.gz ' | sed 's|.*/||g' | sed 's/_.*//g') 
 
-
-bash /path/to/bash_files/QC_File_job.sh ${STRING2[$SGE_TASK_ID-1]} ${hm_dr} ${hh}
+bash /path/to/scripts/QC_File_job.sh ${STRING2[$SGE_TASK_ID-1]} ${hm_dr} ${hh}
