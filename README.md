@@ -25,16 +25,16 @@
 <h5>For taxonomic and functional profile analysis, we pooled the samples belonging to the same condition and performed assembly using megaHIT and annotated the contigs using CAT. The ORFs for each contig was done using prodigal :
 
 ```shellscript
-   qsub /path/to/scripts/assembly_by_pooling_from_each_condition.sh # for assembly
-   qsub /path/to/scripts/contig_taxonomy_annotation.sh # for contig annotation
-   qsub /path/to/scripts/ORF_prediction_for_contig_annotation.sh # for ORF prediction
+   qsub /path/to/scripts/assembly_by_pooling_from_each_condition.sh ${hm_dr} # for assembly
+   qsub /path/to/scripts/contig_taxonomy_annotation.sh ${hm_dr} # for contig annotation
+   qsub /path/to/scripts/ORF_prediction_for_contig_annotation.sh ${hm_dr} # for ORF prediction
    
   ```
   
 <h5> The proteins sequences predicted using prodigal for each condition, were uploaded to GHOSTKOALA portal (mentioned in /master/scripts/description.md). The results were downloaded and used the KEGG Orthology prediction for each ORF.
 <h5> For taxonomic profile, we mapped the individual samples from each condition against the contigs assembled for the same condition. Similarly, for we mapped the individual samples from each condition against the ORFs predicted for the same condition.
 ```shellscript
-   qsub /path/to/scripts/ORF_and_contig_count.sh # for assembly
+   qsub /path/to/scripts/ORF_and_contig_count.sh ${hm_dr} # for assembly
  ```
 <h2> 3. Taxonomic/Functional Signatures </h2>
 
