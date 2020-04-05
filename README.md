@@ -13,7 +13,12 @@
      The rRNA reads and host-associated reads were considered the biological contaminants in this current study. </h4>
  
    ```shellscript
-   qsub /path/to/scripts/QC_wrap.sh
+### hh    : path where the fastq.gz files are located
+### hm_dr : path where to store output files 
+# hh=/path/to/fastq_files/
+# hm_dr=/path/to/store/data/
+
+   qsub /path/to/scripts/QC_wrap.sh ${hh} ${hm_dr}
   ```
 <h2> 2. Taxonomic/Functional Profile Analysis </h2>
 <img src="https://github.com/abilashdurairaj/Metwaly-et-al.-2020/blob/master/pictures/outline_analysis.PNG" width: "40%" height: "30%">
