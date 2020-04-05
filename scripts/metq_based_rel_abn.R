@@ -141,7 +141,9 @@ metq_based_rel_abn=function(list_count_files,ghost_path,cnt_file,path_to_home)
   dat_location=str_c(path_to_home,"/Data/humanised_KEGG_modules_profile.csv")
   write.table(mod_lefse1_mouse,dat_location,quote=F,sep = "\t",row.names = F,col.names = T)
       
+}
 
+metq_based_rel_abn(list_count_files=list_count_files,ghost_path=ghost_path,cnt_file=cnt_file,path_to_home=path_to_home)
 
 
 ##### Supplementary figure 5:
@@ -161,7 +163,6 @@ metq_based_rel_abn=function(list_count_files,ghost_path,cnt_file,path_to_home)
   rownames(ko_raw_mat1)=as.character(ko_raw_mat$KO)
   ko_rel_abn=apply((ko_raw_mat1+0.1),2,function(x){x/sum(x)})
   
-  View(ko_rel_abn[intersect(c(sulfonateTS_M00436,cysteineBS_M00021,glutathionBS_M00118),rownames(ko_rel_abn)),])
   sulf_req_ko=ko_rel_abn[intersect(c(methionineTS_M00238,taurineTS_M00435,sulfonateTS_M00436,cysteineBS_M00021,assm_sulfate_M00176,dissm_sulfate_M00596),rownames(ko_rel_abn)),]
   sul_req_df=as.data.frame(sulf_req_ko)
   sul_req_df$KO=rownames(sulf_req_ko)
@@ -556,4 +557,4 @@ metq_based_rel_abn=function(list_count_files,ghost_path,cnt_file,path_to_home)
    
    
    
-   }
+   
