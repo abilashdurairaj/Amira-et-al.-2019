@@ -78,30 +78,8 @@ CAT_tax_count=function()
       
   }
   contig_count_mat[is.na(contig_count_mat)]=0
-  
- 
-  contig_count_mat_16T106=apply(contig_count_mat[,2:3],1,sum)
-  contig_count_mat_16TM29=apply(contig_count_mat[,4:5],1,sum)
-  contig_count_mat_28T0=apply(contig_count_mat[,8:9],1,sum)
-  contig_count_mat_28T52=apply(contig_count_mat[,10:11],1,sum)
-  contig_count_mat_fin=contig_count_mat[,-c(2:5,8:11)]
-  contig_count_mat_fin=cbind(contig_count_mat_fin,contig_count_mat_16T106,contig_count_mat_16TM29,contig_count_mat_28T0,contig_count_mat_28T52)
-  colnames(contig_count_mat_fin)
-  rownames(contig_count_mat_fin)=contig_count_mat_fin[,1]
-  
-  contig_count_mat_fin=contig_count_mat_fin[,-1]
-  colnames(contig_count_mat_fin)=str_replace_all(string = colnames(contig_count_mat_fin),pattern = "_count_.*",replacement = "")
-  
-  cc=contig_count_mat_fin[,-grep(pattern = "^27|contig",x=colnames(contig_count_mat_fin))]
-  cc=cc[-which(apply(cc,1,function(x){all(x<10)})==T),]
-  cc=cc[-grep(pattern = "Eukaryo",x=rownames(cc)),]
-  contig_count_mat_fin=apply(cc,2,function(x){x/(sum(x))})
-  
-  
-  
-    contig_count_mat_fin1=rbind(trim_melt$Donor_Disease_status[match(colnames(contig_count_mat_fin),as.character(trim_melt$Samples))],contig_count_mat_fin)
-  
-  write.table(contig_count_mat_fin1,file=str_c(ref_path,"tax_count_overall_rel_donor_disease_euk_removed.txt"),quote=F,row.names=T,sep="\t")
+  contig_count_rel=apply(contig_count_mat[,2:ncol(contig_count_mat)],2,function(x){x/sum(x)})
+  write.table(contig_count_rel,file=str_c(ref_path,"tax_count_overall_rel.txt"),quote=F,row.names=F,sep="\t")
   
   
    
