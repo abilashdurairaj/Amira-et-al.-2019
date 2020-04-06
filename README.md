@@ -39,7 +39,9 @@
 <h2> 3. Taxonomic/Functional Signatures </h2>
 
 <h5>We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. 
-<h5> For taxonomic signatures, we obtained the relative abundance of the taxa and for functional signatures, we obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/
+<h5> For taxonomic signatures, we obtained the relative abundance of the taxa and for functional signatures, we obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/. 
+
+<h5> Note: The R files produce input for LefSe analysis which are stored in /Data/Functional Profile/ for functional analysis and /Data/Taxonomic Profile/ for taxonomic analysis. Hence, running these R-files could replace the previous copies of it.
 
 ```shellscript
    #### path_to_home: location where the github folder is located.
@@ -51,7 +53,26 @@
 
 <h2>  PICRUST2 results -humanised mouse model samples </h2>
 <h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from humanised mouse model samples.   </h2>
-<h5>   The scripts we used are in /path/to/scripts/PICRUST2_humanised/
+<h5>   The scripts we used are in /scripts/PICRUST2_humanised/
+```shellscript
+   #### path_to_home: location where the github folder is located.
+   qsub /path/to/scripts/PICRUST2_humanised/amira_picrust2_humanized.sh ${path_to_home} # predicted KO profile
+   Rscript /path/to/scripts/PICRUST2_humanised/amira_picrust2_humanized_mice.R ${path_to_home} # for creating input for LefSe analysis and plotting the output for LefSe analysis.
+```
+<h5> Note: Running this R- file replaces the previous copy of the input for Lefse analysis        
+
+<h2>  PICRUST2 results -human samples </h2>
+<h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from human samples.   </h2>
+<h5>   The scripts we used are in /scripts/PICRUST2_human/
+```shellscript
+   #### path_to_home: location where the github folder is located.
+   qsub /path/to/scripts/PICRUST2_human/amira_picrust2_human.sh ${path_to_home} # predicted KO profile
+   Rscript /path/to/scripts/PICRUST2_human/amira_picrust2_human.R ${path_to_home} # for creating input for LefSe analysis and plotting the output for LefSe analysis.
+```
+<h5> Note: Running this R- file replaces the previous copy of the input for Lefse analysis        
+
+
+
 
 </b>
         

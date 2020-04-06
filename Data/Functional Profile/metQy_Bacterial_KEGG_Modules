@@ -1,4 +1,4 @@
-MODULE_ID	MODULE_NAME	NAME_SHORT	CLASS_I	CLASS_II	CLASS_III	DEFINITION	OPTIONAL
+Module	MODULE_NAME	NAME_SHORT	CLASS_I	CLASS_II	CLASS_III	DEFINITION	OPTIONAL
 M00001	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Glycolysis - EM pathway	Pathway module	Carbohydrate and lipid metabolism	Central carbohydrate metabolism	K00844|K12407|K00845|K00886|K08074|K00918 K01810|K06859|K13810|K15916 K00850|K16370|K00918 K01623|K01624|K11645|K16305|K16306 K01803 (K00134|K00150)&K00927|K11389 K01834|K15633|K15634|K15635 K01689 K00873|K12406	NA
 M00002	Glycolysis, core module involving three-carbon compounds	Glycolysis - core	Pathway module	Carbohydrate and lipid metabolism	Central carbohydrate metabolism	K01803 (K00134|K00150)&K00927|K11389 K01834|K15633|K15634|K15635 K01689 K00873|K12406	NA
 M00003	Gluconeogenesis, oxaloacetate => fructose-6P	Gluconeogenesis	Pathway module	Carbohydrate and lipid metabolism	Central carbohydrate metabolism	K01596|K01610 K01689 K01834|K15633|K15634|K15635 K00927 K00134|K00150 K01803 (K01623|K01624|K11645)&(K03841|K02446|K11532|K01086|K04041)|K01622	NA
