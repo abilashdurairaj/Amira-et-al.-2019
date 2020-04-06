@@ -32,14 +32,16 @@
   ```
   
 <h5> The proteins sequences predicted using prodigal for each condition, were uploaded to GHOSTKOALA portal (mentioned in /master/scripts/description.md). The results were downloaded and used the KEGG Orthology prediction for each ORF.
-<h5> For taxonomic profile, we mapped the individual samples from each condition against the contigs assembled for the same condition. Similarly, for we mapped the individual samples from each condition against the ORFs predicted for the same condition.
+<h5> For taxonomic profile, we mapped the individual samples from each condition against the contigs assembled for the same condition. Similarly, for we mapped the individual samples from each condition against the ORFs predicted for the same condition. </h5>
+
 ```shellscript
    qsub /path/to/scripts/ORF_and_contig_count.sh ${hm_dr} # for assembly
  ```
+
 <h2> 3. Taxonomic/Functional Signatures </h2>
 
 <h5>We removed those functions (KEGG Modules) that are not completely present in any prokaryote using https://www.kegg.jp/kegg-bin/check_module_taxonomy.cgi. 
-<h5> For taxonomic signatures, we obtained the relative abundance of the taxa and for functional signatures, we obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/. 
+<h5> For taxonomic signatures, we obtained the relative abundance of the taxa and for functional signatures, we obtained the relative abundance of the KEGG Modules and used them to obtain the taxonomic and functional signatures using LefSe analysis pipeline available in https://huttenhower.sph.harvard.edu/galaxy/. </h5>
 
 <h5> Note: The R files produce input for LefSe analysis which are stored in /Data/Functional Profile/ for functional analysis and /Data/Taxonomic Profile/ for taxonomic analysis. Hence, running these R-files could replace the previous copies of it.
 
@@ -53,7 +55,8 @@
 
 <h2>  PICRUST2 results -humanised mouse model samples </h2>
 <h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from humanised mouse model samples.   </h2>
-<h5>   The scripts we used are in /scripts/PICRUST2_humanised/
+<h5>   The scripts we used are in /scripts/PICRUST2_humanised/ </h5>
+
 ```shellscript
    #### path_to_home: location where the github folder is located.
    qsub /path/to/scripts/PICRUST2_humanised/amira_picrust2_humanized.sh ${path_to_home} # predicted KO profile
@@ -63,7 +66,8 @@
 
 <h2>  PICRUST2 results -human samples </h2>
 <h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from human samples.   </h2>
-<h5>   The scripts we used are in /scripts/PICRUST2_human/
+<h5>   The scripts we used are in /scripts/PICRUST2_human/  </h5>
+
 ```shellscript
    #### path_to_home: location where the github folder is located.
    qsub /path/to/scripts/PICRUST2_human/amira_picrust2_human.sh ${path_to_home} # predicted KO profile
