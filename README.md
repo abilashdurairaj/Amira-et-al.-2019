@@ -47,7 +47,7 @@
    Rscript /path/to/scripts/CAT_tax_count.R ${hm_dr}megaHIT_contig_count/ ${hm_dr}megaHIT_contigs/  # for taxonomic count and data preparation for LefSe analysis
    Rscript /path/to/scripts/metq_based_rel_abn.R ${hm_dr}orf_count/ ${hm_dr}orf_count/  $path_to_home # for functional count and data preparation for LefSe analysis, for supplementary figure-5 and for ternary plots.
 ```
-<h5> The file in the /Data/Functional Profile/humanised_KEGG_modules_profile.csv and /Data/Taxonomic Profile/tax_count_overall_rel_donor_disease_euk_removed.txt can be used as input to the LefSe analysis.
+<h5> The file in the /Data/Functional Profile/humanised_KEGG_modules_profile.csv and /Data/Taxonomic Profile/tax_count_overall_rel_donor_disease_euk_removed.txt (Removed human samples and added Condition of the samples , as a column manually) can be used as input to the LefSe analysis.
 
 <h2>  PICRUST2 results -humanised mouse model samples </h2>
 <h5>    We used PICRUST2 to predict functional profile from the amplicon sequencing from humanised mouse model samples.   </h2>
