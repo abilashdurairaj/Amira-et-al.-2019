@@ -114,8 +114,9 @@ metq_based_rel_abn=function()
   module_mat=ko_raw_mat_mod[,c(which(colnames(ko_raw_mat_mod)=="Module"),grep(pattern = "_bbmap_fin",x=colnames(ko_raw_mat_mod)))] %>% group_by(Module) %>% summarise_all(.funs = sum)
   
   module_mat_id=module_mat
-  qq=query_output$METADATA
-  colnames(qq)[1]="Module"
+  # qq=query_output$METADATA
+  # colnames(qq)[1]="Module"
+  qq=fread(file = str_c(path_to_home,"/Metwaly-et-al.-2020/Data/Functional Profile/metQy_Bacterial_KEGG_Modules"),header = T,sep = "\t")
   
   ### Remove Modules that are completely eukaryotic: 
   module_mat=merge(qq,module_mat_id,by="Module")

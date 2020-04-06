@@ -88,6 +88,7 @@ all_mod_df2[1,grep(pattern = "Inactive post-HSCT",x=all_mod_df2[1,])]="Inactive"
 write.table(all_mod_df2,str_c(path_to_home,"/Metwaly-et-al.-2020/Data/PICRUST2_humanised/picrust2_16S_norm_norel_abnv2_humanized_active_vs_inactive.csv"),quote = F,sep = "\t",row.names = F)
 ## replace NA with Condition. Load this to LefSe online..
 
+#### Upload this file for LefSe analysis.
 
 
 ############### PLotting LefSe analysis
