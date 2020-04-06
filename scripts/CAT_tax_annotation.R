@@ -1,3 +1,4 @@
+#!/usr/bin/env Rscript
 ###### Script to restructure taxonomic annotation to the contigs:
 
 CAT_tax_annotation=function()

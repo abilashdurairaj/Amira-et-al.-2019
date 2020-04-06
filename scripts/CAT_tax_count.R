@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 CAT_tax_count=function()
 {
   install_packages=function()

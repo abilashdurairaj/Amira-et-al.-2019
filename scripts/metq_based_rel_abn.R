@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 metq_based_rel_abn=function()
 {
  install_packages=function()
