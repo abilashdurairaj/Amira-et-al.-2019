@@ -23,6 +23,8 @@ ko_abn=read.csv(file = str_c(path_to_home,"/Metwaly-et-al.-2020/Data/PICRUST2_hu
 amira_metadata=read.csv(file = str_c(path_to_home,"/Metwaly-et-al.-2020/Data/PICRUST2_human/Mappingfile-human.csv"),header = T,sep = ",")
 colnames(ko_abn)=str_replace_all(str_replace_all(string = colnames(ko_abn),pattern = "^X",replacement = ""),pattern = "\\.",replacement = "-")
 
+install.packages(str_c(path_to_home,"/Metwaly-et-al.-2020/Data/Functional Profile/MetQy_1.0.1.tar.gz",repos = NULL, type="source")
+
 library("MetQy")
 modules_ko=read.csv(file = str_c(path_to_home,"/Metwaly-et-al.-2020/Data/Functional Profile/module"),header = F,sep = "\t")
 modules_ko[,1]=str_replace_all(string = modules_ko[,1],pattern = "md:",replacement = "")
