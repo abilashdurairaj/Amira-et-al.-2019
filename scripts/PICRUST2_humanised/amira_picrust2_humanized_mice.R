@@ -1,10 +1,29 @@
+#!/usr/bin/env Rscript
+
+  install_packages=function()
+  {
+    packages=c("doParallel","foreach","reshape2","dplyr","base","RcppArmadillo","Rcpp","RCurl","plyr","zoo","grid","gridExtra","data.table","reshape2","stringr","checkmate","base64enc","colorspace","scales","doSNOW","digest","stringi","tictoc")
+    
+     if(length(setdiff(packages,rownames(installed.packages())))>0)
+     { 
+	 
+      install.packages(pkgs=setdiff(packages, rownames(installed.packages())),repos = "http://cran.us.r-project.org")  
+       library(setdiff(packages, rownames(installed.packages())))  
+     }
+    
+    lapply(packages,require,character.only=T)
+  }   
+  install_packages()
+  args <- commandArgs(trailingOnly = TRUE)
+  path_to_home=args[1]
+
 library("stringr")
-ko_abn=read.csv(file = "/path/to/Data/PICRUST2_humanised/pred_metagenome_unstrat.tsv",header = T,sep = "\t")
+ko_abn=read.csv(file = str_c(path_to_home,"/Metwaly-et-al.-2020/Data/PICRUST2_humanised/pred_metagenome_unstrat.tsv"),header = T,sep = "\t")
 amira_metadata=read.csv(file = "/path/to/Data/PICRUST2_humanised/mapping-file picrust.txt",header = T,sep = "\t")
 colnames(ko_abn)=str_replace_all(str_replace_all(string = colnames(ko_abn),pattern = "^X",replacement = ""),pattern = "\\.",replacement = "-")
 
 library("MetQy")
-modules_ko=read.csv(file = "/path/to/Data/PICRUST2_humanised/Functional Profile/module",header = F,sep = "\t")
+modules_ko=read.csv(file = str_c(path_to_home,"/Metwaly-et-al.-2020/Data/Funcationl Profile/module"),header = F,sep = "\t")
 modules_ko[,1]=str_replace_all(string = modules_ko[,1],pattern = "md:",replacement = "")
 modules_ko[,2]=str_replace_all(string = modules_ko[,2],pattern = "ko:",replacement = "")
 all_modules=unique(modules_ko[,1])
@@ -66,10 +85,13 @@ all_mod_df2[1,grep(pattern = "Baseline",x=all_mod_df2[1,])]="Active post-HSCT"
 all_mod_df2[1,grep(pattern = "Active post-HSCT",x=all_mod_df2[1,])]="Active"
 all_mod_df2[1,grep(pattern = "Inactive post-HSCT",x=all_mod_df2[1,])]="Inactive"
 
-write.table(all_mod_df2,"/path/to/Data/PICRUST2_humanised/picrust2_16S_norm_norel_abnv2_humanized_active_vs_inactive.csv",quote = F,sep = "\t",row.names = F)
+write.table(all_mod_df2,str_c(path_to_home,"/Metwaly-et-al.-2020/Data/PICRUST2_humanised/picrust2_16S_norm_norel_abnv2_humanized_active_vs_inactive.csv"),quote = F,sep = "\t",row.names = F)
 ## replace NA with Condition. Load this to LefSe online..
 
-rr=read.csv(file = "/path/to/Data/PICRUST2_humanised/LDA_Effect_Size_active_plus_baseline_vs_inactive.lefse_internal_res",header = F,sep = "\t")
+
+
+############### PLotting LefSe analysis
+rr=read.csv(file = str_c(path_to_home,"/Metwaly-et-al.-2020/Data/PICRUST2_humanised/LDA_Effect_Size_active_plus_baseline_vs_inactive.lefse_internal_res"),header = F,sep = "\t")
 colnames(rr)=c("Modules","Orig_log2FC","Condition","Norm_Log2FC","pval")
 library("ggplot2")
 

@@ -10,9 +10,11 @@
 
 
 conda activate picrust2
-mkdir -p /path/to/humanized_PICRUSt2/picrust2_res/
-cd /path/to/humanized_PICRUSt2/
+path_to_home=$1
+mkdir -p ${path_to_home}Metwaly-et-al.-2020/Data/PICRUSt2_humanised/picrust2_res/
+cd ${path_to_home}Metwaly-et-al.-2020/Data/PICRUSt2_humanised/
 
-picrust2_pipeline.py -s OTUs-Seqs.fasta -i OTUs_Table-norm-picrust.txt  -o /path/to/humanized_PICRUSt2/picrust2_res/picrust2_out_pipeline_edited  -p 1
-
-
+picrust2_pipeline.py -s OTUs-Seqs.fasta -i OTUs_Table-norm-picrust.txt  -o ${path_to_home}Metwaly-et-al.-2020/Data/PICRUSt2_humanised/picrust2_res/picrust2_out_pipeline_edited  -p 1
+cp ${path_to_home}Metwaly-et-al.-2020/Data/PICRUSt2_humanised/picrust2_res/picrust2_out_pipeline_edited/KO_metagenome_out/pred_metagenome_unstrat.tsv.gz ./
+rm -rf cp ${path_to_home}Metwaly-et-al.-2020/Data/PICRUSt2_humanised/picrust2_res/picrust2_out_pipeline_edited/KO_metagenome_out/pred_metagenome_unstrat.tsv.gz
+tar -xzf pred_metagenome_unstrat.tsv.gz

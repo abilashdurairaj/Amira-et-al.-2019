@@ -25,11 +25,11 @@ install_packages=function()
   # list_genLen=list.files(path = geneLenPath,pattern = "geneLen")
   
   list_count_files=list.files(path = list_count_folders,pattern = "_bbmap_fin")
-  ghost_path=str_c(path_to_home,"/Data/Functional Profile/GhostKOALA_results/")
+  ghost_path=str_c(path_to_home,"/Metwaly-et-al.-2020/Data/Functional Profile/GhostKOALA_results/")
   # ghost_path="/path/to/Data/Functional Profile/GhostKOALA_results/"
   
   list_contig2ko_file=list.files(path = ghost_path,pattern = "user_ko_definition.txt",recursive = T)
-  mod_location=str_c(path_to_home,"/Data/Functional Profile/module")
+  mod_location=str_c(path_to_home,"/Metwaly-et-al.-2020/Data/Functional Profile/module")
   modules_ko=read.csv(file = mod_location,header = F,sep = "\t")
   modules_ko[,1]=str_replace_all(string = modules_ko[,1],pattern = "md:",replacement = "")
   modules_ko[,2]=str_replace_all(string = modules_ko[,2],pattern = "ko:",replacement = "")
@@ -427,8 +427,9 @@ install_packages=function()
    
    ##### Supplementary figure 
    ### Ternary plot:
+   r_path=str_c(path_to_home,"/Metwaly-et-al.-2020/Data/Functional Profile/LDA_Effect_Size_(LEfSe)_on_humanised_KEGG_Module_profile")
    
-   sigf_infl_vs_noninfl=read.csv(file = "/path/to/Data/Functional Profile/LDA_Effect_Size_(LEfSe)_on_humanised_KEGG_Module_profile",header = F,sep = "\t")
+   sigf_infl_vs_noninfl=read.csv(file = r_path,header = F,sep = "\t")
    sigf_infl_vs_noninfl$V5=as.numeric(as.character(sigf_infl_vs_noninfl$V5))
    sigf_infl_vs_noninfl$V5[is.na(sigf_infl_vs_noninfl$V5)]=1
    
